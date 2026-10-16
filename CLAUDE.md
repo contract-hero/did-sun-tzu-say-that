@@ -4,7 +4,7 @@
 
 ## Stack
 - TypeScript everywhere, pnpm, Node ≥ 22. No framework: `node:http` server run by `tsx`.
-- Browser code is `src/client/app.ts`; the server strips its types with esbuild on request.
+- Browser code is `src/client/app.ts`; the server strips its types with esbuild once, at startup.
 - `@typesafe-ai/sdk`, model pinned to `jev-1.14.0` (override with `JEV_MODEL`).
 - `TYPESAFE_API_KEY` stays server-side. Never send it to the browser.
 - README.md documents how Jev is used; keep it in sync with `src/judge.ts`.

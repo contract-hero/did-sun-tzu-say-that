@@ -54,7 +54,7 @@ function render(r: Result) {
   // Jev returns a probability for every verdict; showing all three is the point of this edition.
   const odds = $("odds");
   odds.replaceChildren(
-    ...(["said", "close", "never"] as Verdict[]).map((v) => {
+    ...(["said", "close", "never"] as const satisfies readonly Verdict[]).map((v) => {
       const pct = Math.round(r.verdictProbabilities[v] * 100);
       const row = document.createElement("div");
       row.className = `odd${v === r.verdict ? " picked" : ""}`;
@@ -74,7 +74,12 @@ function render(r: Result) {
   $("actions").hidden = false;
 }
 
+let pending = false;
+
 async function check(phrase: string) {
+  // requestSubmit() submits even while #go is disabled, so guard here: one check at a time.
+  if (pending) return;
+  pending = true;
   const go = $<HTMLButtonElement>("go");
   go.disabled = true;
   go.textContent = "Jev is reading the scroll…";
@@ -85,15 +90,23 @@ async function check(phrase: string) {
       headers: { "content-type": "application/json" },
       body: JSON.stringify({ phrase }),
     });
-    const body = await res.json();
-    if (!res.ok) throw new Error(body.error ?? `HTTP ${res.status}`);
+    const body = await res.json().catch(() => null);
+    if (!res.ok || !body) throw new Error(body?.error ?? `The server answered with HTTP ${res.status}. Try again later.`);
     render(body as Result);
     history.replaceState(null, "", `?q=${encodeURIComponent(phrase)}`);
   } catch (err) {
+    console.error("check failed", err);
+    const offline = err instanceof TypeError && /fetch|load failed|network/i.test(err.message);
     $("placeholder").hidden = false;
     $("card").hidden = true;
-    $("placeholder").querySelector("p")!.textContent = (err as Error).message;
+    $("actions").hidden = true;
+    $("placeholder").querySelector("p")!.textContent = offline
+      ? "Could not reach the server. Check your connection and try again."
+      : err instanceof Error
+        ? err.message
+        : String(err);
   } finally {
+    pending = false;
     go.disabled = false;
     go.textContent = "Consult the scroll";
     $("result").classList.remove("busy");
@@ -116,8 +129,14 @@ $("random").addEventListener("click", () => {
   $<HTMLFormElement>("ask").requestSubmit();
 });
 $("copy").addEventListener("click", async () => {
-  await navigator.clipboard.writeText(location.href);
-  $("copied").textContent = "Copied.";
+  try {
+    await navigator.clipboard.writeText(location.href);
+    $("copied").textContent = "Copied.";
+  } catch (err) {
+    // No permission, or a plain-HTTP page such as the Tailscale URL.
+    console.error("clipboard write failed", err);
+    $("copied").textContent = "Could not copy. Copy the address bar instead.";
+  }
   setTimeout(() => ($("copied").textContent = ""), 2000);
 });
 

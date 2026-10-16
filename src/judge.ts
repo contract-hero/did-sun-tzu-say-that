@@ -14,7 +14,7 @@ export type Verdict = "said" | "close" | "never";
 /** The SDK call, plus whether the answer came from the recorded cache. Tests pass a fake. */
 export type AskJev = <Q extends Questions>(
   request: SystemOneRequest<Q>,
-) => Promise<SystemOneResult<Q> & { cached?: boolean }>;
+) => Promise<SystemOneResult<Q> & { cached: boolean }>;
 
 export interface Judgement {
   phrase: string;
@@ -47,12 +47,21 @@ export function verdictQuestion(phrase: string): ChoiceQuestion<Record<Verdict, 
   return { type: "choice", instructions: { phrase, question: VERDICT_QUESTION }, criteria: VERDICT_CRITERIA };
 }
 
+/** The phrase has nothing left to judge (for example, it was only an attribution). */
+export class PhraseError extends Error {}
+
+// Name forms people paste. A lookahead in place of \b, because \b treats "ŭ" as a non-word character.
+const SUN_TZU = String.raw`(?:sun\s*tz[uŭ]|sunzi|sun\s*wu)(?![\p{L}\p{N}])`;
+const ATTRIBUTION_AFTER = new RegExp(String.raw`\s*[-–—~―]+\s*${SUN_TZU}.*$`, "isu");
+const ATTRIBUTION_BEFORE = new RegExp(String.raw`^\s*(?:as\s+)?${SUN_TZU}(?:\s+(?:once|famously))?\s+(?:said|says|wrote)\s*[:,]?\s*`, "iu");
+const ATTRIBUTION_SAID = new RegExp(String.raw`,?\s*(?:said|says|wrote)\s+${SUN_TZU}\.?\s*$`, "iu");
+
 /** Removes attributions people paste with a quote, e.g. '"…" — Sun Tzu, The Art of War'. */
 export function stripAttribution(text: string): string {
   return text
-    .replace(/\s*[-–—~―]+\s*(sun\s*tz[uŭ]|sunzi|sun\s*wu)\b.*$/is, "")
-    .replace(/^\s*(as\s+)?(sun\s*tz[uŭ]|sunzi|sun\s*wu)(\s+(once|famously))?\s+(said|says|wrote)\s*[:,]?\s*/i, "")
-    .replace(/,?\s*(said|says|wrote)\s+(sun\s*tz[uŭ]|sunzi)\.?\s*$/i, "")
+    .replace(ATTRIBUTION_AFTER, "")
+    .replace(ATTRIBUTION_BEFORE, "")
+    .replace(ATTRIBUTION_SAID, "")
     .replace(/^["“”'‘’\s]+|["“”'‘’\s]+$/g, "")
     .trim();
 }
@@ -77,7 +86,7 @@ export function tagPassages(passages: Passage[]): string {
 }
 
 // Choice caps at 255 options and the book has 383 verses, so the verse is found in two passes:
-// first the chapter (in the same request as the verdict), then the verse inside that chapter.
+// first the chapter (in the same request as the verdict), then the verse inside the picked chapters.
 const MAX_CHAPTERS = 3; // the largest three chapters together stay far below 255 verses
 const CHAPTER_MASS = 0.9;
 
@@ -88,7 +97,7 @@ export function pickChapters(probabilities: Record<string, number>): string[] {
   for (const [roman, p] of ranked) {
     picked.push(roman);
     mass += p;
-    if (mass >= CHAPTER_MASS || picked.length === MAX_CHAPTERS) break;
+    if (mass >= CHAPTER_MASS - 1e-9 || picked.length === MAX_CHAPTERS) break;
   }
   return picked;
 }
@@ -102,7 +111,7 @@ export function createJudge(passages: Passage[], ask: AskJev) {
 
   return async function judge(input: string): Promise<Judgement> {
     const phrase = stripAttribution(input);
-    if (!phrase) throw new Error("Empty phrase");
+    if (!phrase) throw new PhraseError("Nothing is left once the attribution is removed. Type the quote itself.");
 
     // Request 1: the whole book (~15.6k tokens). Verdict and chapter are independent, so they share it.
     const first = await ask({
@@ -121,7 +130,9 @@ export function createJudge(passages: Passage[], ask: AskJev) {
     });
 
     // Request 2: only the picked chapters, one option per verse.
-    const verses = pickChapters(first.answers.chapter.probabilities).flatMap((roman) => chapters.get(roman) ?? []);
+    const picked = pickChapters(first.answers.chapter.probabilities);
+    const verses = picked.flatMap((roman) => chapters.get(roman) ?? []);
+    if (verses.length === 0) throw new Error(`Jev named no chapter of the book (picked ${JSON.stringify(picked)})`);
     const second = await ask({
       state: tagPassages(verses),
       questions: {
@@ -142,7 +153,7 @@ export function createJudge(passages: Passage[], ask: AskJev) {
       passage,
       model: first.model,
       inputTokens: (first.usage.input_tokens ?? 0) + (second.usage.input_tokens ?? 0),
-      cached: Boolean(first.cached && second.cached),
+      cached: first.cached && second.cached,
     };
   };
 }

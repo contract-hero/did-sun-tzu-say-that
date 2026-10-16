@@ -54,12 +54,13 @@ III.1| Sun Tzu said: In the practical art of war, the best thing of all is to ta
 III.2| Hence to fight and conquer in all your battles is not supreme excellence; …
 ```
 
+(The SDK adds `"model": "jev-1.14.0"` to both requests.)
+
 Two questions go with it. They are independent, so they share one request and Jev reads the
 book only once:
 
 ```jsonc
 {
-  "model": "jev-1.14.0",
   "state": "<the tagged book>",
   "questions": {
     "verdict": {
@@ -123,23 +124,28 @@ Jev makes the judgement. Ordinary code does the rest:
 - pick the chapters from the probabilities;
 - map the answer ids back to the verse text;
 - reuse answers: `data/jev-cache.json` holds the answers that `pnpm eval` recorded, and the server
-  keeps new answers in memory (at most 2,000), so a phrase that someone already checked costs nothing.
+  keeps new answers in memory (at most 2,000 answers, about 1,000 checks, until it restarts), so a phrase that someone already checked costs nothing.
 
 ## Results
 
 `pnpm eval` runs 22 labelled phrases from Guilherme's tests. `pnpm eval --reversed` also asks the
 verdict with the options in reverse order. If Jev preferred the first option, the verdicts would change.
 
-| Model | Correct verdict | Correct passage | Verdict changes when the order is reversed |
-| --- | --- | --- | --- |
-| `jev-1.13.0` | 19 / 22 | 13 / 13 | 1 / 22 |
-| `jev-1.14.0` (default) | 19–20 / 22 | 13 / 13 | 0–1 / 22 (the 53/47 case below) |
+| Model (answered by) | Replay it | Correct verdict | Correct passage | Verdict changes when the order is reversed |
+| --- | --- | --- | --- | --- |
+| `jev-1.13.0` | `JEV_MODEL=jev-latest pnpm eval --reversed` | 19 / 22 | 13 / 13 | 1 / 22 |
+| `jev-1.14.0`, run 1 | `JEV_MODEL=jev-preview pnpm eval --reversed` | 20 / 22 | 13 / 13 | 0 / 22 |
+| `jev-1.14.0`, run 2 (default) | `pnpm eval --reversed` | 19 / 22 | 13 / 13 | 1 / 22 |
+
+All three replay offline from `data/jev-cache.json`. The two `jev-1.14.0` runs used the same questions
+and differ only on borderline phrases: two live runs of the same model can give slightly different
+probabilities.
 
 The misses are borderline cases. The probabilities show this:
 
 | Phrase | Label | Jev | Why |
 | --- | --- | --- | --- |
-| Attack where they are unprepared, appear where you are not expected | close | said 69–75% | I.24 is "Attack him where he is unprepared, appear where you are not expected." |
+| Attack where they are unprepared, appear where you are not expected | close | said 69–75% (two runs) | I.24 is "Attack him where he is unprepared, appear where you are not expected." |
 | Know your enemy and know yourself | close | said 53%, close 47% | III.18 contains "know the enemy and know yourself". |
 | Be like water my friend | never | close ~80% | A Bruce Lee line, but VI.29 says "Military tactics are like unto water". |
 
@@ -163,11 +169,14 @@ pnpm eval [--reversed]            # uses data/jev-cache.json; records new answer
 - The key is read only on the server, from `TYPESAFE_API_KEY`. The browser calls `/api/judge`
   and never sees the key. Thus the app cannot run on a static host such as GitHub Pages: it needs
   any host that runs Node.
-- Without a key, the server answers only the phrases in `data/jev-cache.json`.
+- Without a key, the server answers only the phrases in `data/jev-cache.json`, and only for the model
+  and questions that recorded them. Other phrases get a 503.
 - `JEV_MODEL` changes the model (default `jev-1.14.0`).
-- The server limits each IP address to 20 checks per minute.
+- The server limits each client to 20 checks per minute. Behind a reverse proxy, set `TRUST_PROXY=1`
+  so that the limit uses the address in `X-Forwarded-For` (otherwise all visitors share one limit).
 - The server never writes to disk. Only `pnpm eval` adds answers to `data/jev-cache.json`.
-- A request body is at most 4 KB, and a phrase at most 500 characters.
+- A request body is at most 4 KB (a larger body gets 413). The server keeps only the first 500
+  characters of a phrase.
 
 ## Files
 
@@ -176,6 +185,7 @@ pnpm eval [--reversed]            # uses data/jev-cache.json; records new answer
 | `src/judge.ts` | The two Jev requests and the questions. Start here. |
 | `src/jev.ts` | The TypeSafe client and the record/replay cache. |
 | `src/server.ts` | `node:http` server: static files and `POST /api/judge`. |
+| `src/http.ts` | Request-body validation and the rate limit. |
 | `src/client/app.ts` | The page script (served as JavaScript through esbuild). |
 | `data/passages.json` | The 383 verses, from Guilherme's build of Project Gutenberg #132. |
 | `test/cases.ts` | The labelled phrases for `pnpm eval`. |

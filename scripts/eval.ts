@@ -9,7 +9,7 @@ const { judge, ask, save } = createDefaultJudge({ record: true });
 const reversed = process.argv.includes("--reversed");
 const book = tagPassages(loadPassages());
 
-// Same question, options in the opposite order. Jev 1.13 can lean toward the first option.
+// Same question, options in the opposite order. Jev can lean toward the first option on borderline phrases.
 async function reversedVerdict(phrase: string) {
   const question = verdictQuestion(phrase);
   const criteria = Object.fromEntries(Object.entries(question.criteria).reverse());
@@ -17,13 +17,19 @@ async function reversedVerdict(phrase: string) {
 }
 
 const pct = (x: number) => `${Math.round(x * 100)}`.padStart(3);
-const results = await Promise.all(
+// allSettled + finally: one failed live call must not lose the answers the run already paid for.
+const settled = await Promise.allSettled(
   CASES.map(async (c) => {
     const r = await judge(c.phrase);
     return { c, r, flip: reversed ? await reversedVerdict(r.phrase) : undefined };
   }),
-);
-save();
+).finally(save);
+const results = settled.flatMap((s) => (s.status === "fulfilled" ? [s.value] : []));
+settled.forEach((s, i) => {
+  if (s.status === "rejected") console.error(`✗ ERROR ${CASES[i].phrase.slice(0, 70)}:`, s.reason);
+});
+if (results.length < CASES.length) process.exitCode = 1;
+if (results.length === 0) process.exit();
 
 let verdictOk = 0;
 let passageOk = 0;
@@ -48,6 +54,6 @@ for (const { c, r, flip } of results) {
   );
 }
 console.log(
-  `\nmodel ${results[0].r.model} (asked as ${MODEL}) · verdict ${verdictOk}/${CASES.length} · passage ${passageOk}/${passageTotal}` +
-    `${reversed ? ` · flips when options reversed ${flips}/${CASES.length}` : ""} · avg ${Math.round(tokens / CASES.length)} input tokens/check`,
+  `\nmodel ${results[0].r.model} (asked as ${MODEL}) · verdict ${verdictOk}/${results.length} · passage ${passageOk}/${passageTotal}` +
+    `${reversed ? ` · flips when options reversed ${flips}/${results.length}` : ""} · avg ${Math.round(tokens / results.length)} input tokens/check`,
 );

@@ -1,18 +1,19 @@
 import { readdirSync, readFileSync } from "node:fs";
-import { createServer, type ServerResponse } from "node:http";
+import { createServer, type IncomingMessage, type ServerResponse } from "node:http";
 import { extname, join } from "node:path";
 import { transformSync } from "esbuild";
-import { createDefaultJudge, ROOT } from "./jev.ts";
+import { clientIp, createRateLimiter, readPhrase } from "./http.ts";
+import { CacheMissError, createDefaultJudge, ROOT } from "./jev.ts";
+import { PhraseError } from "./judge.ts";
 
 const PORT = Number(process.env.PORT ?? 8787);
-const MAX_PHRASE = 500;
-const MAX_BODY = 4_096;
-const RATE_LIMIT = 20; // checks per IP per minute; each live check reads ~19k tokens
 
 if (!process.env.TYPESAFE_API_KEY) {
   console.warn("TYPESAFE_API_KEY is not set: only phrases recorded in data/jev-cache.json will work.");
 }
 const { judge } = createDefaultJudge();
+const rate = createRateLimiter();
+setInterval(() => rate.sweep(), 60_000).unref();
 
 const TYPES: Record<string, string> = {
   ".html": "text/html; charset=utf-8",
@@ -33,50 +34,20 @@ files.set(
   transformSync(readFileSync(join(ROOT, "src/client/app.ts"), "utf8"), { loader: "ts", format: "esm" }).code,
 );
 
-const hits = new Map<string, number[]>();
-function limited(ip: string): boolean {
-  const now = Date.now();
-  const recent = (hits.get(ip) ?? []).filter((t) => now - t < 60_000);
-  if (recent.length >= RATE_LIMIT) return true;
-  recent.push(now);
-  hits.set(ip, recent);
-  return false;
-}
-setInterval(() => {
-  const now = Date.now();
-  for (const [ip, times] of hits) if (times.every((t) => now - t >= 60_000)) hits.delete(ip);
-}, 60_000).unref();
-
 const json = (res: ServerResponse, status: number, body: object) => {
   res.writeHead(status, { "content-type": "application/json" });
   res.end(JSON.stringify(body));
 };
 
-/** Reads `{ "phrase": string }`, or returns an HTTP status for a bad request. */
-async function readPhrase(req: AsyncIterable<Buffer> & { headers: Record<string, unknown> }): Promise<string | number> {
-  if (Number(req.headers["content-length"] ?? 0) > MAX_BODY) return 413;
-  let body = "";
-  for await (const chunk of req) {
-    body += chunk;
-    if (body.length > MAX_BODY) return 413;
-  }
-  try {
-    const parsed: unknown = JSON.parse(body);
-    const phrase = typeof parsed === "object" && parsed !== null ? (parsed as { phrase?: unknown }).phrase : undefined;
-    return typeof phrase === "string" && phrase.trim() ? phrase.slice(0, MAX_PHRASE) : 400;
-  } catch {
-    return 400;
-  }
-}
+const BAD_REQUEST = { 400: "Type a phrase.", 413: "That is too long." } as const;
 
-createServer(async (req, res) => {
+async function handle(req: IncomingMessage, res: ServerResponse) {
   const url = new URL(req.url ?? "/", "http://x");
 
   if (req.method === "POST" && url.pathname === "/api/judge") {
-    if (limited(req.socket.remoteAddress ?? "?")) return json(res, 429, { error: "Too many checks. Wait a minute." });
+    if (rate.limited(clientIp(req))) return json(res, 429, { error: "Too many checks. Wait a minute." });
     const phrase = await readPhrase(req);
-    if (phrase === 413) return json(res, 413, { error: "That is too long." });
-    if (typeof phrase === "number") return json(res, 400, { error: "Type a phrase." });
+    if (typeof phrase === "number") return json(res, phrase, { error: BAD_REQUEST[phrase] });
     const started = Date.now();
     try {
       const result = await judge(phrase);
@@ -84,13 +55,17 @@ createServer(async (req, res) => {
       console.log(`${result.verdict.padEnd(6)} ${result.passage.id.padEnd(7)} ${ms}ms ${result.inputTokens}tok ${JSON.stringify(phrase)}`);
       return json(res, 200, { ...result, ms });
     } catch (err) {
-      console.error(err);
+      console.error(`judge failed for ${JSON.stringify(phrase)}:`, err);
+      if (err instanceof PhraseError) return json(res, 400, { error: err.message });
+      if (err instanceof CacheMissError) {
+        return json(res, 503, { error: "Live checks are off on this server. Try a famous quote instead." });
+      }
       return json(res, 502, { error: "The scroll did not answer. Try again." });
     }
   }
 
   if (req.method !== "GET") {
-    res.writeHead(405).end("Method not allowed");
+    res.writeHead(405, { "content-type": "text/plain" }).end("Method not allowed");
     return;
   }
   const file = files.get(url.pathname);
@@ -100,4 +75,13 @@ createServer(async (req, res) => {
   }
   res.writeHead(200, { "content-type": TYPES[extname(url.pathname) || ".html"] ?? "application/octet-stream" });
   res.end(file);
+}
+
+createServer((req, res) => {
+  // One bad request must never stop the server.
+  handle(req, res).catch((err) => {
+    console.error(err);
+    if (!res.headersSent) json(res, 500, { error: "Something broke. Try again." });
+    else res.destroy();
+  });
 }).listen(PORT, () => console.log(`Did Sun Tzu Say That? (Jev edition) → http://localhost:${PORT}`));
