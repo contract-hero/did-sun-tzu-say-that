@@ -1,10 +1,13 @@
 import assert from "node:assert/strict";
-import { readFileSync } from "node:fs";
 import { test } from "node:test";
-import type { SystemOneRequest } from "@typesafe-ai/sdk";
-import { createJudge, type JevResult, type Passage, pickChapters, stripAttribution, tagPassages } from "../src/judge.ts";
+import { loadPassages } from "../src/jev.ts";
+import { type AskJev, createJudge, pickChapters, stripAttribution, tagPassages } from "../src/judge.ts";
 
-const passages: Passage[] = JSON.parse(readFileSync("data/passages.json", "utf8"));
+const passages = loadPassages();
+
+test("Giles italics are removed when the data loads", () => {
+  assert.ok(passages.every((p) => !p.text.includes("_")));
+});
 
 test("the whole book fits in one Jev question (32k tokens)", () => {
   const book = tagPassages(passages);
@@ -26,20 +29,21 @@ test("chapters are picked until 90% of the probability, at most 3", () => {
 });
 
 test("the judge asks for the verdict on the whole book, then the verse inside the picked chapter", async () => {
-  const seen: SystemOneRequest[] = [];
-  const fake = async (req: SystemOneRequest): Promise<JevResult> => {
+  const seen: { state: unknown; questions: Record<string, { criteria: object }> }[] = [];
+  const choice = (choice: string, probabilities: Record<string, number>) => ({ type: "choice", choice, confidence: 0.9, probabilities });
+  // A fake Jev: the first call answers the verdict and chapter, the second the verse.
+  const fake = (async (req: (typeof seen)[number]) => {
     seen.push(req);
-    const choice = (choice: string, probabilities: Record<string, number>) => ({ type: "choice" as const, choice, confidence: 0.9, probabilities });
     return seen.length === 1
       ? { model: "jev-test", usage: { input_tokens: 15000 }, answers: { verdict: choice("said", { said: 0.9, close: 0.08, never: 0.02 }), chapter: choice("I", { I: 0.97 }) } }
       : { model: "jev-test", usage: { input_tokens: 900 }, answers: { verse: choice("I.18", { "I.18": 0.93 }) } };
-  };
+  }) as unknown as AskJev;
   const r = await createJudge(passages, fake)("All warfare is based on deception. — Sun Tzu");
   assert.equal(r.phrase, "All warfare is based on deception.");
   assert.equal(r.verdict, "said");
   assert.equal(r.passage.id, "I.18");
   assert.equal(r.inputTokens, 15900);
   assert.equal(seen[0].state, tagPassages(passages));
-  const verse = seen[1].questions.verse;
-  assert.equal(verse.type === "choice" && Object.keys(verse.criteria).length, 25); // chapter I has 25 verses
+  assert.equal(r.cached, false);
+  assert.equal(Object.keys(seen[1].questions.verse.criteria).length, 25); // chapter I has 25 verses
 });

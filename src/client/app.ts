@@ -1,14 +1,6 @@
-type Verdict = "said" | "close" | "never";
+import type { Judgement, Verdict } from "../judge.ts";
 
-interface Judgement {
-  phrase: string;
-  verdict: Verdict;
-  verdictProbabilities: Record<Verdict, number>;
-  passage: { id: string; chapterRoman: string; chapterTitle: string; verse: string; text: string };
-  model: string;
-  inputTokens: number;
-  ms: number;
-}
+type Result = Judgement & { ms: number };
 
 const $ = <T extends HTMLElement = HTMLElement>(id: string) => document.getElementById(id) as T;
 
@@ -49,7 +41,7 @@ const EXAMPLES = [
 
 const pick = <T>(list: T[]) => list[Math.floor(Math.random() * list.length)];
 
-function render(r: Judgement) {
+function render(r: Result) {
   const copy = COPY[r.verdict];
   const card = $("card");
   card.dataset.verdict = r.verdict;
@@ -73,9 +65,9 @@ function render(r: Judgement) {
   );
 
   $("lead").textContent = pick(copy.leads);
-  $("passage").textContent = r.passage.text.replace(/_/g, "");
+  $("passage").textContent = r.passage.text;
   $("cite").textContent = `— The Art of War, ch. ${r.passage.chapterRoman}, ${r.passage.chapterTitle}, § ${r.passage.verse}`;
-  $("meta").textContent = `${r.model} · ${r.inputTokens.toLocaleString()} tokens read · ${r.ms < 50 ? "cached answer" : `${(r.ms / 1000).toFixed(1)} s`}`;
+  $("meta").textContent = `${r.model} · ${r.inputTokens.toLocaleString()} tokens read · ${r.cached ? "cached answer" : `${(r.ms / 1000).toFixed(1)} s`}`;
 
   $("placeholder").hidden = true;
   card.hidden = false;
@@ -95,7 +87,7 @@ async function check(phrase: string) {
     });
     const body = await res.json();
     if (!res.ok) throw new Error(body.error ?? `HTTP ${res.status}`);
-    render(body as Judgement);
+    render(body as Result);
     history.replaceState(null, "", `?q=${encodeURIComponent(phrase)}`);
   } catch (err) {
     $("placeholder").hidden = false;

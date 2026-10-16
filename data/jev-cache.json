@@ -8212,5 +8212,404 @@
   "usage": {
    "input_tokens": 4829
   }
+ },
+ "220d91f14cbd177ba58adaf7ebc1011ee0fe7855a5d15440e030752b53bf04b0": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "said",
+    "confidence": 0.73,
+    "probabilities": {
+     "never": 0.02,
+     "close": 0.16,
+     "said": 0.82
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15370,
+   "output_tokens": 39
+  }
+ },
+ "286c86ee58fd79a3fc17b14af1cfab10fcf8a15ed505bedf5ce1d8af298e26c8": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "said",
+    "confidence": 0.95,
+    "probabilities": {
+     "never": 0.01,
+     "close": 0.02,
+     "said": 0.97
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15387,
+   "output_tokens": 39
+  }
+ },
+ "8ac6d53e0077f1cc67e945d16d2b8f768bbeb0cdbc5e1ee6dd4cd362a8be0e7c": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "said",
+    "confidence": 0.8,
+    "probabilities": {
+     "never": 0.02,
+     "close": 0.11,
+     "said": 0.87
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15370,
+   "output_tokens": 39
+  }
+ },
+ "c9cc2d5912ffc6e72ed52375093a2633b1df506ddeb060c9e9caa68d6154e81d": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "said",
+    "confidence": 1,
+    "probabilities": {
+     "never": 0,
+     "close": 0,
+     "said": 1
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15369,
+   "output_tokens": 39
+  }
+ },
+ "45979e12aa9917a2853fe0141f9809d4cbb6c9d59fae705f7828a1de9231e1d4": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "said",
+    "confidence": 0.97,
+    "probabilities": {
+     "never": 0.01,
+     "close": 0.01,
+     "said": 0.98
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15382,
+   "output_tokens": 39
+  }
+ },
+ "287f4a8db3d05e0147210be0a9d4d6cbc0e4fcb90caad673ceb50540136ce2d9": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "close",
+    "confidence": 0.85,
+    "probabilities": {
+     "never": 0.01,
+     "close": 0.9,
+     "said": 0.09
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15369,
+   "output_tokens": 39
+  }
+ },
+ "b65f47bbcb774df4370e6fbf35da7fa27387938cee5c04cbbc1d7e4601b90051": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "said",
+    "confidence": 0.89,
+    "probabilities": {
+     "never": 0.01,
+     "close": 0.06,
+     "said": 0.9299999999999999
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15372,
+   "output_tokens": 39
+  }
+ },
+ "b38c251701e81df8e6640db1a2427db37d0a64384b2c5438bc0d89df6ac27910": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "never",
+    "confidence": 0.91,
+    "probabilities": {
+     "never": 0.94,
+     "close": 0.06,
+     "said": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15379,
+   "output_tokens": 39
+  }
+ },
+ "6042cb4182b2e4a0762869668b0a1cdf6217f9f42c7abddbf206531651dae0f3": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "never",
+    "confidence": 0.69,
+    "probabilities": {
+     "never": 0.79,
+     "close": 0.21,
+     "said": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15372,
+   "output_tokens": 39
+  }
+ },
+ "b03fff8ffd066e04b39b0f0789dd49d8843c3f173ec941a730bbc42ceb76ed5f": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "never",
+    "confidence": 1,
+    "probabilities": {
+     "never": 1,
+     "close": 0,
+     "said": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15369,
+   "output_tokens": 39
+  }
+ },
+ "1f28bbab34e17f5bbf880139f0c0876a12eaf0660fa4629ab949ab647bd258c0": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "close",
+    "confidence": 0.91,
+    "probabilities": {
+     "never": 0.01,
+     "close": 0.94,
+     "said": 0.05
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15368,
+   "output_tokens": 39
+  }
+ },
+ "61f74e7624005f26454199e76e2b5e0d1fe2729173e9e514aad6fd4cd95635b1": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "close",
+    "confidence": 0.69,
+    "probabilities": {
+     "never": 0.01,
+     "close": 0.79,
+     "said": 0.2
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15368,
+   "output_tokens": 39
+  }
+ },
+ "a908740ccffa525ec5b55f232586c7686c341e6b1cdabb2030aca2303569469f": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "said",
+    "confidence": 0.61,
+    "probabilities": {
+     "never": 0.01,
+     "close": 0.25,
+     "said": 0.74
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15376,
+   "output_tokens": 39
+  }
+ },
+ "a7154557c3f8089a8480efcc564ee20df61e311cab343f5ad4d4ba680a4b8a2a": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "close",
+    "confidence": 0.94,
+    "probabilities": {
+     "never": 0.01,
+     "close": 0.96,
+     "said": 0.03
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15375,
+   "output_tokens": 39
+  }
+ },
+ "a82fd2138957e8bbcbb8617e8776255a605f0d17ea6f24a296031b9373841eed": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "close",
+    "confidence": 0.72,
+    "probabilities": {
+     "never": 0.18,
+     "close": 0.81,
+     "said": 0.01
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15367,
+   "output_tokens": 39
+  }
+ },
+ "88669bea3bd9a2b50bfb0345b7fd8cf588d5c9fb4affe9c7464e8316aea89ea7": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "never",
+    "confidence": 0.98,
+    "probabilities": {
+     "never": 0.99,
+     "close": 0.01,
+     "said": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15370,
+   "output_tokens": 39
+  }
+ },
+ "e830c906a3a2b954d0d9e59e90e7bfb226437377335430b5a19835a85ca4b839": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "never",
+    "confidence": 0.8,
+    "probabilities": {
+     "never": 0.87,
+     "close": 0.13,
+     "said": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15370,
+   "output_tokens": 39
+  }
+ },
+ "980f347ddc5e701d9697f4cf49fd291a498c9fb0e3a95b693f489173f0115d55": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "close",
+    "confidence": 0.94,
+    "probabilities": {
+     "never": 0.01,
+     "close": 0.96,
+     "said": 0.03
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15384,
+   "output_tokens": 39
+  }
+ },
+ "739e32e292c0f37f91129f188a84f96804302e826987d453a92ec8ee3bb1910b": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "never",
+    "confidence": 0.76,
+    "probabilities": {
+     "never": 0.84,
+     "close": 0.16,
+     "said": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15370,
+   "output_tokens": 39
+  }
+ },
+ "4976dd6daf72a6c18bcffba149e18f9f1dc18462db60cadf1ef1554bd7ce0ef6": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "never",
+    "confidence": 0.67,
+    "probabilities": {
+     "never": 0.78,
+     "close": 0.22,
+     "said": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15369,
+   "output_tokens": 39
+  }
+ },
+ "6ea86f718647cfd89c3f6e3aaeb556a961257dd062bb7afc47d58f72485bed9e": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "never",
+    "confidence": 0.66,
+    "probabilities": {
+     "never": 0.77,
+     "close": 0.23,
+     "said": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15367,
+   "output_tokens": 39
+  }
  }
 }

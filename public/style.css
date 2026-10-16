@@ -120,12 +120,11 @@ button { font: inherit; cursor: pointer; }
   transform: rotate(4deg);
 }
 .seal.ghost { position: static; margin: 0 auto 14px; opacity: 0.25; transform: none; }
-.card[data-verdict="close"] .seal { background: #a8641c; }
-.card[data-verdict="said"] .seal { background: #2f5d34; }
+.card[data-verdict="said"] { --tone: #2f5d34; }
+.card[data-verdict="close"] { --tone: #a8641c; }
+.card .seal { background: var(--tone, var(--red)); }
 
-.verdict { margin: 0 70px 6px 0; font-size: 30px; color: var(--red); }
-.card[data-verdict="said"] .verdict { color: #2f5d34; }
-.card[data-verdict="close"] .verdict { color: #a8641c; }
+.verdict { margin: 0 70px 6px 0; font-size: 30px; color: var(--tone, var(--red)); }
 .asked { margin: 0 0 16px; font-style: italic; color: var(--ink-soft); }
 
 .odds { display: grid; gap: 5px; margin-bottom: 18px; font-size: 14px; }

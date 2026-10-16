@@ -122,7 +122,8 @@ Jev makes the judgement. Ordinary code does the rest:
 - remove attributions such as `— Sun Tzu, The Art of War` before asking;
 - pick the chapters from the probabilities;
 - map the answer ids back to the verse text;
-- record every answer in `data/jev-cache.json`, so a phrase that someone already checked costs nothing.
+- reuse answers: `data/jev-cache.json` holds the answers that `pnpm eval` recorded, and the server
+  keeps new answers in memory (at most 2,000), so a phrase that someone already checked costs nothing.
 
 ## Results
 
@@ -132,7 +133,7 @@ verdict with the options in reverse order. If Jev preferred the first option, th
 | Model | Correct verdict | Correct passage | Verdict changes when the order is reversed |
 | --- | --- | --- | --- |
 | `jev-1.13.0` | 19 / 22 | 13 / 13 | 1 / 22 |
-| `jev-1.14.0` (default) | 19–20 / 22 | 13 / 13 | 0 / 22 |
+| `jev-1.14.0` (default) | 19–20 / 22 | 13 / 13 | 0–1 / 22 (the 53/47 case below) |
 
 The misses are borderline cases. The probabilities show this:
 
@@ -165,6 +166,8 @@ pnpm eval [--reversed]            # uses data/jev-cache.json; records new answer
 - Without a key, the server answers only the phrases in `data/jev-cache.json`.
 - `JEV_MODEL` changes the model (default `jev-1.14.0`).
 - The server limits each IP address to 20 checks per minute.
+- The server never writes to disk. Only `pnpm eval` adds answers to `data/jev-cache.json`.
+- A request body is at most 4 KB, and a phrase at most 500 characters.
 
 ## Files
 

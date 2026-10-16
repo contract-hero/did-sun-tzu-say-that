@@ -1,4 +1,4 @@
-import type { ChoiceQuestion, ChoiceResponse, SystemOneRequest } from "@typesafe-ai/sdk";
+import type { ChoiceQuestion, Questions, SystemOneRequest, SystemOneResult } from "@typesafe-ai/sdk";
 
 export interface Passage {
   id: string; // "III.18"
@@ -11,24 +11,19 @@ export interface Passage {
 
 export type Verdict = "said" | "close" | "never";
 
-/** The only part of the TypeSafe client the judge needs, so tests can replay recorded answers. */
-export interface JevResult {
-  model: string;
-  answers: Record<string, ChoiceResponse>;
-  usage: { input_tokens: number | null };
-}
-export type AskJev = (request: SystemOneRequest) => Promise<JevResult>;
+/** The SDK call, plus whether the answer came from the recorded cache. Tests pass a fake. */
+export type AskJev = <Q extends Questions>(
+  request: SystemOneRequest<Q>,
+) => Promise<SystemOneResult<Q> & { cached?: boolean }>;
 
 export interface Judgement {
   phrase: string;
   verdict: Verdict;
   verdictProbabilities: Record<Verdict, number>;
-  verdictConfidence: number;
   passage: Passage;
-  passageProbability: number;
-  chapters: { roman: string; title: string; probability: number }[];
   model: string;
   inputTokens: number;
+  cached: boolean;
 }
 
 // Criteria are written literally (Jev reads them at face value) and each one stands on its own.
@@ -48,14 +43,8 @@ const VERDICT_QUESTION =
   "The book in `state` is The Art of War by Sun Tzu (translated by Lionel Giles). " +
   "Does Sun Tzu say `phrase` in this book?";
 
-/** `reversed` exists only for the option-order check in scripts/eval.ts. */
-export function verdictQuestion(phrase: string, reversed = false): ChoiceQuestion {
-  const order: Verdict[] = reversed ? ["never", "close", "said"] : ["said", "close", "never"];
-  return {
-    type: "choice",
-    instructions: { phrase, question: VERDICT_QUESTION },
-    criteria: Object.fromEntries(order.map((v) => [v, VERDICT_CRITERIA[v]])),
-  };
+export function verdictQuestion(phrase: string): ChoiceQuestion<Record<Verdict, string>> {
+  return { type: "choice", instructions: { phrase, question: VERDICT_QUESTION }, criteria: VERDICT_CRITERIA };
 }
 
 /** Removes attributions people paste with a quote, e.g. '"…" — Sun Tzu, The Art of War'. */
@@ -68,19 +57,21 @@ export function stripAttribution(text: string): string {
     .trim();
 }
 
-// Giles marks italics with underscores; they carry no meaning for the judgement.
-const plain = (s: string) => s.replace(/_/g, "");
+/** Giles marks italics with underscores; they carry no meaning, so they go when the data loads. */
+export function cleanPassages(passages: Passage[]): Passage[] {
+  return passages.map((p) => ({ ...p, text: p.text.replace(/_/g, "") }));
+}
 
 /** One line per verse, tagged with its id so a Choice can point at it. */
 export function tagPassages(passages: Passage[]): string {
   const lines: string[] = [];
-  let chapter = 0;
+  let chapter = "";
   for (const p of passages) {
-    if (p.chapter !== chapter) {
-      chapter = p.chapter;
+    if (p.chapterRoman !== chapter) {
+      chapter = p.chapterRoman;
       lines.push(`Chapter ${p.chapterRoman}. ${p.chapterTitle}`);
     }
-    lines.push(`${p.id}| ${plain(p.text)}`);
+    lines.push(`${p.id}| ${p.text}`);
   }
   return lines.join("\n");
 }
@@ -104,19 +95,16 @@ export function pickChapters(probabilities: Record<string, number>): string[] {
 
 export function createJudge(passages: Passage[], ask: AskJev) {
   const book = tagPassages(passages);
-  const chapters = new Map<string, { title: string; verses: Passage[] }>();
-  for (const p of passages) {
-    const c = chapters.get(p.chapterRoman) ?? { title: p.chapterTitle, verses: [] };
-    c.verses.push(p);
-    chapters.set(p.chapterRoman, c);
-  }
+  const chapters = new Map<string, Passage[]>();
+  for (const p of passages) chapters.set(p.chapterRoman, [...(chapters.get(p.chapterRoman) ?? []), p]);
+  const chapterCriteria = Object.fromEntries([...chapters].map(([roman, verses]) => [roman, verses[0].chapterTitle]));
   const byId = new Map(passages.map((p) => [p.id, p]));
 
   return async function judge(input: string): Promise<Judgement> {
     const phrase = stripAttribution(input);
     if (!phrase) throw new Error("Empty phrase");
 
-    // Request 1: the whole book (~15k tokens). Verdict and chapter are independent, so they share it.
+    // Request 1: the whole book (~15.6k tokens). Verdict and chapter are independent, so they share it.
     const first = await ask({
       state: book,
       questions: {
@@ -127,15 +115,13 @@ export function createJudge(passages: Passage[], ask: AskJev) {
             phrase,
             question: "Which chapter of the book in `state` has the verse closest in meaning to `phrase`?",
           },
-          criteria: Object.fromEntries([...chapters].map(([roman, c]) => [roman, c.title])),
+          criteria: chapterCriteria,
         },
       },
     });
-    const verdict = first.answers.verdict;
-    const picked = pickChapters(first.answers.chapter.probabilities);
 
     // Request 2: only the picked chapters, one option per verse.
-    const verses = picked.flatMap((roman) => chapters.get(roman)!.verses);
+    const verses = pickChapters(first.answers.chapter.probabilities).flatMap((roman) => chapters.get(roman) ?? []);
     const second = await ask({
       state: tagPassages(verses),
       questions: {
@@ -146,22 +132,17 @@ export function createJudge(passages: Passage[], ask: AskJev) {
         },
       },
     });
-    const verse = second.answers.verse;
 
+    const passage = byId.get(second.answers.verse.choice);
+    if (!passage) throw new Error(`Jev picked an unknown verse: ${second.answers.verse.choice}`);
     return {
       phrase,
-      verdict: verdict.choice as Verdict,
-      verdictProbabilities: verdict.probabilities as Record<Verdict, number>,
-      verdictConfidence: verdict.confidence,
-      passage: byId.get(verse.choice)!,
-      passageProbability: verse.probabilities[verse.choice] ?? 0,
-      chapters: picked.map((roman) => ({
-        roman,
-        title: chapters.get(roman)!.title,
-        probability: first.answers.chapter.probabilities[roman] ?? 0,
-      })),
+      verdict: first.answers.verdict.choice,
+      verdictProbabilities: first.answers.verdict.probabilities,
+      passage,
       model: first.model,
       inputTokens: (first.usage.input_tokens ?? 0) + (second.usage.input_tokens ?? 0),
+      cached: Boolean(first.cached && second.cached),
     };
   };
 }
