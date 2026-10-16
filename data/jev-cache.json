@@ -1,0 +1,8615 @@
+{
+ "74abfea8269c4359b68fe56d5aba2a0edca0bbd97b4180f06560ea058b605c54": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "said",
+    "confidence": 0.91,
+    "probabilities": {
+     "said": 0.94,
+     "close": 0.05,
+     "never": 0.01
+    }
+   },
+   "chapter": {
+    "type": "choice",
+    "choice": "VII",
+    "confidence": 0.83,
+    "probabilities": {
+     "I": 0.02,
+     "II": 0,
+     "III": 0.02,
+     "IV": 0,
+     "V": 0.04,
+     "VI": 0.02,
+     "VII": 0.84,
+     "VIII": 0,
+     "IX": 0,
+     "X": 0,
+     "XI": 0.06,
+     "XII": 0,
+     "XIII": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15658
+  }
+ },
+ "8cbe60b2519944a89ee9e7d56895cf51b761ca62f5517a0994596d91a17632af": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "said",
+    "confidence": 0.98,
+    "probabilities": {
+     "said": 0.99,
+     "close": 0.01,
+     "never": 0
+    }
+   },
+   "chapter": {
+    "type": "choice",
+    "choice": "III",
+    "confidence": 0.84,
+    "probabilities": {
+     "I": 0,
+     "II": 0,
+     "III": 0.85,
+     "IV": 0.01,
+     "V": 0,
+     "VI": 0.01,
+     "VII": 0,
+     "VIII": 0,
+     "IX": 0,
+     "X": 0.12,
+     "XI": 0,
+     "XII": 0,
+     "XIII": 0.01
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15648
+  }
+ },
+ "6adee1b2b5c569cc09875c183cf0fe696531eb485e1f0d66af93b918f3f543af": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "never",
+    "confidence": 0.79,
+    "probabilities": {
+     "said": 0,
+     "close": 0.14,
+     "never": 0.86
+    }
+   },
+   "chapter": {
+    "type": "choice",
+    "choice": "XIII",
+    "confidence": 0.95,
+    "probabilities": {
+     "I": 0,
+     "II": 0,
+     "III": 0.02,
+     "IV": 0,
+     "V": 0,
+     "VI": 0.01,
+     "VII": 0,
+     "VIII": 0,
+     "IX": 0,
+     "X": 0,
+     "XI": 0.02,
+     "XII": 0,
+     "XIII": 0.95
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15624
+  }
+ },
+ "93750da11f5e4c6564a0128cb501521a0f224de740c04b73ed7faf6baad5cad8": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "never",
+    "confidence": 0.67,
+    "probabilities": {
+     "said": 0,
+     "close": 0.22,
+     "never": 0.78
+    }
+   },
+   "chapter": {
+    "type": "choice",
+    "choice": "VII",
+    "confidence": 0.22,
+    "probabilities": {
+     "I": 0.03,
+     "II": 0,
+     "III": 0.15,
+     "IV": 0.19,
+     "V": 0.04,
+     "VI": 0.16,
+     "VII": 0.28,
+     "VIII": 0.07,
+     "IX": 0.02,
+     "X": 0.01,
+     "XI": 0.03,
+     "XII": 0.02,
+     "XIII": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15628
+  }
+ },
+ "929eae9d773fc0d9e15fdf89187c6e5b9d75dcc69059535ca5dba600b8343b8d": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "never",
+    "confidence": 0.88,
+    "probabilities": {
+     "said": 0,
+     "close": 0.08,
+     "never": 0.92
+    }
+   },
+   "chapter": {
+    "type": "choice",
+    "choice": "IV",
+    "confidence": 0.49,
+    "probabilities": {
+     "I": 0,
+     "II": 0,
+     "III": 0.09,
+     "IV": 0.53,
+     "V": 0,
+     "VI": 0.14,
+     "VII": 0.07,
+     "VIII": 0.04,
+     "IX": 0.06,
+     "X": 0.01,
+     "XI": 0.01,
+     "XII": 0.05,
+     "XIII": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15642
+  }
+ },
+ "450f89ecb5a64554c9bd0653d60f622eb5a306c7d4401007b5c90ec23ec899da": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "close",
+    "confidence": 0.92,
+    "probabilities": {
+     "said": 0.04,
+     "close": 0.95,
+     "never": 0.01
+    }
+   },
+   "chapter": {
+    "type": "choice",
+    "choice": "XI",
+    "confidence": 0.97,
+    "probabilities": {
+     "I": 0,
+     "II": 0.01,
+     "III": 0,
+     "IV": 0,
+     "V": 0.02,
+     "VI": 0,
+     "VII": 0,
+     "VIII": 0,
+     "IX": 0,
+     "X": 0,
+     "XI": 0.97,
+     "XII": 0,
+     "XIII": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15620
+  }
+ },
+ "40eca4ed20bd2673e8488cb13b48d1b61a008bf3e8bd69364f639414622f4820": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "said",
+    "confidence": 0.61,
+    "probabilities": {
+     "said": 0.74,
+     "close": 0.26,
+     "never": 0
+    }
+   },
+   "chapter": {
+    "type": "choice",
+    "choice": "I",
+    "confidence": 0.97,
+    "probabilities": {
+     "I": 0.97,
+     "II": 0,
+     "III": 0.03,
+     "IV": 0,
+     "V": 0,
+     "VI": 0,
+     "VII": 0,
+     "VIII": 0,
+     "IX": 0,
+     "X": 0,
+     "XI": 0,
+     "XII": 0,
+     "XIII": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15624
+  }
+ },
+ "a8466db8a60b6a39fb0c484c06d70805d06ae58ba257376e1a0bce5182c6d5ac": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "never",
+    "confidence": 0.34,
+    "probabilities": {
+     "said": 0,
+     "close": 0.44,
+     "never": 0.56
+    }
+   },
+   "chapter": {
+    "type": "choice",
+    "choice": "XI",
+    "confidence": 0.44,
+    "probabilities": {
+     "I": 0,
+     "II": 0.02,
+     "III": 0.01,
+     "IV": 0,
+     "V": 0.33,
+     "VI": 0.01,
+     "VII": 0.14,
+     "VIII": 0,
+     "IX": 0,
+     "X": 0,
+     "XI": 0.48,
+     "XII": 0.01,
+     "XIII": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15618
+  }
+ },
+ "d024c7b7cc30bb9fbab58a6b6bb0ad38c930e6e61429653ab607ba2e1459c6c3": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "never",
+    "confidence": 0.45,
+    "probabilities": {
+     "said": 0,
+     "close": 0.37,
+     "never": 0.63
+    }
+   },
+   "chapter": {
+    "type": "choice",
+    "choice": "IV",
+    "confidence": 0.83,
+    "probabilities": {
+     "I": 0,
+     "II": 0,
+     "III": 0.05,
+     "IV": 0.84,
+     "V": 0,
+     "VI": 0.11,
+     "VII": 0,
+     "VIII": 0,
+     "IX": 0,
+     "X": 0,
+     "XI": 0,
+     "XII": 0,
+     "XIII": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15622
+  }
+ },
+ "56b9009256bd929e3e1495556932bcca843a59b611bb6d505ec8f2eaec5b95d3": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "never",
+    "confidence": 1,
+    "probabilities": {
+     "said": 0,
+     "close": 0,
+     "never": 1
+    }
+   },
+   "chapter": {
+    "type": "choice",
+    "choice": "XI",
+    "confidence": 0.11,
+    "probabilities": {
+     "I": 0.18,
+     "II": 0,
+     "III": 0.1,
+     "IV": 0.04,
+     "V": 0.08,
+     "VI": 0.13,
+     "VII": 0.03,
+     "VIII": 0.18,
+     "IX": 0.01,
+     "X": 0.02,
+     "XI": 0.18,
+     "XII": 0.02,
+     "XIII": 0.03
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15622
+  }
+ },
+ "e40b973fa4c43d5abd72a739557804557cb51a271dbdbb705d4a5847488bbee8": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "said",
+    "confidence": 0.49,
+    "probabilities": {
+     "said": 0.66,
+     "close": 0.34,
+     "never": 0
+    }
+   },
+   "chapter": {
+    "type": "choice",
+    "choice": "I",
+    "confidence": 0.88,
+    "probabilities": {
+     "I": 0.89,
+     "II": 0,
+     "III": 0,
+     "IV": 0,
+     "V": 0,
+     "VI": 0.07,
+     "VII": 0,
+     "VIII": 0,
+     "IX": 0,
+     "X": 0,
+     "XI": 0.04,
+     "XII": 0,
+     "XIII": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15636
+  }
+ },
+ "88d3c202d0bc4b3a9bd78c8ed77edfbf4eee5ede2960834f78045c4b87fcd4d8": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "said",
+    "confidence": 0.88,
+    "probabilities": {
+     "said": 0.92,
+     "close": 0.08,
+     "never": 0
+    }
+   },
+   "chapter": {
+    "type": "choice",
+    "choice": "VII",
+    "confidence": 0.97,
+    "probabilities": {
+     "I": 0,
+     "II": 0,
+     "III": 0,
+     "IV": 0,
+     "V": 0,
+     "VI": 0,
+     "VII": 0.97,
+     "VIII": 0,
+     "IX": 0,
+     "X": 0,
+     "XI": 0.03,
+     "XII": 0,
+     "XIII": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15628
+  }
+ },
+ "63a40d00c32cce74ce169c72928b8e23e34cff9f98dc1a979e41d61a6f8c21f5": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "never",
+    "confidence": 0.79,
+    "probabilities": {
+     "said": 0,
+     "close": 0.14,
+     "never": 0.86
+    }
+   },
+   "chapter": {
+    "type": "choice",
+    "choice": "XI",
+    "confidence": 0.4,
+    "probabilities": {
+     "I": 0.01,
+     "II": 0,
+     "III": 0.05,
+     "IV": 0.01,
+     "V": 0,
+     "VI": 0.03,
+     "VII": 0.2,
+     "VIII": 0.22,
+     "IX": 0,
+     "X": 0.01,
+     "XI": 0.45,
+     "XII": 0,
+     "XIII": 0.02
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15624
+  }
+ },
+ "f81c2a17050a6c5babc956abecc2527580382c5f80965c22231c35c1e83f2c7b": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "close",
+    "confidence": 0.95,
+    "probabilities": {
+     "said": 0.02,
+     "close": 0.97,
+     "never": 0.01
+    }
+   },
+   "chapter": {
+    "type": "choice",
+    "choice": "III",
+    "confidence": 1,
+    "probabilities": {
+     "I": 0,
+     "II": 0,
+     "III": 1,
+     "IV": 0,
+     "V": 0,
+     "VI": 0,
+     "VII": 0,
+     "VIII": 0,
+     "IX": 0,
+     "X": 0,
+     "XI": 0,
+     "XII": 0,
+     "XIII": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15634
+  }
+ },
+ "c02662b0bcd22d50e453a7a6c2f52a3825086ccf1715d9ac1df1a574edc8eb47": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "close",
+    "confidence": 0.94,
+    "probabilities": {
+     "said": 0.04,
+     "close": 0.96,
+     "never": 0
+    }
+   },
+   "chapter": {
+    "type": "choice",
+    "choice": "X",
+    "confidence": 1,
+    "probabilities": {
+     "I": 0,
+     "II": 0,
+     "III": 0,
+     "IV": 0,
+     "V": 0,
+     "VI": 0,
+     "VII": 0,
+     "VIII": 0,
+     "IX": 0,
+     "X": 1,
+     "XI": 0,
+     "XII": 0,
+     "XIII": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15652
+  }
+ },
+ "7c7726904e74be51575cf63182fef1990c165aeb27d0bf5b4dfdafae03ddd799": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "said",
+    "confidence": 1,
+    "probabilities": {
+     "said": 1,
+     "close": 0,
+     "never": 0
+    }
+   },
+   "chapter": {
+    "type": "choice",
+    "choice": "I",
+    "confidence": 0.96,
+    "probabilities": {
+     "I": 0.96,
+     "II": 0,
+     "III": 0.03,
+     "IV": 0,
+     "V": 0,
+     "VI": 0,
+     "VII": 0.01,
+     "VIII": 0,
+     "IX": 0,
+     "X": 0,
+     "XI": 0,
+     "XII": 0,
+     "XIII": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15622
+  }
+ },
+ "61adfe3aed66fa39b37999b39a5abf473c6bd291a897b592e31aa645bd246eb3": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "close",
+    "confidence": 0.72,
+    "probabilities": {
+     "said": 0,
+     "close": 0.81,
+     "never": 0.19
+    }
+   },
+   "chapter": {
+    "type": "choice",
+    "choice": "VI",
+    "confidence": 1,
+    "probabilities": {
+     "I": 0,
+     "II": 0,
+     "III": 0,
+     "IV": 0,
+     "V": 0,
+     "VI": 1,
+     "VII": 0,
+     "VIII": 0,
+     "IX": 0,
+     "X": 0,
+     "XI": 0,
+     "XII": 0,
+     "XIII": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15618
+  }
+ },
+ "fe0d59d6de18b495605c16428f4301889e671945142c44f5590ec8271cc6642c": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "close",
+    "confidence": 0.61,
+    "probabilities": {
+     "said": 0.26,
+     "close": 0.74,
+     "never": 0
+    }
+   },
+   "chapter": {
+    "type": "choice",
+    "choice": "III",
+    "confidence": 0.99,
+    "probabilities": {
+     "I": 0,
+     "II": 0,
+     "III": 0.99,
+     "IV": 0,
+     "V": 0,
+     "VI": 0,
+     "VII": 0,
+     "VIII": 0,
+     "IX": 0,
+     "X": 0.01,
+     "XI": 0,
+     "XII": 0,
+     "XIII": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15622
+  }
+ },
+ "3a85da26de89feb511748b0d681bffbc8dd27dec058892c037127de10abf4e6c": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "said",
+    "confidence": 0.69,
+    "probabilities": {
+     "said": 0.79,
+     "close": 0.2,
+     "never": 0.01
+    }
+   },
+   "chapter": {
+    "type": "choice",
+    "choice": "XI",
+    "confidence": 0.89,
+    "probabilities": {
+     "I": 0,
+     "II": 0.06,
+     "III": 0,
+     "IV": 0,
+     "V": 0.03,
+     "VI": 0,
+     "VII": 0.01,
+     "VIII": 0,
+     "IX": 0,
+     "X": 0,
+     "XI": 0.9,
+     "XII": 0,
+     "XIII": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15624
+  }
+ },
+ "47584357bcb4da7e9ac68a0c47859792979b2c001af83de4a62f11ea67e93f9f": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "never",
+    "confidence": 0.97,
+    "probabilities": {
+     "said": 0,
+     "close": 0.02,
+     "never": 0.98
+    }
+   },
+   "chapter": {
+    "type": "choice",
+    "choice": "III",
+    "confidence": 0.23,
+    "probabilities": {
+     "I": 0.01,
+     "II": 0.03,
+     "III": 0.28,
+     "IV": 0.18,
+     "V": 0.29000000000000004,
+     "VI": 0.04,
+     "VII": 0.08,
+     "VIII": 0,
+     "IX": 0,
+     "X": 0.01,
+     "XI": 0.06,
+     "XII": 0.01,
+     "XIII": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15624
+  }
+ },
+ "b3c97313cdcc5ba2b0f624e9ce9147062a3298b59038e561b5f4c3c51a9edff2": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "verse": {
+    "type": "choice",
+    "choice": "III.18",
+    "confidence": 0.62,
+    "probabilities": {
+     "III.1": 0,
+     "III.2": 0,
+     "III.3": 0,
+     "III.4": 0,
+     "III.5": 0,
+     "III.6": 0,
+     "III.7": 0,
+     "III.8": 0,
+     "III.9": 0,
+     "III.10": 0,
+     "III.11": 0,
+     "III.12": 0,
+     "III.13": 0,
+     "III.14": 0,
+     "III.15": 0,
+     "III.16": 0,
+     "III.17": 0.01,
+     "III.18": 0.63,
+     "X.1": 0,
+     "X.2": 0,
+     "X.3": 0,
+     "X.4": 0,
+     "X.5": 0,
+     "X.6": 0,
+     "X.7": 0,
+     "X.8": 0,
+     "X.9": 0,
+     "X.10": 0,
+     "X.11": 0,
+     "X.12": 0,
+     "X.13": 0,
+     "X.14": 0,
+     "X.15": 0,
+     "X.16": 0,
+     "X.17": 0,
+     "X.18": 0,
+     "X.19": 0,
+     "X.20": 0,
+     "X.21": 0,
+     "X.22": 0.04,
+     "X.23": 0,
+     "X.24": 0,
+     "X.25": 0,
+     "X.26": 0,
+     "X.27": 0,
+     "X.28": 0,
+     "X.29": 0,
+     "X.30": 0,
+     "X.31": 0.32
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 3035
+  }
+ },
+ "60af83b40abf61002a902f347ff6da20297a937c0503e92f4cc77b9319d8d996": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "verse": {
+    "type": "choice",
+    "choice": "XIII.21",
+    "confidence": 0.51,
+    "probabilities": {
+     "XIII.1": 0,
+     "XIII.2": 0,
+     "XIII.3": 0,
+     "XIII.4": 0,
+     "XIII.5": 0,
+     "XIII.6": 0,
+     "XIII.7": 0.01,
+     "XIII.8": 0,
+     "XIII.9": 0,
+     "XIII.10": 0.02,
+     "XIII.11": 0.25,
+     "XIII.12": 0.01,
+     "XIII.13": 0,
+     "XIII.14": 0.11,
+     "XIII.15": 0,
+     "XIII.16": 0,
+     "XIII.17": 0,
+     "XIII.18": 0.01,
+     "XIII.19": 0,
+     "XIII.20": 0.01,
+     "XIII.21": 0.53,
+     "XIII.22": 0.01,
+     "XIII.23": 0,
+     "XIII.24": 0,
+     "XIII.25": 0.04,
+     "XIII.26": 0,
+     "XIII.27": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 1607
+  }
+ },
+ "6961a14aea97f369829fa9d4bc2c723ac7e19c496ccf7c9decd0302600f77d26": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "verse": {
+    "type": "choice",
+    "choice": "VII.19",
+    "confidence": 0.96,
+    "probabilities": {
+     "VII.1": 0,
+     "VII.2": 0,
+     "VII.3": 0,
+     "VII.4": 0,
+     "VII.5": 0,
+     "VII.6": 0,
+     "VII.7": 0,
+     "VII.8": 0,
+     "VII.9": 0,
+     "VII.10": 0,
+     "VII.11": 0,
+     "VII.12": 0,
+     "VII.13": 0,
+     "VII.14": 0,
+     "VII.15": 0,
+     "VII.16": 0,
+     "VII.17": 0,
+     "VII.18": 0,
+     "VII.19": 0.96,
+     "VII.20": 0,
+     "VII.21": 0,
+     "VII.22": 0,
+     "VII.23": 0,
+     "VII.24": 0,
+     "VII.25": 0,
+     "VII.26": 0,
+     "VII.27": 0,
+     "VII.28": 0,
+     "VII.29": 0,
+     "VII.30": 0,
+     "VII.31": 0,
+     "VII.32": 0,
+     "VII.33": 0,
+     "VII.34": 0,
+     "VII.35": 0,
+     "VII.36": 0,
+     "VII.37": 0,
+     "XI.1": 0,
+     "XI.2": 0,
+     "XI.3": 0,
+     "XI.4": 0,
+     "XI.5": 0,
+     "XI.6": 0,
+     "XI.7": 0,
+     "XI.8": 0,
+     "XI.9": 0,
+     "XI.10": 0,
+     "XI.11": 0,
+     "XI.12": 0,
+     "XI.13": 0,
+     "XI.14": 0,
+     "XI.15": 0,
+     "XI.16": 0,
+     "XI.17": 0,
+     "XI.18": 0,
+     "XI.19": 0.02,
+     "XI.20": 0,
+     "XI.21": 0,
+     "XI.22": 0,
+     "XI.23": 0,
+     "XI.24": 0,
+     "XI.25": 0,
+     "XI.26": 0,
+     "XI.27": 0,
+     "XI.28": 0,
+     "XI.29": 0,
+     "XI.30": 0,
+     "XI.31": 0,
+     "XI.32": 0,
+     "XI.33": 0,
+     "XI.34": 0,
+     "XI.35": 0,
+     "XI.36": 0.02,
+     "XI.37": 0,
+     "XI.38": 0,
+     "XI.39": 0,
+     "XI.40": 0,
+     "XI.41": 0,
+     "XI.42": 0,
+     "XI.43": 0,
+     "XI.44": 0,
+     "XI.45": 0,
+     "XI.46": 0,
+     "XI.47": 0,
+     "XI.48": 0,
+     "XI.49": 0,
+     "XI.50": 0,
+     "XI.51": 0,
+     "XI.52": 0,
+     "XI.53": 0,
+     "XI.54": 0,
+     "XI.55": 0,
+     "XI.56": 0,
+     "XI.57": 0,
+     "XI.58": 0,
+     "XI.59": 0,
+     "XI.60": 0,
+     "XI.61": 0,
+     "XI.62": 0,
+     "XI.63": 0,
+     "XI.64": 0,
+     "XI.65": 0,
+     "XI.66": 0,
+     "XI.67": 0,
+     "XI.68": 0,
+     "V.1": 0,
+     "V.2": 0,
+     "V.3": 0,
+     "V.4": 0,
+     "V.5": 0,
+     "V.6": 0,
+     "V.7": 0,
+     "V.8": 0,
+     "V.9": 0,
+     "V.10": 0,
+     "V.11": 0,
+     "V.12": 0,
+     "V.13": 0,
+     "V.14": 0,
+     "V.15": 0,
+     "V.16": 0,
+     "V.17": 0,
+     "V.18": 0,
+     "V.19": 0,
+     "V.20": 0,
+     "V.21": 0,
+     "V.22": 0,
+     "V.23": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 6233
+  }
+ },
+ "47d9e3e25bb324151864de8e9648d1c108647cb3871033a2b1b9dc13c926564d": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "verse": {
+    "type": "choice",
+    "choice": "I.24",
+    "confidence": 0.95,
+    "probabilities": {
+     "I.1": 0,
+     "I.2": 0,
+     "I.3": 0,
+     "I.4": 0,
+     "I.5-6": 0,
+     "I.7": 0,
+     "I.8": 0,
+     "I.9": 0,
+     "I.10": 0,
+     "I.11": 0,
+     "I.12": 0,
+     "I.13": 0,
+     "I.14": 0,
+     "I.15": 0,
+     "I.16": 0,
+     "I.17": 0,
+     "I.18": 0,
+     "I.19": 0,
+     "I.20": 0,
+     "I.21": 0,
+     "I.22": 0,
+     "I.23": 0,
+     "I.24": 0.95,
+     "I.25": 0,
+     "I.26": 0,
+     "VI.1": 0,
+     "VI.2": 0,
+     "VI.3": 0,
+     "VI.4": 0,
+     "VI.5": 0.03,
+     "VI.6": 0,
+     "VI.7": 0.01,
+     "VI.8": 0,
+     "VI.9": 0,
+     "VI.10": 0,
+     "VI.11": 0,
+     "VI.12": 0,
+     "VI.13": 0,
+     "VI.14": 0,
+     "VI.15": 0,
+     "VI.16": 0,
+     "VI.17": 0,
+     "VI.18": 0,
+     "VI.19": 0,
+     "VI.20": 0,
+     "VI.21": 0,
+     "VI.22": 0,
+     "VI.23": 0,
+     "VI.24": 0,
+     "VI.25": 0,
+     "VI.26": 0,
+     "VI.27": 0,
+     "VI.28": 0,
+     "VI.29": 0,
+     "VI.30": 0.01,
+     "VI.31": 0,
+     "VI.32": 0,
+     "VI.33": 0,
+     "VI.34": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 3094
+  }
+ },
+ "43556382e0688031c9f4b9726910cf9e52ab67ec0e8d15556b50ada81b857957": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "verse": {
+    "type": "choice",
+    "choice": "VII.30",
+    "confidence": 0.72,
+    "probabilities": {
+     "VII.1": 0,
+     "VII.2": 0,
+     "VII.3": 0,
+     "VII.4": 0,
+     "VII.5": 0,
+     "VII.6": 0,
+     "VII.7": 0,
+     "VII.8": 0,
+     "VII.9": 0,
+     "VII.10": 0,
+     "VII.11": 0,
+     "VII.12": 0,
+     "VII.13": 0,
+     "VII.14": 0,
+     "VII.15": 0,
+     "VII.16": 0,
+     "VII.17": 0,
+     "VII.18": 0,
+     "VII.19": 0,
+     "VII.20": 0,
+     "VII.21": 0,
+     "VII.22": 0,
+     "VII.23": 0,
+     "VII.24": 0,
+     "VII.25": 0,
+     "VII.26": 0,
+     "VII.27": 0,
+     "VII.28": 0,
+     "VII.29": 0.04,
+     "VII.30": 0.72,
+     "VII.31": 0,
+     "VII.32": 0.060000000000000005,
+     "VII.33": 0,
+     "VII.34": 0.01,
+     "VII.35": 0.01,
+     "VII.36": 0.01,
+     "VII.37": 0,
+     "IV.1": 0.04,
+     "IV.2": 0.03,
+     "IV.3": 0,
+     "IV.4": 0,
+     "IV.5": 0,
+     "IV.6": 0,
+     "IV.7": 0,
+     "IV.8": 0,
+     "IV.9": 0,
+     "IV.10": 0,
+     "IV.11": 0,
+     "IV.12": 0,
+     "IV.13": 0.03,
+     "IV.14": 0.04,
+     "IV.15": 0.01,
+     "IV.16": 0,
+     "IV.17": 0,
+     "IV.18": 0,
+     "IV.19": 0,
+     "IV.20": 0,
+     "VI.1": 0,
+     "VI.2": 0,
+     "VI.3": 0,
+     "VI.4": 0,
+     "VI.5": 0,
+     "VI.6": 0,
+     "VI.7": 0,
+     "VI.8": 0,
+     "VI.9": 0,
+     "VI.10": 0,
+     "VI.11": 0,
+     "VI.12": 0,
+     "VI.13": 0,
+     "VI.14": 0,
+     "VI.15": 0,
+     "VI.16": 0,
+     "VI.17": 0,
+     "VI.18": 0,
+     "VI.19": 0,
+     "VI.20": 0,
+     "VI.21": 0,
+     "VI.22": 0,
+     "VI.23": 0,
+     "VI.24": 0,
+     "VI.25": 0,
+     "VI.26": 0,
+     "VI.27": 0,
+     "VI.28": 0,
+     "VI.29": 0,
+     "VI.30": 0,
+     "VI.31": 0,
+     "VI.32": 0,
+     "VI.33": 0,
+     "VI.34": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 4414
+  }
+ },
+ "d816ca4e4d2319142eee7bdf9b6d89ac7f3e8a321f0aba373a1864e1e1712b4d": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "verse": {
+    "type": "choice",
+    "choice": "I.18",
+    "confidence": 0.99,
+    "probabilities": {
+     "I.1": 0,
+     "I.2": 0,
+     "I.3": 0,
+     "I.4": 0,
+     "I.5-6": 0,
+     "I.7": 0,
+     "I.8": 0,
+     "I.9": 0,
+     "I.10": 0,
+     "I.11": 0,
+     "I.12": 0,
+     "I.13": 0,
+     "I.14": 0,
+     "I.15": 0,
+     "I.16": 0,
+     "I.17": 0,
+     "I.18": 0.99,
+     "I.19": 0.01,
+     "I.20": 0,
+     "I.21": 0,
+     "I.22": 0,
+     "I.23": 0,
+     "I.24": 0,
+     "I.25": 0,
+     "I.26": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 1421
+  }
+ },
+ "154df85d80621a9dc42875575ef33a2c0f6e2cb128d36d6bfb07e6556800f099": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "verse": {
+    "type": "choice",
+    "choice": "I.18",
+    "confidence": 0.93,
+    "probabilities": {
+     "I.1": 0,
+     "I.2": 0,
+     "I.3": 0,
+     "I.4": 0,
+     "I.5-6": 0,
+     "I.7": 0,
+     "I.8": 0,
+     "I.9": 0,
+     "I.10": 0,
+     "I.11": 0,
+     "I.12": 0,
+     "I.13": 0,
+     "I.14": 0,
+     "I.15": 0,
+     "I.16": 0,
+     "I.17": 0,
+     "I.18": 0.93,
+     "I.19": 0.05,
+     "I.20": 0.01,
+     "I.21": 0,
+     "I.22": 0,
+     "I.23": 0,
+     "I.24": 0,
+     "I.25": 0,
+     "I.26": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 1420
+  }
+ },
+ "64245cf1bbc3b52825711ccc2179a7302e0749b17078a3ae24fcd7c03d129a59": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "verse": {
+    "type": "choice",
+    "choice": "VI.11",
+    "confidence": 0.25,
+    "probabilities": {
+     "IV.1": 0.03,
+     "IV.2": 0.01,
+     "IV.3": 0,
+     "IV.4": 0,
+     "IV.5": 0.2,
+     "IV.6": 0.12,
+     "IV.7": 0.02,
+     "IV.8": 0,
+     "IV.9": 0,
+     "IV.10": 0,
+     "IV.11": 0,
+     "IV.12": 0,
+     "IV.13": 0.01,
+     "IV.14": 0.06999999999999999,
+     "IV.15": 0.02,
+     "IV.16": 0,
+     "IV.17": 0,
+     "IV.18": 0,
+     "IV.19": 0,
+     "IV.20": 0,
+     "VI.1": 0.01,
+     "VI.2": 0.04,
+     "VI.3": 0.02,
+     "VI.4": 0,
+     "VI.5": 0.02,
+     "VI.6": 0.01,
+     "VI.7": 0.04,
+     "VI.8": 0.01,
+     "VI.9": 0,
+     "VI.10": 0.01,
+     "VI.11": 0.26,
+     "VI.12": 0,
+     "VI.13": 0,
+     "VI.14": 0,
+     "VI.15": 0,
+     "VI.16": 0,
+     "VI.17": 0,
+     "VI.18": 0.02,
+     "VI.19": 0,
+     "VI.20": 0,
+     "VI.21": 0,
+     "VI.22": 0,
+     "VI.23": 0,
+     "VI.24": 0,
+     "VI.25": 0,
+     "VI.26": 0,
+     "VI.27": 0,
+     "VI.28": 0,
+     "VI.29": 0.01,
+     "VI.30": 0.060000000000000005,
+     "VI.31": 0,
+     "VI.32": 0,
+     "VI.33": 0,
+     "VI.34": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 2811
+  }
+ },
+ "941951afa8ee157f36f50a8034496e0fc4e83fa42d9e5feacacd5e18676f8289": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "verse": {
+    "type": "choice",
+    "choice": "XI.19",
+    "confidence": 1,
+    "probabilities": {
+     "XI.1": 0,
+     "XI.2": 0,
+     "XI.3": 0,
+     "XI.4": 0,
+     "XI.5": 0,
+     "XI.6": 0,
+     "XI.7": 0,
+     "XI.8": 0,
+     "XI.9": 0,
+     "XI.10": 0,
+     "XI.11": 0,
+     "XI.12": 0,
+     "XI.13": 0,
+     "XI.14": 0,
+     "XI.15": 0,
+     "XI.16": 0,
+     "XI.17": 0,
+     "XI.18": 0,
+     "XI.19": 1,
+     "XI.20": 0,
+     "XI.21": 0,
+     "XI.22": 0,
+     "XI.23": 0,
+     "XI.24": 0,
+     "XI.25": 0,
+     "XI.26": 0,
+     "XI.27": 0,
+     "XI.28": 0,
+     "XI.29": 0,
+     "XI.30": 0,
+     "XI.31": 0,
+     "XI.32": 0,
+     "XI.33": 0,
+     "XI.34": 0,
+     "XI.35": 0,
+     "XI.36": 0,
+     "XI.37": 0,
+     "XI.38": 0,
+     "XI.39": 0,
+     "XI.40": 0,
+     "XI.41": 0,
+     "XI.42": 0,
+     "XI.43": 0,
+     "XI.44": 0,
+     "XI.45": 0,
+     "XI.46": 0,
+     "XI.47": 0,
+     "XI.48": 0,
+     "XI.49": 0,
+     "XI.50": 0,
+     "XI.51": 0,
+     "XI.52": 0,
+     "XI.53": 0,
+     "XI.54": 0,
+     "XI.55": 0,
+     "XI.56": 0,
+     "XI.57": 0,
+     "XI.58": 0,
+     "XI.59": 0,
+     "XI.60": 0,
+     "XI.61": 0,
+     "XI.62": 0,
+     "XI.63": 0,
+     "XI.64": 0,
+     "XI.65": 0,
+     "XI.66": 0,
+     "XI.67": 0,
+     "XI.68": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 3526
+  }
+ },
+ "9ca2d04763670a18ea7cf4828828262700d1c0f3a0ee7115facde987b141a27e": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "verse": {
+    "type": "choice",
+    "choice": "IV.1",
+    "confidence": 0.59,
+    "probabilities": {
+     "IV.1": 0.6,
+     "IV.2": 0.13,
+     "IV.3": 0,
+     "IV.4": 0,
+     "IV.5": 0,
+     "IV.6": 0,
+     "IV.7": 0,
+     "IV.8": 0,
+     "IV.9": 0,
+     "IV.10": 0,
+     "IV.11": 0,
+     "IV.12": 0,
+     "IV.13": 0.01,
+     "IV.14": 0.04,
+     "IV.15": 0.08,
+     "IV.16": 0,
+     "IV.17": 0,
+     "IV.18": 0,
+     "IV.19": 0,
+     "IV.20": 0.01,
+     "VI.1": 0.03,
+     "VI.2": 0,
+     "VI.3": 0.01,
+     "VI.4": 0.04,
+     "VI.5": 0,
+     "VI.6": 0,
+     "VI.7": 0,
+     "VI.8": 0,
+     "VI.9": 0,
+     "VI.10": 0,
+     "VI.11": 0,
+     "VI.12": 0,
+     "VI.13": 0,
+     "VI.14": 0,
+     "VI.15": 0,
+     "VI.16": 0,
+     "VI.17": 0,
+     "VI.18": 0,
+     "VI.19": 0,
+     "VI.20": 0,
+     "VI.21": 0,
+     "VI.22": 0,
+     "VI.23": 0,
+     "VI.24": 0,
+     "VI.25": 0,
+     "VI.26": 0,
+     "VI.27": 0,
+     "VI.28": 0,
+     "VI.29": 0,
+     "VI.30": 0,
+     "VI.31": 0,
+     "VI.32": 0,
+     "VI.33": 0,
+     "VI.34": 0,
+     "III.1": 0,
+     "III.2": 0.01,
+     "III.3": 0,
+     "III.4": 0,
+     "III.5": 0,
+     "III.6": 0,
+     "III.7": 0,
+     "III.8": 0,
+     "III.9": 0.01,
+     "III.10": 0.01,
+     "III.11": 0,
+     "III.12": 0,
+     "III.13": 0,
+     "III.14": 0,
+     "III.15": 0,
+     "III.16": 0,
+     "III.17": 0.02,
+     "III.18": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 3893
+  }
+ },
+ "5bfb5601b4f8e5661ad1dadcc29f37e4185a0ae3906d4689f653e28c322bd184": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "verse": {
+    "type": "choice",
+    "choice": "VII.36",
+    "confidence": 1,
+    "probabilities": {
+     "VII.1": 0,
+     "VII.2": 0,
+     "VII.3": 0,
+     "VII.4": 0,
+     "VII.5": 0,
+     "VII.6": 0,
+     "VII.7": 0,
+     "VII.8": 0,
+     "VII.9": 0,
+     "VII.10": 0,
+     "VII.11": 0,
+     "VII.12": 0,
+     "VII.13": 0,
+     "VII.14": 0,
+     "VII.15": 0,
+     "VII.16": 0,
+     "VII.17": 0,
+     "VII.18": 0,
+     "VII.19": 0,
+     "VII.20": 0,
+     "VII.21": 0,
+     "VII.22": 0,
+     "VII.23": 0,
+     "VII.24": 0,
+     "VII.25": 0,
+     "VII.26": 0,
+     "VII.27": 0,
+     "VII.28": 0,
+     "VII.29": 0,
+     "VII.30": 0,
+     "VII.31": 0,
+     "VII.32": 0,
+     "VII.33": 0,
+     "VII.34": 0,
+     "VII.35": 0,
+     "VII.36": 1,
+     "VII.37": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 1908
+  }
+ },
+ "ce0084b1a9be6e6ba26e70f191c881641f57536abd94367067faea965d95598d": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "verse": {
+    "type": "choice",
+    "choice": "XI.12",
+    "confidence": 0.34,
+    "probabilities": {
+     "XI.1": 0,
+     "XI.2": 0,
+     "XI.3": 0,
+     "XI.4": 0,
+     "XI.5": 0,
+     "XI.6": 0.03,
+     "XI.7": 0,
+     "XI.8": 0.01,
+     "XI.9": 0.01,
+     "XI.10": 0,
+     "XI.11": 0,
+     "XI.12": 0.35000000000000003,
+     "XI.13": 0,
+     "XI.14": 0,
+     "XI.15": 0,
+     "XI.16": 0,
+     "XI.17": 0,
+     "XI.18": 0,
+     "XI.19": 0,
+     "XI.20": 0,
+     "XI.21": 0,
+     "XI.22": 0,
+     "XI.23": 0,
+     "XI.24": 0,
+     "XI.25": 0,
+     "XI.26": 0,
+     "XI.27": 0,
+     "XI.28": 0,
+     "XI.29": 0,
+     "XI.30": 0.23,
+     "XI.31": 0,
+     "XI.32": 0,
+     "XI.33": 0,
+     "XI.34": 0,
+     "XI.35": 0,
+     "XI.36": 0,
+     "XI.37": 0,
+     "XI.38": 0,
+     "XI.39": 0,
+     "XI.40": 0,
+     "XI.41": 0,
+     "XI.42": 0,
+     "XI.43": 0,
+     "XI.44": 0,
+     "XI.45": 0,
+     "XI.46": 0,
+     "XI.47": 0,
+     "XI.48": 0.15000000000000002,
+     "XI.49": 0,
+     "XI.50": 0,
+     "XI.51": 0,
+     "XI.52": 0.02,
+     "XI.53": 0,
+     "XI.54": 0.11,
+     "XI.55": 0.03,
+     "XI.56": 0,
+     "XI.57": 0,
+     "XI.58": 0,
+     "XI.59": 0,
+     "XI.60": 0,
+     "XI.61": 0,
+     "XI.62": 0,
+     "XI.63": 0,
+     "XI.64": 0,
+     "XI.65": 0,
+     "XI.66": 0.02,
+     "XI.67": 0,
+     "XI.68": 0,
+     "VIII.1": 0,
+     "VIII.2": 0,
+     "VIII.3": 0,
+     "VIII.4": 0,
+     "VIII.5": 0,
+     "VIII.6": 0,
+     "VIII.7": 0,
+     "VIII.8": 0,
+     "VIII.9": 0,
+     "VIII.10": 0.02,
+     "VIII.11": 0,
+     "VIII.12": 0,
+     "VIII.13": 0,
+     "VIII.14": 0,
+     "VII.1": 0,
+     "VII.2": 0,
+     "VII.3": 0,
+     "VII.4": 0,
+     "VII.5": 0,
+     "VII.6": 0,
+     "VII.7": 0,
+     "VII.8": 0,
+     "VII.9": 0,
+     "VII.10": 0,
+     "VII.11": 0,
+     "VII.12": 0.02,
+     "VII.13": 0,
+     "VII.14": 0,
+     "VII.15": 0,
+     "VII.16": 0,
+     "VII.17": 0,
+     "VII.18": 0,
+     "VII.19": 0,
+     "VII.20": 0,
+     "VII.21": 0,
+     "VII.22": 0,
+     "VII.23": 0,
+     "VII.24": 0,
+     "VII.25": 0,
+     "VII.26": 0,
+     "VII.27": 0,
+     "VII.28": 0,
+     "VII.29": 0,
+     "VII.30": 0,
+     "VII.31": 0,
+     "VII.32": 0,
+     "VII.33": 0,
+     "VII.34": 0,
+     "VII.35": 0,
+     "VII.36": 0,
+     "VII.37": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 5835
+  }
+ },
+ "a3510f05ee44c7749ee9dceb31daf36885e499a4dbf52c2cef9216384cc571ca": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "verse": {
+    "type": "choice",
+    "choice": "X.25",
+    "confidence": 1,
+    "probabilities": {
+     "X.1": 0,
+     "X.2": 0,
+     "X.3": 0,
+     "X.4": 0,
+     "X.5": 0,
+     "X.6": 0,
+     "X.7": 0,
+     "X.8": 0,
+     "X.9": 0,
+     "X.10": 0,
+     "X.11": 0,
+     "X.12": 0,
+     "X.13": 0,
+     "X.14": 0,
+     "X.15": 0,
+     "X.16": 0,
+     "X.17": 0,
+     "X.18": 0,
+     "X.19": 0,
+     "X.20": 0,
+     "X.21": 0,
+     "X.22": 0,
+     "X.23": 0,
+     "X.24": 0,
+     "X.25": 1,
+     "X.26": 0,
+     "X.27": 0,
+     "X.28": 0,
+     "X.29": 0,
+     "X.30": 0,
+     "X.31": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 1965
+  }
+ },
+ "a9324679f67125695c0568c59c159d8ef32a4d57bcacbb77ff54f15d76b776f1": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "verse": {
+    "type": "choice",
+    "choice": "VI.29",
+    "confidence": 0.85,
+    "probabilities": {
+     "VI.1": 0,
+     "VI.2": 0,
+     "VI.3": 0,
+     "VI.4": 0,
+     "VI.5": 0,
+     "VI.6": 0,
+     "VI.7": 0,
+     "VI.8": 0,
+     "VI.9": 0,
+     "VI.10": 0,
+     "VI.11": 0,
+     "VI.12": 0,
+     "VI.13": 0,
+     "VI.14": 0,
+     "VI.15": 0,
+     "VI.16": 0,
+     "VI.17": 0,
+     "VI.18": 0,
+     "VI.19": 0,
+     "VI.20": 0,
+     "VI.21": 0,
+     "VI.22": 0,
+     "VI.23": 0,
+     "VI.24": 0,
+     "VI.25": 0,
+     "VI.26": 0,
+     "VI.27": 0,
+     "VI.28": 0.04,
+     "VI.29": 0.85,
+     "VI.30": 0,
+     "VI.31": 0.02,
+     "VI.32": 0.01,
+     "VI.33": 0.08,
+     "VI.34": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 1970
+  }
+ },
+ "fc780eb093bc8a4357b787fce10ecfdca28abd0932c1052050d089a6f45191a8": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "verse": {
+    "type": "choice",
+    "choice": "III.2",
+    "confidence": 0.98,
+    "probabilities": {
+     "III.1": 0,
+     "III.2": 0.98,
+     "III.3": 0,
+     "III.4": 0,
+     "III.5": 0,
+     "III.6": 0.02,
+     "III.7": 0,
+     "III.8": 0,
+     "III.9": 0,
+     "III.10": 0,
+     "III.11": 0,
+     "III.12": 0,
+     "III.13": 0,
+     "III.14": 0,
+     "III.15": 0,
+     "III.16": 0,
+     "III.17": 0,
+     "III.18": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 1383
+  }
+ },
+ "097e3ded844ea36741eb1cd7b8e6d80f2f4fd96edd780fc76f6b287c49e4e1cb": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "verse": {
+    "type": "choice",
+    "choice": "XI.19",
+    "confidence": 0.48,
+    "probabilities": {
+     "XI.1": 0,
+     "XI.2": 0,
+     "XI.3": 0,
+     "XI.4": 0,
+     "XI.5": 0,
+     "XI.6": 0,
+     "XI.7": 0,
+     "XI.8": 0,
+     "XI.9": 0,
+     "XI.10": 0.01,
+     "XI.11": 0,
+     "XI.12": 0,
+     "XI.13": 0,
+     "XI.14": 0,
+     "XI.15": 0,
+     "XI.16": 0,
+     "XI.17": 0,
+     "XI.18": 0,
+     "XI.19": 0.48,
+     "XI.20": 0,
+     "XI.21": 0,
+     "XI.22": 0,
+     "XI.23": 0,
+     "XI.24": 0,
+     "XI.25": 0,
+     "XI.26": 0,
+     "XI.27": 0,
+     "XI.28": 0,
+     "XI.29": 0,
+     "XI.30": 0,
+     "XI.31": 0,
+     "XI.32": 0,
+     "XI.33": 0,
+     "XI.34": 0,
+     "XI.35": 0,
+     "XI.36": 0,
+     "XI.37": 0,
+     "XI.38": 0,
+     "XI.39": 0,
+     "XI.40": 0,
+     "XI.41": 0,
+     "XI.42": 0,
+     "XI.43": 0,
+     "XI.44": 0,
+     "XI.45": 0,
+     "XI.46": 0,
+     "XI.47": 0,
+     "XI.48": 0,
+     "XI.49": 0,
+     "XI.50": 0,
+     "XI.51": 0,
+     "XI.52": 0,
+     "XI.53": 0,
+     "XI.54": 0,
+     "XI.55": 0,
+     "XI.56": 0,
+     "XI.57": 0,
+     "XI.58": 0,
+     "XI.59": 0,
+     "XI.60": 0,
+     "XI.61": 0,
+     "XI.62": 0,
+     "XI.63": 0,
+     "XI.64": 0,
+     "XI.65": 0.04,
+     "XI.66": 0,
+     "XI.67": 0,
+     "XI.68": 0.17,
+     "V.1": 0,
+     "V.2": 0,
+     "V.3": 0,
+     "V.4": 0,
+     "V.5": 0,
+     "V.6": 0,
+     "V.7": 0,
+     "V.8": 0,
+     "V.9": 0,
+     "V.10": 0,
+     "V.11": 0,
+     "V.12": 0.02,
+     "V.13": 0.01,
+     "V.14": 0.04,
+     "V.15": 0.01,
+     "V.16": 0,
+     "V.17": 0,
+     "V.18": 0,
+     "V.19": 0,
+     "V.20": 0,
+     "V.21": 0,
+     "V.22": 0,
+     "V.23": 0,
+     "VII.1": 0,
+     "VII.2": 0,
+     "VII.3": 0,
+     "VII.4": 0,
+     "VII.5": 0,
+     "VII.6": 0,
+     "VII.7": 0,
+     "VII.8": 0,
+     "VII.9": 0,
+     "VII.10": 0,
+     "VII.11": 0,
+     "VII.12": 0,
+     "VII.13": 0,
+     "VII.14": 0,
+     "VII.15": 0,
+     "VII.16": 0,
+     "VII.17": 0.08,
+     "VII.18": 0.03,
+     "VII.19": 0.11,
+     "VII.20": 0,
+     "VII.21": 0,
+     "VII.22": 0,
+     "VII.23": 0,
+     "VII.24": 0,
+     "VII.25": 0,
+     "VII.26": 0,
+     "VII.27": 0,
+     "VII.28": 0,
+     "VII.29": 0,
+     "VII.30": 0,
+     "VII.31": 0,
+     "VII.32": 0,
+     "VII.33": 0,
+     "VII.34": 0,
+     "VII.35": 0,
+     "VII.36": 0,
+     "VII.37": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 6213
+  }
+ },
+ "5ded57586944d25449bce5efdc9f05779591c3f42eb5162dfafdbc9970077eb1": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "verse": {
+    "type": "choice",
+    "choice": "III.18",
+    "confidence": 1,
+    "probabilities": {
+     "III.1": 0,
+     "III.2": 0,
+     "III.3": 0,
+     "III.4": 0,
+     "III.5": 0,
+     "III.6": 0,
+     "III.7": 0,
+     "III.8": 0,
+     "III.9": 0,
+     "III.10": 0,
+     "III.11": 0,
+     "III.12": 0,
+     "III.13": 0,
+     "III.14": 0,
+     "III.15": 0,
+     "III.16": 0,
+     "III.17": 0,
+     "III.18": 1
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 1377
+  }
+ },
+ "798cbef4b60776b5de03c01d5d3d97d9be3f5b51b0c1b573ba29126b300567d2": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "verse": {
+    "type": "choice",
+    "choice": "I.17",
+    "confidence": 0.2,
+    "probabilities": {
+     "I.1": 0,
+     "I.2": 0.15000000000000002,
+     "I.3": 0.01,
+     "I.4": 0,
+     "I.5-6": 0,
+     "I.7": 0.01,
+     "I.8": 0.06999999999999999,
+     "I.9": 0,
+     "I.10": 0,
+     "I.11": 0,
+     "I.12": 0.01,
+     "I.13": 0.01,
+     "I.14": 0.01,
+     "I.15": 0,
+     "I.16": 0.04,
+     "I.17": 0.21000000000000002,
+     "I.18": 0.09999999999999999,
+     "I.19": 0.01,
+     "I.20": 0,
+     "I.21": 0.01,
+     "I.22": 0,
+     "I.23": 0,
+     "I.24": 0.01,
+     "I.25": 0,
+     "I.26": 0.02,
+     "VIII.1": 0,
+     "VIII.2": 0.02,
+     "VIII.3": 0,
+     "VIII.4": 0,
+     "VIII.5": 0,
+     "VIII.6": 0,
+     "VIII.7": 0.03,
+     "VIII.8": 0,
+     "VIII.9": 0,
+     "VIII.10": 0,
+     "VIII.11": 0.01,
+     "VIII.12": 0,
+     "VIII.13": 0,
+     "VIII.14": 0,
+     "XI.1": 0.03,
+     "XI.2": 0,
+     "XI.3": 0,
+     "XI.4": 0,
+     "XI.5": 0,
+     "XI.6": 0,
+     "XI.7": 0,
+     "XI.8": 0,
+     "XI.9": 0,
+     "XI.10": 0,
+     "XI.11": 0,
+     "XI.12": 0,
+     "XI.13": 0,
+     "XI.14": 0,
+     "XI.15": 0,
+     "XI.16": 0,
+     "XI.17": 0,
+     "XI.18": 0,
+     "XI.19": 0,
+     "XI.20": 0,
+     "XI.21": 0,
+     "XI.22": 0,
+     "XI.23": 0,
+     "XI.24": 0.03,
+     "XI.25": 0,
+     "XI.26": 0.01,
+     "XI.27": 0.03,
+     "XI.28": 0.01,
+     "XI.29": 0.01,
+     "XI.30": 0,
+     "XI.31": 0,
+     "XI.32": 0,
+     "XI.33": 0.01,
+     "XI.34": 0,
+     "XI.35": 0,
+     "XI.36": 0,
+     "XI.37": 0.01,
+     "XI.38": 0.01,
+     "XI.39": 0,
+     "XI.40": 0,
+     "XI.41": 0.01,
+     "XI.42": 0.01,
+     "XI.43": 0,
+     "XI.44": 0,
+     "XI.45": 0,
+     "XI.46": 0,
+     "XI.47": 0,
+     "XI.48": 0,
+     "XI.49": 0,
+     "XI.50": 0,
+     "XI.51": 0.01,
+     "XI.52": 0,
+     "XI.53": 0,
+     "XI.54": 0,
+     "XI.55": 0,
+     "XI.56": 0,
+     "XI.57": 0.05,
+     "XI.58": 0,
+     "XI.59": 0,
+     "XI.60": 0.01,
+     "XI.61": 0,
+     "XI.62": 0,
+     "XI.63": 0,
+     "XI.64": 0,
+     "XI.65": 0.01,
+     "XI.66": 0,
+     "XI.67": 0,
+     "XI.68": 0.01
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 5349
+  }
+ },
+ "cf29c69bbe41741659bac1ec1562694bcf6f79d2d7081c8fe95eb53b4dc48524": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "said",
+    "confidence": 0.37,
+    "probabilities": {
+     "said": 0.58,
+     "close": 0.42,
+     "never": 0
+    }
+   },
+   "chapter": {
+    "type": "choice",
+    "choice": "III",
+    "confidence": 0.98,
+    "probabilities": {
+     "I": 0,
+     "II": 0,
+     "III": 0.98,
+     "IV": 0,
+     "V": 0,
+     "VI": 0,
+     "VII": 0,
+     "VIII": 0,
+     "IX": 0,
+     "X": 0.02,
+     "XI": 0,
+     "XII": 0,
+     "XIII": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15620
+  }
+ },
+ "ba628137e9deb696caac0dac37601e69e31bd84a545b93249893ed52c0bbe64f": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "verse": {
+    "type": "choice",
+    "choice": "XI.19",
+    "confidence": 0.96,
+    "probabilities": {
+     "XI.1": 0,
+     "XI.2": 0,
+     "XI.3": 0,
+     "XI.4": 0,
+     "XI.5": 0,
+     "XI.6": 0,
+     "XI.7": 0,
+     "XI.8": 0,
+     "XI.9": 0,
+     "XI.10": 0,
+     "XI.11": 0,
+     "XI.12": 0,
+     "XI.13": 0,
+     "XI.14": 0,
+     "XI.15": 0,
+     "XI.16": 0,
+     "XI.17": 0,
+     "XI.18": 0,
+     "XI.19": 0.96,
+     "XI.20": 0,
+     "XI.21": 0,
+     "XI.22": 0,
+     "XI.23": 0,
+     "XI.24": 0,
+     "XI.25": 0,
+     "XI.26": 0,
+     "XI.27": 0,
+     "XI.28": 0,
+     "XI.29": 0,
+     "XI.30": 0,
+     "XI.31": 0,
+     "XI.32": 0,
+     "XI.33": 0,
+     "XI.34": 0,
+     "XI.35": 0,
+     "XI.36": 0,
+     "XI.37": 0,
+     "XI.38": 0,
+     "XI.39": 0,
+     "XI.40": 0,
+     "XI.41": 0,
+     "XI.42": 0,
+     "XI.43": 0,
+     "XI.44": 0,
+     "XI.45": 0,
+     "XI.46": 0,
+     "XI.47": 0,
+     "XI.48": 0,
+     "XI.49": 0,
+     "XI.50": 0,
+     "XI.51": 0,
+     "XI.52": 0,
+     "XI.53": 0,
+     "XI.54": 0,
+     "XI.55": 0,
+     "XI.56": 0,
+     "XI.57": 0,
+     "XI.58": 0,
+     "XI.59": 0,
+     "XI.60": 0,
+     "XI.61": 0,
+     "XI.62": 0,
+     "XI.63": 0,
+     "XI.64": 0,
+     "XI.65": 0,
+     "XI.66": 0,
+     "XI.67": 0,
+     "XI.68": 0.04
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 3528
+  }
+ },
+ "70b2d09a5cb4d94e7ab293e68b3becde559f2ff9d0e26e90ec73817925a9d5be": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "verse": {
+    "type": "choice",
+    "choice": "V.14",
+    "confidence": 0.2,
+    "probabilities": {
+     "V.1": 0,
+     "V.2": 0,
+     "V.3": 0,
+     "V.4": 0,
+     "V.5": 0,
+     "V.6": 0,
+     "V.7": 0,
+     "V.8": 0,
+     "V.9": 0,
+     "V.10": 0,
+     "V.11": 0.01,
+     "V.12": 0.03,
+     "V.13": 0.08,
+     "V.14": 0.21000000000000002,
+     "V.15": 0,
+     "V.16": 0,
+     "V.17": 0,
+     "V.18": 0,
+     "V.19": 0,
+     "V.20": 0,
+     "V.21": 0,
+     "V.22": 0.01,
+     "V.23": 0,
+     "III.1": 0.01,
+     "III.2": 0.05,
+     "III.3": 0.01,
+     "III.4": 0,
+     "III.5": 0,
+     "III.6": 0.21000000000000002,
+     "III.7": 0.05,
+     "III.8": 0,
+     "III.9": 0,
+     "III.10": 0,
+     "III.11": 0,
+     "III.12": 0,
+     "III.13": 0,
+     "III.14": 0,
+     "III.15": 0,
+     "III.16": 0,
+     "III.17": 0,
+     "III.18": 0.02,
+     "IV.1": 0.01,
+     "IV.2": 0,
+     "IV.3": 0,
+     "IV.4": 0,
+     "IV.5": 0,
+     "IV.6": 0,
+     "IV.7": 0.01,
+     "IV.8": 0,
+     "IV.9": 0.01,
+     "IV.10": 0,
+     "IV.11": 0.08,
+     "IV.12": 0,
+     "IV.13": 0.02,
+     "IV.14": 0.03,
+     "IV.15": 0.06,
+     "IV.16": 0,
+     "IV.17": 0,
+     "IV.18": 0,
+     "IV.19": 0.01,
+     "IV.20": 0.06999999999999999
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 3305
+  }
+ },
+ "84d16523371d2867641b624729dfb807dbca757e26fbad8f26e2f0767e8c6975": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "said",
+    "confidence": 0.94,
+    "probabilities": {
+     "never": 0,
+     "close": 0.04,
+     "said": 0.96
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15382
+  }
+ },
+ "c8d003df0264088776ac0a204a169ca02902506b69a2105a3169d061d358ddc2": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "never",
+    "confidence": 0.85,
+    "probabilities": {
+     "never": 0.9,
+     "close": 0.1,
+     "said": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15370
+  }
+ },
+ "a27c35e5b0d1f58c3f1e6fec7eb75436c6add335fa92677dd8a744bef3584084": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "said",
+    "confidence": 0.3,
+    "probabilities": {
+     "never": 0,
+     "close": 0.47,
+     "said": 0.53
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15376
+  }
+ },
+ "422a6a64e420989569aa6036487029847092ea3e68e044aab01192ed59a439b4": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "said",
+    "confidence": 0.83,
+    "probabilities": {
+     "never": 0.01,
+     "close": 0.1,
+     "said": 0.89
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15387
+  }
+ },
+ "60ea1e4368bb6c0613d578a2b18e0a279a5266e8edff913a395d6e3ded03e49d": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "never",
+    "confidence": 0.72,
+    "probabilities": {
+     "never": 0.81,
+     "close": 0.19,
+     "said": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15372
+  }
+ },
+ "cc7aaf0be4adaaff9f89b3c66bea8ff0edbfcd77e7f9f2c49ec9ea3478f8092c": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "said",
+    "confidence": 0.59,
+    "probabilities": {
+     "never": 0.01,
+     "close": 0.26,
+     "said": 0.73
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15370
+  }
+ },
+ "375fc2467bc2b84cf412a929f9d4cd6e30311ca9e750d8d9426383ad47cc11b5": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "said",
+    "confidence": 0.98,
+    "probabilities": {
+     "never": 0,
+     "close": 0.01,
+     "said": 0.99
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15369
+  }
+ },
+ "5efb68debf93125a51f7e0efa0680333b907f5679b0d3d8600c7bd2ef3c51f75": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "never",
+    "confidence": 0.48,
+    "probabilities": {
+     "never": 0.65,
+     "close": 0.35,
+     "said": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15369
+  }
+ },
+ "38469f89ebb7ddbb5b3e1a5d0355de26ec973111153dde5af7646136f62bec35": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "close",
+    "confidence": 0.91,
+    "probabilities": {
+     "never": 0.01,
+     "close": 0.94,
+     "said": 0.05
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15368
+  }
+ },
+ "0cd3288d456a285ebe666abc2dec55657043941f04cc9d44806e5a175101f3b9": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "never",
+    "confidence": 0.89,
+    "probabilities": {
+     "never": 0.93,
+     "close": 0.07,
+     "said": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15379
+  }
+ },
+ "40c5f388776e0adfea9cb193c4e649b22a42a5f1c2689bd32d48f1b40fde93e6": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "said",
+    "confidence": 0.67,
+    "probabilities": {
+     "never": 0,
+     "close": 0.22,
+     "said": 0.78
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15372
+  }
+ },
+ "3cf0fb509978b5427a7600f423cdfc1d89777c2a25410569cdae88c24b4d8add": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "never",
+    "confidence": 0.77,
+    "probabilities": {
+     "never": 0.85,
+     "close": 0.15,
+     "said": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15370
+  }
+ },
+ "126c2bf05a56b79059c92eaed120cbb8bc619dd833ef14f1a40143f6df9479bb": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "close",
+    "confidence": 0.98,
+    "probabilities": {
+     "never": 0,
+     "close": 0.99,
+     "said": 0.01
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15375
+  }
+ },
+ "3b75b50c6fbd505630ec73700f6b0b6fcca4c851f9a26f9f5abf6359bfbfa267": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "close",
+    "confidence": 0.72,
+    "probabilities": {
+     "never": 0.19,
+     "close": 0.81,
+     "said": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15367
+  }
+ },
+ "853164f4961ff99fd2ddc641229006f1072e08fde5ffd0bbda48f976b9d1cd45": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "close",
+    "confidence": 0.77,
+    "probabilities": {
+     "never": 0.01,
+     "close": 0.85,
+     "said": 0.14
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15369
+  }
+ },
+ "b814d9ddfcc1aa24711ee7f9ac4d8fc56007774c3f7f8add3c643002221a6a75": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "verse": {
+    "type": "choice",
+    "choice": "III.18",
+    "confidence": 0.99,
+    "probabilities": {
+     "III.1": 0,
+     "III.2": 0,
+     "III.3": 0,
+     "III.4": 0,
+     "III.5": 0,
+     "III.6": 0,
+     "III.7": 0,
+     "III.8": 0,
+     "III.9": 0,
+     "III.10": 0,
+     "III.11": 0,
+     "III.12": 0,
+     "III.13": 0,
+     "III.14": 0,
+     "III.15": 0,
+     "III.16": 0,
+     "III.17": 0.01,
+     "III.18": 0.99
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 1376
+  }
+ },
+ "4b5671712ea2cbeabc88d14f3443db0181e38b4212b9abfa9518b49f7f35fcf1": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "never",
+    "confidence": 0.56,
+    "probabilities": {
+     "never": 0.71,
+     "close": 0.29,
+     "said": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15367
+  }
+ },
+ "12330d8dc609f40d887f1db33a57da4e1ca3c88261b2211125f3d8898e444a27": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "said",
+    "confidence": 0.56,
+    "probabilities": {
+     "never": 0.01,
+     "close": 0.28,
+     "said": 0.71
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15370
+  }
+ },
+ "27eea2ec1d3545e13b386f23bdae329d27543a26bcc7f5301279b7654ef1fd51": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "close",
+    "confidence": 0.95,
+    "probabilities": {
+     "never": 0,
+     "close": 0.97,
+     "said": 0.03
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15384
+  }
+ },
+ "1042c2b5c83021160e43375e9e43a974498390369deb699a11b2b111c8cefa39": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "never",
+    "confidence": 1,
+    "probabilities": {
+     "never": 1,
+     "close": 0,
+     "said": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15369
+  }
+ },
+ "db766e7ab1314b761fdb71fd106279bf2ca5ce4d3b98c8e4b9e261d22bfa6b24": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "never",
+    "confidence": 0.97,
+    "probabilities": {
+     "never": 0.98,
+     "close": 0.02,
+     "said": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15370
+  }
+ },
+ "54eafc7738a738439acbaca9d6c33fee5545fcfc0616401ae6cde525a0ba0e88": {
+  "model": "jev-1.13.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "close",
+    "confidence": 0.4,
+    "probabilities": {
+     "never": 0,
+     "close": 0.6,
+     "said": 0.4
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15368
+  }
+ },
+ "4f8b2902f7f0e73601e1e3a468506085188171c716fee588b17a9b54d4d26139": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "close",
+    "confidence": 0.88,
+    "probabilities": {
+     "said": 0.07,
+     "close": 0.92,
+     "never": 0.01
+    }
+   },
+   "chapter": {
+    "type": "choice",
+    "choice": "XI",
+    "confidence": 0.95,
+    "probabilities": {
+     "I": 0,
+     "II": 0.02,
+     "III": 0,
+     "IV": 0,
+     "V": 0.02,
+     "VI": 0,
+     "VII": 0.01,
+     "VIII": 0,
+     "IX": 0,
+     "X": 0,
+     "XI": 0.95,
+     "XII": 0,
+     "XIII": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15620
+  }
+ },
+ "701a9a3cb17fb92b25ee57a28615642bade7ce9dfbab2a57028c9e3c9e71e7de": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "said",
+    "confidence": 0.61,
+    "probabilities": {
+     "said": 0.74,
+     "close": 0.25,
+     "never": 0.01
+    }
+   },
+   "chapter": {
+    "type": "choice",
+    "choice": "I",
+    "confidence": 0.97,
+    "probabilities": {
+     "I": 0.97,
+     "II": 0,
+     "III": 0.03,
+     "IV": 0,
+     "V": 0,
+     "VI": 0,
+     "VII": 0,
+     "VIII": 0,
+     "IX": 0,
+     "X": 0,
+     "XI": 0,
+     "XII": 0,
+     "XIII": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15624
+  }
+ },
+ "827a1d99d01cf8c3dfc0f8f5716198ff363a05f644fd40147cb219dde1bdf48f": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "said",
+    "confidence": 1,
+    "probabilities": {
+     "said": 1,
+     "close": 0,
+     "never": 0
+    }
+   },
+   "chapter": {
+    "type": "choice",
+    "choice": "I",
+    "confidence": 0.89,
+    "probabilities": {
+     "I": 0.9,
+     "II": 0,
+     "III": 0.08,
+     "IV": 0,
+     "V": 0.01,
+     "VI": 0,
+     "VII": 0.01,
+     "VIII": 0,
+     "IX": 0,
+     "X": 0,
+     "XI": 0,
+     "XII": 0,
+     "XIII": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15622
+  }
+ },
+ "17dc1e6af312d21f5df31df00348f0cbd8750989ba807657bf55fbbcd4cfb53c": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "never",
+    "confidence": 1,
+    "probabilities": {
+     "said": 0,
+     "close": 0,
+     "never": 1
+    }
+   },
+   "chapter": {
+    "type": "choice",
+    "choice": "I",
+    "confidence": 0.17,
+    "probabilities": {
+     "I": 0.23,
+     "II": 0.03,
+     "III": 0.1,
+     "IV": 0.05,
+     "V": 0.08,
+     "VI": 0.08,
+     "VII": 0.04,
+     "VIII": 0.14,
+     "IX": 0.01,
+     "X": 0.02,
+     "XI": 0.18,
+     "XII": 0.02,
+     "XIII": 0.02
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15622
+  }
+ },
+ "274f7bc34cec6875ef96bc697f6b918c4672e87c228c26fa18c80514a4eb46f3": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "never",
+    "confidence": 0.55,
+    "probabilities": {
+     "said": 0,
+     "close": 0.3,
+     "never": 0.7
+    }
+   },
+   "chapter": {
+    "type": "choice",
+    "choice": "IV",
+    "confidence": 0.74,
+    "probabilities": {
+     "I": 0,
+     "II": 0,
+     "III": 0.09999999999999999,
+     "IV": 0.76,
+     "V": 0.01,
+     "VI": 0.13,
+     "VII": 0,
+     "VIII": 0,
+     "IX": 0,
+     "X": 0,
+     "XI": 0,
+     "XII": 0,
+     "XIII": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15622
+  }
+ },
+ "a6a115e84d9d8c9b5bf22c646c92f06f575bb6e009b993d25894d5c2549654f7": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "never",
+    "confidence": 0.74,
+    "probabilities": {
+     "said": 0,
+     "close": 0.17,
+     "never": 0.83
+    }
+   },
+   "chapter": {
+    "type": "choice",
+    "choice": "XIII",
+    "confidence": 0.93,
+    "probabilities": {
+     "I": 0.01,
+     "II": 0,
+     "III": 0.02,
+     "IV": 0,
+     "V": 0,
+     "VI": 0.01,
+     "VII": 0,
+     "VIII": 0,
+     "IX": 0,
+     "X": 0,
+     "XI": 0.01,
+     "XII": 0,
+     "XIII": 0.9400000000000001
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15624
+  }
+ },
+ "e3280013ee283ca4955de2f01bd25fbe0745133b32bbc6a7f6fd7fff9aee0055": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "never",
+    "confidence": 0.76,
+    "probabilities": {
+     "said": 0.01,
+     "close": 0.15,
+     "never": 0.84
+    }
+   },
+   "chapter": {
+    "type": "choice",
+    "choice": "VII",
+    "confidence": 0.13,
+    "probabilities": {
+     "I": 0.09,
+     "II": 0.01,
+     "III": 0.18,
+     "IV": 0.15,
+     "V": 0.03,
+     "VI": 0.16999999999999998,
+     "VII": 0.19999999999999998,
+     "VIII": 0.07,
+     "IX": 0.02,
+     "X": 0.01,
+     "XI": 0.05,
+     "XII": 0.02,
+     "XIII": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15628
+  }
+ },
+ "8c9b6aaa34657777b6e8b7a0e8992ecba919c0907f0eed2838ded5a4f800477c": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "close",
+    "confidence": 0.91,
+    "probabilities": {
+     "said": 0.05,
+     "close": 0.94,
+     "never": 0.01
+    }
+   },
+   "chapter": {
+    "type": "choice",
+    "choice": "X",
+    "confidence": 0.99,
+    "probabilities": {
+     "I": 0,
+     "II": 0,
+     "III": 0,
+     "IV": 0,
+     "V": 0,
+     "VI": 0,
+     "VII": 0,
+     "VIII": 0,
+     "IX": 0.01,
+     "X": 0.99,
+     "XI": 0,
+     "XII": 0,
+     "XIII": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15652
+  }
+ },
+ "d25ff0c69c4479a1ec48c861217e40e693dfe70dd557bb4808068a478366cdca": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "close",
+    "confidence": 0.28,
+    "probabilities": {
+     "said": 0.47,
+     "close": 0.52,
+     "never": 0.01
+    }
+   },
+   "chapter": {
+    "type": "choice",
+    "choice": "III",
+    "confidence": 0.99,
+    "probabilities": {
+     "I": 0,
+     "II": 0,
+     "III": 0.99,
+     "IV": 0,
+     "V": 0,
+     "VI": 0,
+     "VII": 0,
+     "VIII": 0,
+     "IX": 0,
+     "X": 0.01,
+     "XI": 0,
+     "XII": 0,
+     "XIII": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15620
+  }
+ },
+ "c4a11ced53195aafb322bb38ed6a2fc26cc588f1235bdf541f5c0873684477d7": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "close",
+    "confidence": 0.94,
+    "probabilities": {
+     "said": 0.04,
+     "close": 0.96,
+     "never": 0
+    }
+   },
+   "chapter": {
+    "type": "choice",
+    "choice": "III",
+    "confidence": 1,
+    "probabilities": {
+     "I": 0,
+     "II": 0,
+     "III": 1,
+     "IV": 0,
+     "V": 0,
+     "VI": 0,
+     "VII": 0,
+     "VIII": 0,
+     "IX": 0,
+     "X": 0,
+     "XI": 0,
+     "XII": 0,
+     "XIII": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15634
+  }
+ },
+ "4083b90a2abdc834e6114d92ea84742d4e6fc71bbe7aefd512510e9d63242905": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "said",
+    "confidence": 0.94,
+    "probabilities": {
+     "said": 0.96,
+     "close": 0.04,
+     "never": 0
+    }
+   },
+   "chapter": {
+    "type": "choice",
+    "choice": "VII",
+    "confidence": 0.83,
+    "probabilities": {
+     "I": 0,
+     "II": 0,
+     "III": 0.01,
+     "IV": 0,
+     "V": 0,
+     "VI": 0,
+     "VII": 0.84,
+     "VIII": 0.01,
+     "IX": 0,
+     "X": 0,
+     "XI": 0.14,
+     "XII": 0,
+     "XIII": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15628
+  }
+ },
+ "079229cfc2223b55361082c139a3b9013586f4cd136c5a0033845960be6cb8bd": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "close",
+    "confidence": 0.67,
+    "probabilities": {
+     "said": 0.01,
+     "close": 0.78,
+     "never": 0.21
+    }
+   },
+   "chapter": {
+    "type": "choice",
+    "choice": "VI",
+    "confidence": 0.99,
+    "probabilities": {
+     "I": 0,
+     "II": 0,
+     "III": 0,
+     "IV": 0,
+     "V": 0,
+     "VI": 0.99,
+     "VII": 0,
+     "VIII": 0.01,
+     "IX": 0,
+     "X": 0,
+     "XI": 0,
+     "XII": 0,
+     "XIII": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15618
+  }
+ },
+ "199a37608df03e0f9b4b0a8860d81f401800d2db1aaf2e6d3643d88a399ded1c": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "never",
+    "confidence": 0.46,
+    "probabilities": {
+     "said": 0,
+     "close": 0.36,
+     "never": 0.64
+    }
+   },
+   "chapter": {
+    "type": "choice",
+    "choice": "V",
+    "confidence": 0.35,
+    "probabilities": {
+     "I": 0,
+     "II": 0.06,
+     "III": 0.01,
+     "IV": 0,
+     "V": 0.4,
+     "VI": 0.02,
+     "VII": 0.19,
+     "VIII": 0,
+     "IX": 0.01,
+     "X": 0,
+     "XI": 0.28,
+     "XII": 0.02,
+     "XIII": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15618
+  }
+ },
+ "c25b1bb5d9df6b7419a41ddf9e4311407e9c0bf8fa91d0be30266b1b14420c9b": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "said",
+    "confidence": 0.62,
+    "probabilities": {
+     "said": 0.75,
+     "close": 0.25,
+     "never": 0
+    }
+   },
+   "chapter": {
+    "type": "choice",
+    "choice": "I",
+    "confidence": 0.83,
+    "probabilities": {
+     "I": 0.84,
+     "II": 0,
+     "III": 0.02,
+     "IV": 0,
+     "V": 0,
+     "VI": 0.11,
+     "VII": 0,
+     "VIII": 0,
+     "IX": 0,
+     "X": 0,
+     "XI": 0.03,
+     "XII": 0,
+     "XIII": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15636
+  }
+ },
+ "00fc6030227466056738891e5c892513104b30af82af666c26695536b5683bde": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "said",
+    "confidence": 0.92,
+    "probabilities": {
+     "said": 0.95,
+     "close": 0.04,
+     "never": 0.01
+    }
+   },
+   "chapter": {
+    "type": "choice",
+    "choice": "VII",
+    "confidence": 0.87,
+    "probabilities": {
+     "I": 0.02,
+     "II": 0,
+     "III": 0.03,
+     "IV": 0,
+     "V": 0.03,
+     "VI": 0.02,
+     "VII": 0.88,
+     "VIII": 0,
+     "IX": 0,
+     "X": 0,
+     "XI": 0.02,
+     "XII": 0,
+     "XIII": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15658
+  }
+ },
+ "0776ed8f2ed36899d0f6538137ffff17187519a1c0480474c0fec12897835955": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "said",
+    "confidence": 0.86,
+    "probabilities": {
+     "said": 0.91,
+     "close": 0.08,
+     "never": 0.01
+    }
+   },
+   "chapter": {
+    "type": "choice",
+    "choice": "XI",
+    "confidence": 0.88,
+    "probabilities": {
+     "I": 0,
+     "II": 0.07,
+     "III": 0,
+     "IV": 0,
+     "V": 0.02,
+     "VI": 0,
+     "VII": 0.02,
+     "VIII": 0,
+     "IX": 0,
+     "X": 0,
+     "XI": 0.89,
+     "XII": 0,
+     "XIII": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15624
+  }
+ },
+ "5fcce2a200f77c2913f5beee257f0ba2acadae2d7f90943c4f17b5b456d84bb6": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "never",
+    "confidence": 0.88,
+    "probabilities": {
+     "said": 0,
+     "close": 0.08,
+     "never": 0.92
+    }
+   },
+   "chapter": {
+    "type": "choice",
+    "choice": "IV",
+    "confidence": 0.57,
+    "probabilities": {
+     "I": 0,
+     "II": 0.01,
+     "III": 0.04,
+     "IV": 0.6,
+     "V": 0,
+     "VI": 0.07,
+     "VII": 0.12,
+     "VIII": 0.01,
+     "IX": 0.1,
+     "X": 0.01,
+     "XI": 0.01,
+     "XII": 0.03,
+     "XIII": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15642
+  }
+ },
+ "7950c9e1332fdcdae1bc384835cdbe5c968a5ea5ec99cb9c517f5d98e7e9a57e": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "close",
+    "confidence": 0.69,
+    "probabilities": {
+     "said": 0.2,
+     "close": 0.79,
+     "never": 0.01
+    }
+   },
+   "chapter": {
+    "type": "choice",
+    "choice": "III",
+    "confidence": 0.99,
+    "probabilities": {
+     "I": 0,
+     "II": 0,
+     "III": 0.99,
+     "IV": 0,
+     "V": 0,
+     "VI": 0,
+     "VII": 0,
+     "VIII": 0,
+     "IX": 0,
+     "X": 0.01,
+     "XI": 0,
+     "XII": 0,
+     "XIII": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15622
+  }
+ },
+ "49c9460abb9ad3375c5d8344492508de68f8a069c1f203f89267a4dbc3f57928": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "never",
+    "confidence": 0.97,
+    "probabilities": {
+     "said": 0,
+     "close": 0.02,
+     "never": 0.98
+    }
+   },
+   "chapter": {
+    "type": "choice",
+    "choice": "III",
+    "confidence": 0.34,
+    "probabilities": {
+     "I": 0.02,
+     "II": 0.05,
+     "III": 0.39,
+     "IV": 0.18,
+     "V": 0.17,
+     "VI": 0.03,
+     "VII": 0.1,
+     "VIII": 0,
+     "IX": 0,
+     "X": 0.01,
+     "XI": 0.04,
+     "XII": 0.01,
+     "XIII": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15624
+  }
+ },
+ "cbf4f427ce9042c6ffe52a4408f59b1193eb1906e996d228b67c79c07b2a7d90": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "said",
+    "confidence": 0.98,
+    "probabilities": {
+     "said": 0.99,
+     "close": 0.01,
+     "never": 0
+    }
+   },
+   "chapter": {
+    "type": "choice",
+    "choice": "III",
+    "confidence": 0.79,
+    "probabilities": {
+     "I": 0,
+     "II": 0,
+     "III": 0.81,
+     "IV": 0.01,
+     "V": 0,
+     "VI": 0.01,
+     "VII": 0,
+     "VIII": 0,
+     "IX": 0,
+     "X": 0.17,
+     "XI": 0,
+     "XII": 0,
+     "XIII": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15648
+  }
+ },
+ "ac1ef2762c4e2daaa27eba82c62aa7b97064038649001b196bbadf41ffbfa2ec": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "never",
+    "confidence": 0.73,
+    "probabilities": {
+     "said": 0,
+     "close": 0.18,
+     "never": 0.82
+    }
+   },
+   "chapter": {
+    "type": "choice",
+    "choice": "XI",
+    "confidence": 0.34,
+    "probabilities": {
+     "I": 0.01,
+     "II": 0,
+     "III": 0.08,
+     "IV": 0,
+     "V": 0,
+     "VI": 0.03,
+     "VII": 0.2,
+     "VIII": 0.22,
+     "IX": 0,
+     "X": 0.04,
+     "XI": 0.39,
+     "XII": 0,
+     "XIII": 0.03
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15624
+  }
+ },
+ "ced9575c41afb8faf7e077d04335900830c6294d59f819f3d8e110dd3a0ded07": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verse": {
+    "type": "choice",
+    "choice": "I.18",
+    "confidence": 0.9,
+    "probabilities": {
+     "I.1": 0,
+     "I.2": 0,
+     "I.3": 0,
+     "I.4": 0,
+     "I.5-6": 0,
+     "I.7": 0,
+     "I.8": 0,
+     "I.9": 0,
+     "I.10": 0,
+     "I.11": 0,
+     "I.12": 0,
+     "I.13": 0,
+     "I.14": 0,
+     "I.15": 0,
+     "I.16": 0,
+     "I.17": 0,
+     "I.18": 0.9,
+     "I.19": 0.09,
+     "I.20": 0.01,
+     "I.21": 0,
+     "I.22": 0,
+     "I.23": 0,
+     "I.24": 0,
+     "I.25": 0,
+     "I.26": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 1420
+  }
+ },
+ "7837faaa28d5c96f66225008a8296ce2d497493cbcb7848786205659a018b6d5": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verse": {
+    "type": "choice",
+    "choice": "XI.19",
+    "confidence": 1,
+    "probabilities": {
+     "XI.1": 0,
+     "XI.2": 0,
+     "XI.3": 0,
+     "XI.4": 0,
+     "XI.5": 0,
+     "XI.6": 0,
+     "XI.7": 0,
+     "XI.8": 0,
+     "XI.9": 0,
+     "XI.10": 0,
+     "XI.11": 0,
+     "XI.12": 0,
+     "XI.13": 0,
+     "XI.14": 0,
+     "XI.15": 0,
+     "XI.16": 0,
+     "XI.17": 0,
+     "XI.18": 0,
+     "XI.19": 1,
+     "XI.20": 0,
+     "XI.21": 0,
+     "XI.22": 0,
+     "XI.23": 0,
+     "XI.24": 0,
+     "XI.25": 0,
+     "XI.26": 0,
+     "XI.27": 0,
+     "XI.28": 0,
+     "XI.29": 0,
+     "XI.30": 0,
+     "XI.31": 0,
+     "XI.32": 0,
+     "XI.33": 0,
+     "XI.34": 0,
+     "XI.35": 0,
+     "XI.36": 0,
+     "XI.37": 0,
+     "XI.38": 0,
+     "XI.39": 0,
+     "XI.40": 0,
+     "XI.41": 0,
+     "XI.42": 0,
+     "XI.43": 0,
+     "XI.44": 0,
+     "XI.45": 0,
+     "XI.46": 0,
+     "XI.47": 0,
+     "XI.48": 0,
+     "XI.49": 0,
+     "XI.50": 0,
+     "XI.51": 0,
+     "XI.52": 0,
+     "XI.53": 0,
+     "XI.54": 0,
+     "XI.55": 0,
+     "XI.56": 0,
+     "XI.57": 0,
+     "XI.58": 0,
+     "XI.59": 0,
+     "XI.60": 0,
+     "XI.61": 0,
+     "XI.62": 0,
+     "XI.63": 0,
+     "XI.64": 0,
+     "XI.65": 0,
+     "XI.66": 0,
+     "XI.67": 0,
+     "XI.68": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 3526
+  }
+ },
+ "e0e09ebefe1cc0de78b316b9d2812d879f41b011f3adeb54409cb527cde6fc65": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verse": {
+    "type": "choice",
+    "choice": "I.18",
+    "confidence": 0.96,
+    "probabilities": {
+     "I.1": 0,
+     "I.2": 0,
+     "I.3": 0,
+     "I.4": 0,
+     "I.5-6": 0,
+     "I.7": 0,
+     "I.8": 0,
+     "I.9": 0,
+     "I.10": 0,
+     "I.11": 0,
+     "I.12": 0,
+     "I.13": 0,
+     "I.14": 0,
+     "I.15": 0,
+     "I.16": 0,
+     "I.17": 0,
+     "I.18": 0.96,
+     "I.19": 0.04,
+     "I.20": 0,
+     "I.21": 0,
+     "I.22": 0,
+     "I.23": 0,
+     "I.24": 0,
+     "I.25": 0,
+     "I.26": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 1421
+  }
+ },
+ "d1cb168c27ba44f600650df3a57077154ef6f7299e454a97197d1e3be75c26f3": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verse": {
+    "type": "choice",
+    "choice": "IV.5",
+    "confidence": 0.2,
+    "probabilities": {
+     "IV.1": 0.06999999999999999,
+     "IV.2": 0.02,
+     "IV.3": 0,
+     "IV.4": 0,
+     "IV.5": 0.21000000000000002,
+     "IV.6": 0.12,
+     "IV.7": 0.060000000000000005,
+     "IV.8": 0,
+     "IV.9": 0,
+     "IV.10": 0,
+     "IV.11": 0,
+     "IV.12": 0,
+     "IV.13": 0.01,
+     "IV.14": 0.06999999999999999,
+     "IV.15": 0.060000000000000005,
+     "IV.16": 0,
+     "IV.17": 0,
+     "IV.18": 0,
+     "IV.19": 0,
+     "IV.20": 0,
+     "VI.1": 0.01,
+     "VI.2": 0.060000000000000005,
+     "VI.3": 0.01,
+     "VI.4": 0,
+     "VI.5": 0.01,
+     "VI.6": 0.01,
+     "VI.7": 0.05,
+     "VI.8": 0.01,
+     "VI.9": 0,
+     "VI.10": 0.01,
+     "VI.11": 0.06999999999999999,
+     "VI.12": 0,
+     "VI.13": 0.01,
+     "VI.14": 0,
+     "VI.15": 0,
+     "VI.16": 0,
+     "VI.17": 0,
+     "VI.18": 0.01,
+     "VI.19": 0,
+     "VI.20": 0,
+     "VI.21": 0,
+     "VI.22": 0,
+     "VI.23": 0,
+     "VI.24": 0,
+     "VI.25": 0,
+     "VI.26": 0,
+     "VI.27": 0,
+     "VI.28": 0,
+     "VI.29": 0,
+     "VI.30": 0.08,
+     "VI.31": 0,
+     "VI.32": 0,
+     "VI.33": 0,
+     "VI.34": 0,
+     "III.1": 0,
+     "III.2": 0.01,
+     "III.3": 0.01,
+     "III.4": 0,
+     "III.5": 0,
+     "III.6": 0,
+     "III.7": 0.01,
+     "III.8": 0,
+     "III.9": 0,
+     "III.10": 0,
+     "III.11": 0,
+     "III.12": 0,
+     "III.13": 0,
+     "III.14": 0,
+     "III.15": 0,
+     "III.16": 0,
+     "III.17": 0,
+     "III.18": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 3883
+  }
+ },
+ "5551d2c4b158a36e68081aa2955d4ad0c36263374a0bfb8996dca45364383fb6": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verse": {
+    "type": "choice",
+    "choice": "I.2",
+    "confidence": 0.16,
+    "probabilities": {
+     "I.1": 0,
+     "I.2": 0.17,
+     "I.3": 0.01,
+     "I.4": 0,
+     "I.5-6": 0,
+     "I.7": 0.01,
+     "I.8": 0.09999999999999999,
+     "I.9": 0,
+     "I.10": 0,
+     "I.11": 0,
+     "I.12": 0.01,
+     "I.13": 0.04,
+     "I.14": 0,
+     "I.15": 0,
+     "I.16": 0.04,
+     "I.17": 0.16,
+     "I.18": 0.05,
+     "I.19": 0.01,
+     "I.20": 0.01,
+     "I.21": 0,
+     "I.22": 0,
+     "I.23": 0,
+     "I.24": 0,
+     "I.25": 0,
+     "I.26": 0.05,
+     "XI.1": 0.02,
+     "XI.2": 0.01,
+     "XI.3": 0,
+     "XI.4": 0,
+     "XI.5": 0,
+     "XI.6": 0,
+     "XI.7": 0.01,
+     "XI.8": 0.01,
+     "XI.9": 0,
+     "XI.10": 0.01,
+     "XI.11": 0,
+     "XI.12": 0,
+     "XI.13": 0,
+     "XI.14": 0,
+     "XI.15": 0,
+     "XI.16": 0,
+     "XI.17": 0.03,
+     "XI.18": 0,
+     "XI.19": 0,
+     "XI.20": 0,
+     "XI.21": 0,
+     "XI.22": 0,
+     "XI.23": 0,
+     "XI.24": 0.01,
+     "XI.25": 0.01,
+     "XI.26": 0,
+     "XI.27": 0.01,
+     "XI.28": 0,
+     "XI.29": 0,
+     "XI.30": 0.01,
+     "XI.31": 0,
+     "XI.32": 0,
+     "XI.33": 0,
+     "XI.34": 0,
+     "XI.35": 0,
+     "XI.36": 0.01,
+     "XI.37": 0.01,
+     "XI.38": 0.01,
+     "XI.39": 0,
+     "XI.40": 0,
+     "XI.41": 0.01,
+     "XI.42": 0,
+     "XI.43": 0,
+     "XI.44": 0,
+     "XI.45": 0.01,
+     "XI.46": 0,
+     "XI.47": 0,
+     "XI.48": 0,
+     "XI.49": 0,
+     "XI.50": 0,
+     "XI.51": 0.01,
+     "XI.52": 0,
+     "XI.53": 0,
+     "XI.54": 0,
+     "XI.55": 0,
+     "XI.56": 0,
+     "XI.57": 0.04,
+     "XI.58": 0.01,
+     "XI.59": 0,
+     "XI.60": 0.01,
+     "XI.61": 0,
+     "XI.62": 0,
+     "XI.63": 0,
+     "XI.64": 0,
+     "XI.65": 0,
+     "XI.66": 0,
+     "XI.67": 0,
+     "XI.68": 0.01,
+     "VIII.1": 0,
+     "VIII.2": 0,
+     "VIII.3": 0,
+     "VIII.4": 0,
+     "VIII.5": 0,
+     "VIII.6": 0,
+     "VIII.7": 0.060000000000000005,
+     "VIII.8": 0,
+     "VIII.9": 0,
+     "VIII.10": 0,
+     "VIII.11": 0.01,
+     "VIII.12": 0,
+     "VIII.13": 0,
+     "VIII.14": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 5349
+  }
+ },
+ "d4fae5e8816bc6bd78432734516f8825416e4dea806e7a0b553368499fe06043": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verse": {
+    "type": "choice",
+    "choice": "XIII.21",
+    "confidence": 0.61,
+    "probabilities": {
+     "XIII.1": 0,
+     "XIII.2": 0,
+     "XIII.3": 0,
+     "XIII.4": 0,
+     "XIII.5": 0,
+     "XIII.6": 0,
+     "XIII.7": 0.01,
+     "XIII.8": 0,
+     "XIII.9": 0,
+     "XIII.10": 0.02,
+     "XIII.11": 0.27,
+     "XIII.12": 0,
+     "XIII.13": 0,
+     "XIII.14": 0.07,
+     "XIII.15": 0,
+     "XIII.16": 0,
+     "XIII.17": 0,
+     "XIII.18": 0,
+     "XIII.19": 0,
+     "XIII.20": 0,
+     "XIII.21": 0.62,
+     "XIII.22": 0.01,
+     "XIII.23": 0,
+     "XIII.24": 0,
+     "XIII.25": 0,
+     "XIII.26": 0,
+     "XIII.27": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 1607
+  }
+ },
+ "59ee31799a9a18c3d8201a5248d9f9597a3c93c5b6914a000cb6fac916c568da": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verse": {
+    "type": "choice",
+    "choice": "X.25",
+    "confidence": 1,
+    "probabilities": {
+     "X.1": 0,
+     "X.2": 0,
+     "X.3": 0,
+     "X.4": 0,
+     "X.5": 0,
+     "X.6": 0,
+     "X.7": 0,
+     "X.8": 0,
+     "X.9": 0,
+     "X.10": 0,
+     "X.11": 0,
+     "X.12": 0,
+     "X.13": 0,
+     "X.14": 0,
+     "X.15": 0,
+     "X.16": 0,
+     "X.17": 0,
+     "X.18": 0,
+     "X.19": 0,
+     "X.20": 0,
+     "X.21": 0,
+     "X.22": 0,
+     "X.23": 0,
+     "X.24": 0,
+     "X.25": 1,
+     "X.26": 0,
+     "X.27": 0,
+     "X.28": 0,
+     "X.29": 0,
+     "X.30": 0,
+     "X.31": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 1965
+  }
+ },
+ "bb7f42d2417741b9602f036dcf1203eca4794ef9854c31fdf90c6c838c569d89": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verse": {
+    "type": "choice",
+    "choice": "III.2",
+    "confidence": 0.9,
+    "probabilities": {
+     "III.1": 0,
+     "III.2": 0.91,
+     "III.3": 0,
+     "III.4": 0,
+     "III.5": 0,
+     "III.6": 0.08,
+     "III.7": 0.01,
+     "III.8": 0,
+     "III.9": 0,
+     "III.10": 0,
+     "III.11": 0,
+     "III.12": 0,
+     "III.13": 0,
+     "III.14": 0,
+     "III.15": 0,
+     "III.16": 0,
+     "III.17": 0,
+     "III.18": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 1383
+  }
+ },
+ "90daee91f15bdd8e94f2bc1bd99fc5c5614931d621d2d744a6523fc76e4cac7e": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verse": {
+    "type": "choice",
+    "choice": "VII.30",
+    "confidence": 0.64,
+    "probabilities": {
+     "VII.1": 0,
+     "VII.2": 0,
+     "VII.3": 0,
+     "VII.4": 0,
+     "VII.5": 0,
+     "VII.6": 0,
+     "VII.7": 0,
+     "VII.8": 0,
+     "VII.9": 0,
+     "VII.10": 0,
+     "VII.11": 0,
+     "VII.12": 0,
+     "VII.13": 0,
+     "VII.14": 0,
+     "VII.15": 0,
+     "VII.16": 0,
+     "VII.17": 0,
+     "VII.18": 0,
+     "VII.19": 0,
+     "VII.20": 0,
+     "VII.21": 0,
+     "VII.22": 0,
+     "VII.23": 0,
+     "VII.24": 0,
+     "VII.25": 0,
+     "VII.26": 0,
+     "VII.27": 0,
+     "VII.28": 0,
+     "VII.29": 0.03,
+     "VII.30": 0.64,
+     "VII.31": 0.02,
+     "VII.32": 0.08,
+     "VII.33": 0,
+     "VII.34": 0.03,
+     "VII.35": 0.08,
+     "VII.36": 0.03,
+     "VII.37": 0,
+     "III.1": 0,
+     "III.2": 0.01,
+     "III.3": 0,
+     "III.4": 0,
+     "III.5": 0,
+     "III.6": 0,
+     "III.7": 0,
+     "III.8": 0,
+     "III.9": 0,
+     "III.10": 0,
+     "III.11": 0,
+     "III.12": 0,
+     "III.13": 0,
+     "III.14": 0,
+     "III.15": 0,
+     "III.16": 0,
+     "III.17": 0.01,
+     "III.18": 0,
+     "VI.1": 0,
+     "VI.2": 0,
+     "VI.3": 0,
+     "VI.4": 0.02,
+     "VI.5": 0,
+     "VI.6": 0,
+     "VI.7": 0,
+     "VI.8": 0,
+     "VI.9": 0,
+     "VI.10": 0,
+     "VI.11": 0,
+     "VI.12": 0,
+     "VI.13": 0,
+     "VI.14": 0,
+     "VI.15": 0,
+     "VI.16": 0,
+     "VI.17": 0,
+     "VI.18": 0,
+     "VI.19": 0,
+     "VI.20": 0,
+     "VI.21": 0,
+     "VI.22": 0.02,
+     "VI.23": 0.02,
+     "VI.24": 0,
+     "VI.25": 0,
+     "VI.26": 0,
+     "VI.27": 0,
+     "VI.28": 0,
+     "VI.29": 0,
+     "VI.30": 0,
+     "VI.31": 0,
+     "VI.32": 0,
+     "VI.33": 0,
+     "VI.34": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 4647
+  }
+ },
+ "132e1f3635c978d03c0c63dbc8330265bf2e8176e09c39bfbf4455e7dec42a4c": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verse": {
+    "type": "choice",
+    "choice": "VI.29",
+    "confidence": 0.74,
+    "probabilities": {
+     "VI.1": 0,
+     "VI.2": 0,
+     "VI.3": 0,
+     "VI.4": 0,
+     "VI.5": 0,
+     "VI.6": 0,
+     "VI.7": 0,
+     "VI.8": 0,
+     "VI.9": 0,
+     "VI.10": 0,
+     "VI.11": 0,
+     "VI.12": 0,
+     "VI.13": 0,
+     "VI.14": 0,
+     "VI.15": 0,
+     "VI.16": 0,
+     "VI.17": 0,
+     "VI.18": 0,
+     "VI.19": 0,
+     "VI.20": 0,
+     "VI.21": 0,
+     "VI.22": 0,
+     "VI.23": 0,
+     "VI.24": 0,
+     "VI.25": 0,
+     "VI.26": 0,
+     "VI.27": 0,
+     "VI.28": 0.02,
+     "VI.29": 0.75,
+     "VI.30": 0.01,
+     "VI.31": 0.05,
+     "VI.32": 0.03,
+     "VI.33": 0.14,
+     "VI.34": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 1970
+  }
+ },
+ "a74bb319955f5251d4b969324ebf01dfe1854adb04af2e65b1073c7af6ec2d89": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verse": {
+    "type": "choice",
+    "choice": "VII.36",
+    "confidence": 0.98,
+    "probabilities": {
+     "VII.1": 0,
+     "VII.2": 0,
+     "VII.3": 0,
+     "VII.4": 0,
+     "VII.5": 0,
+     "VII.6": 0,
+     "VII.7": 0,
+     "VII.8": 0,
+     "VII.9": 0,
+     "VII.10": 0,
+     "VII.11": 0,
+     "VII.12": 0,
+     "VII.13": 0,
+     "VII.14": 0,
+     "VII.15": 0,
+     "VII.16": 0,
+     "VII.17": 0,
+     "VII.18": 0,
+     "VII.19": 0,
+     "VII.20": 0,
+     "VII.21": 0,
+     "VII.22": 0,
+     "VII.23": 0,
+     "VII.24": 0,
+     "VII.25": 0,
+     "VII.26": 0,
+     "VII.27": 0,
+     "VII.28": 0,
+     "VII.29": 0,
+     "VII.30": 0,
+     "VII.31": 0,
+     "VII.32": 0,
+     "VII.33": 0,
+     "VII.34": 0,
+     "VII.35": 0,
+     "VII.36": 0.98,
+     "VII.37": 0,
+     "XI.1": 0,
+     "XI.2": 0,
+     "XI.3": 0,
+     "XI.4": 0,
+     "XI.5": 0,
+     "XI.6": 0,
+     "XI.7": 0,
+     "XI.8": 0,
+     "XI.9": 0,
+     "XI.10": 0,
+     "XI.11": 0,
+     "XI.12": 0,
+     "XI.13": 0,
+     "XI.14": 0,
+     "XI.15": 0,
+     "XI.16": 0,
+     "XI.17": 0,
+     "XI.18": 0,
+     "XI.19": 0,
+     "XI.20": 0,
+     "XI.21": 0,
+     "XI.22": 0,
+     "XI.23": 0,
+     "XI.24": 0,
+     "XI.25": 0,
+     "XI.26": 0,
+     "XI.27": 0,
+     "XI.28": 0,
+     "XI.29": 0,
+     "XI.30": 0,
+     "XI.31": 0,
+     "XI.32": 0,
+     "XI.33": 0,
+     "XI.34": 0,
+     "XI.35": 0,
+     "XI.36": 0,
+     "XI.37": 0,
+     "XI.38": 0,
+     "XI.39": 0,
+     "XI.40": 0,
+     "XI.41": 0,
+     "XI.42": 0,
+     "XI.43": 0,
+     "XI.44": 0,
+     "XI.45": 0,
+     "XI.46": 0,
+     "XI.47": 0,
+     "XI.48": 0,
+     "XI.49": 0,
+     "XI.50": 0.02,
+     "XI.51": 0,
+     "XI.52": 0,
+     "XI.53": 0,
+     "XI.54": 0,
+     "XI.55": 0,
+     "XI.56": 0,
+     "XI.57": 0,
+     "XI.58": 0,
+     "XI.59": 0,
+     "XI.60": 0,
+     "XI.61": 0,
+     "XI.62": 0,
+     "XI.63": 0,
+     "XI.64": 0,
+     "XI.65": 0,
+     "XI.66": 0,
+     "XI.67": 0,
+     "XI.68": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 5130
+  }
+ },
+ "8d9001aeaf46f9215fe52760b9c38f67e70daa6bca674228047e8043d91e357a": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verse": {
+    "type": "choice",
+    "choice": "III.18",
+    "confidence": 0.99,
+    "probabilities": {
+     "III.1": 0,
+     "III.2": 0,
+     "III.3": 0,
+     "III.4": 0,
+     "III.5": 0,
+     "III.6": 0,
+     "III.7": 0,
+     "III.8": 0,
+     "III.9": 0,
+     "III.10": 0,
+     "III.11": 0,
+     "III.12": 0,
+     "III.13": 0,
+     "III.14": 0,
+     "III.15": 0,
+     "III.16": 0,
+     "III.17": 0.01,
+     "III.18": 0.99
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 1376
+  }
+ },
+ "fe75fd623bc49cec42f608e79848454b9e7b36bcfb37574d9eab51ab9d4deb96": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verse": {
+    "type": "choice",
+    "choice": "I.24",
+    "confidence": 0.97,
+    "probabilities": {
+     "I.1": 0,
+     "I.2": 0,
+     "I.3": 0,
+     "I.4": 0,
+     "I.5-6": 0,
+     "I.7": 0,
+     "I.8": 0,
+     "I.9": 0,
+     "I.10": 0,
+     "I.11": 0,
+     "I.12": 0,
+     "I.13": 0,
+     "I.14": 0,
+     "I.15": 0,
+     "I.16": 0,
+     "I.17": 0,
+     "I.18": 0,
+     "I.19": 0,
+     "I.20": 0,
+     "I.21": 0,
+     "I.22": 0,
+     "I.23": 0,
+     "I.24": 0.97,
+     "I.25": 0,
+     "I.26": 0,
+     "VI.1": 0,
+     "VI.2": 0,
+     "VI.3": 0,
+     "VI.4": 0,
+     "VI.5": 0.03,
+     "VI.6": 0,
+     "VI.7": 0,
+     "VI.8": 0,
+     "VI.9": 0,
+     "VI.10": 0,
+     "VI.11": 0,
+     "VI.12": 0,
+     "VI.13": 0,
+     "VI.14": 0,
+     "VI.15": 0,
+     "VI.16": 0,
+     "VI.17": 0,
+     "VI.18": 0,
+     "VI.19": 0,
+     "VI.20": 0,
+     "VI.21": 0,
+     "VI.22": 0,
+     "VI.23": 0,
+     "VI.24": 0,
+     "VI.25": 0,
+     "VI.26": 0,
+     "VI.27": 0,
+     "VI.28": 0,
+     "VI.29": 0,
+     "VI.30": 0,
+     "VI.31": 0,
+     "VI.32": 0,
+     "VI.33": 0,
+     "VI.34": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 3094
+  }
+ },
+ "7791c485c25abd2fbc94845d3d925da68db8479825d11ffbc62b979f984f8167": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verse": {
+    "type": "choice",
+    "choice": "XI.19",
+    "confidence": 0.4,
+    "probabilities": {
+     "V.1": 0,
+     "V.2": 0,
+     "V.3": 0,
+     "V.4": 0,
+     "V.5": 0,
+     "V.6": 0,
+     "V.7": 0,
+     "V.8": 0,
+     "V.9": 0,
+     "V.10": 0,
+     "V.11": 0,
+     "V.12": 0.04,
+     "V.13": 0.03,
+     "V.14": 0.03,
+     "V.15": 0,
+     "V.16": 0,
+     "V.17": 0,
+     "V.18": 0,
+     "V.19": 0.01,
+     "V.20": 0,
+     "V.21": 0,
+     "V.22": 0,
+     "V.23": 0,
+     "XI.1": 0,
+     "XI.2": 0,
+     "XI.3": 0,
+     "XI.4": 0,
+     "XI.5": 0,
+     "XI.6": 0,
+     "XI.7": 0,
+     "XI.8": 0,
+     "XI.9": 0,
+     "XI.10": 0.01,
+     "XI.11": 0,
+     "XI.12": 0,
+     "XI.13": 0,
+     "XI.14": 0,
+     "XI.15": 0,
+     "XI.16": 0,
+     "XI.17": 0,
+     "XI.18": 0,
+     "XI.19": 0.4,
+     "XI.20": 0,
+     "XI.21": 0,
+     "XI.22": 0,
+     "XI.23": 0,
+     "XI.24": 0,
+     "XI.25": 0,
+     "XI.26": 0,
+     "XI.27": 0,
+     "XI.28": 0,
+     "XI.29": 0,
+     "XI.30": 0,
+     "XI.31": 0,
+     "XI.32": 0,
+     "XI.33": 0,
+     "XI.34": 0,
+     "XI.35": 0,
+     "XI.36": 0,
+     "XI.37": 0,
+     "XI.38": 0,
+     "XI.39": 0,
+     "XI.40": 0,
+     "XI.41": 0,
+     "XI.42": 0,
+     "XI.43": 0,
+     "XI.44": 0,
+     "XI.45": 0,
+     "XI.46": 0,
+     "XI.47": 0,
+     "XI.48": 0,
+     "XI.49": 0,
+     "XI.50": 0,
+     "XI.51": 0,
+     "XI.52": 0,
+     "XI.53": 0,
+     "XI.54": 0,
+     "XI.55": 0,
+     "XI.56": 0,
+     "XI.57": 0,
+     "XI.58": 0,
+     "XI.59": 0,
+     "XI.60": 0,
+     "XI.61": 0,
+     "XI.62": 0,
+     "XI.63": 0,
+     "XI.64": 0,
+     "XI.65": 0.04,
+     "XI.66": 0,
+     "XI.67": 0,
+     "XI.68": 0.14,
+     "VII.1": 0,
+     "VII.2": 0,
+     "VII.3": 0,
+     "VII.4": 0,
+     "VII.5": 0,
+     "VII.6": 0,
+     "VII.7": 0.03,
+     "VII.8": 0,
+     "VII.9": 0,
+     "VII.10": 0,
+     "VII.11": 0,
+     "VII.12": 0,
+     "VII.13": 0,
+     "VII.14": 0,
+     "VII.15": 0,
+     "VII.16": 0,
+     "VII.17": 0.11,
+     "VII.18": 0,
+     "VII.19": 0.15000000000000002,
+     "VII.20": 0,
+     "VII.21": 0,
+     "VII.22": 0,
+     "VII.23": 0,
+     "VII.24": 0,
+     "VII.25": 0,
+     "VII.26": 0,
+     "VII.27": 0,
+     "VII.28": 0,
+     "VII.29": 0,
+     "VII.30": 0,
+     "VII.31": 0,
+     "VII.32": 0,
+     "VII.33": 0,
+     "VII.34": 0,
+     "VII.35": 0,
+     "VII.36": 0,
+     "VII.37": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 6213
+  }
+ },
+ "4d0685e99ee63f857a8171e6503934a336573276b5efe2e07aa1980518a17a67": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verse": {
+    "type": "choice",
+    "choice": "III.18",
+    "confidence": 1,
+    "probabilities": {
+     "III.1": 0,
+     "III.2": 0,
+     "III.3": 0,
+     "III.4": 0,
+     "III.5": 0,
+     "III.6": 0,
+     "III.7": 0,
+     "III.8": 0,
+     "III.9": 0,
+     "III.10": 0,
+     "III.11": 0,
+     "III.12": 0,
+     "III.13": 0,
+     "III.14": 0,
+     "III.15": 0,
+     "III.16": 0,
+     "III.17": 0,
+     "III.18": 1
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 1377
+  }
+ },
+ "c60880062919f66f6d15014d74c3e2963e9f69114e9e2117b907f409ecafc0a9": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verse": {
+    "type": "choice",
+    "choice": "VII.19",
+    "confidence": 0.92,
+    "probabilities": {
+     "VII.1": 0,
+     "VII.2": 0,
+     "VII.3": 0,
+     "VII.4": 0,
+     "VII.5": 0,
+     "VII.6": 0,
+     "VII.7": 0,
+     "VII.8": 0,
+     "VII.9": 0,
+     "VII.10": 0,
+     "VII.11": 0,
+     "VII.12": 0,
+     "VII.13": 0,
+     "VII.14": 0,
+     "VII.15": 0.03,
+     "VII.16": 0,
+     "VII.17": 0.01,
+     "VII.18": 0.03,
+     "VII.19": 0.92,
+     "VII.20": 0,
+     "VII.21": 0,
+     "VII.22": 0,
+     "VII.23": 0,
+     "VII.24": 0,
+     "VII.25": 0,
+     "VII.26": 0,
+     "VII.27": 0,
+     "VII.28": 0,
+     "VII.29": 0,
+     "VII.30": 0,
+     "VII.31": 0,
+     "VII.32": 0,
+     "VII.33": 0,
+     "VII.34": 0,
+     "VII.35": 0,
+     "VII.36": 0,
+     "VII.37": 0,
+     "III.1": 0,
+     "III.2": 0,
+     "III.3": 0,
+     "III.4": 0,
+     "III.5": 0,
+     "III.6": 0,
+     "III.7": 0,
+     "III.8": 0,
+     "III.9": 0,
+     "III.10": 0,
+     "III.11": 0,
+     "III.12": 0,
+     "III.13": 0,
+     "III.14": 0,
+     "III.15": 0,
+     "III.16": 0,
+     "III.17": 0,
+     "III.18": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 2995
+  }
+ },
+ "54b96f9c1d1f63705ef8ac6b65b5c0b1af930db429ac08e34e5fa70e66bec41d": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verse": {
+    "type": "choice",
+    "choice": "XI.19",
+    "confidence": 0.91,
+    "probabilities": {
+     "XI.1": 0,
+     "XI.2": 0,
+     "XI.3": 0,
+     "XI.4": 0,
+     "XI.5": 0,
+     "XI.6": 0,
+     "XI.7": 0,
+     "XI.8": 0,
+     "XI.9": 0,
+     "XI.10": 0,
+     "XI.11": 0,
+     "XI.12": 0,
+     "XI.13": 0,
+     "XI.14": 0,
+     "XI.15": 0,
+     "XI.16": 0,
+     "XI.17": 0,
+     "XI.18": 0,
+     "XI.19": 0.91,
+     "XI.20": 0,
+     "XI.21": 0,
+     "XI.22": 0,
+     "XI.23": 0,
+     "XI.24": 0,
+     "XI.25": 0,
+     "XI.26": 0,
+     "XI.27": 0,
+     "XI.28": 0,
+     "XI.29": 0,
+     "XI.30": 0,
+     "XI.31": 0,
+     "XI.32": 0,
+     "XI.33": 0,
+     "XI.34": 0,
+     "XI.35": 0,
+     "XI.36": 0,
+     "XI.37": 0,
+     "XI.38": 0,
+     "XI.39": 0,
+     "XI.40": 0,
+     "XI.41": 0,
+     "XI.42": 0,
+     "XI.43": 0,
+     "XI.44": 0,
+     "XI.45": 0,
+     "XI.46": 0,
+     "XI.47": 0,
+     "XI.48": 0,
+     "XI.49": 0,
+     "XI.50": 0,
+     "XI.51": 0,
+     "XI.52": 0,
+     "XI.53": 0,
+     "XI.54": 0,
+     "XI.55": 0,
+     "XI.56": 0,
+     "XI.57": 0,
+     "XI.58": 0,
+     "XI.59": 0,
+     "XI.60": 0,
+     "XI.61": 0,
+     "XI.62": 0,
+     "XI.63": 0,
+     "XI.64": 0,
+     "XI.65": 0,
+     "XI.66": 0,
+     "XI.67": 0,
+     "XI.68": 0.01,
+     "II.1": 0,
+     "II.2": 0,
+     "II.3": 0,
+     "II.4": 0,
+     "II.5": 0.06999999999999999,
+     "II.6": 0,
+     "II.7": 0,
+     "II.8": 0,
+     "II.9": 0,
+     "II.10": 0,
+     "II.11": 0,
+     "II.12": 0,
+     "II.13-14": 0,
+     "II.15": 0,
+     "II.16": 0,
+     "II.17": 0,
+     "II.18": 0,
+     "II.19": 0.01,
+     "II.20": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 4527
+  }
+ },
+ "e95cd8ddc436e1277ee67b3a3b64ece218af4705bcd9101c44d358a2f4553b57": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verse": {
+    "type": "choice",
+    "choice": "IX.4",
+    "confidence": 0.32,
+    "probabilities": {
+     "IV.1": 0.32,
+     "IV.2": 0.05,
+     "IV.3": 0,
+     "IV.4": 0,
+     "IV.5": 0,
+     "IV.6": 0,
+     "IV.7": 0,
+     "IV.8": 0,
+     "IV.9": 0,
+     "IV.10": 0,
+     "IV.11": 0,
+     "IV.12": 0,
+     "IV.13": 0.03,
+     "IV.14": 0.03,
+     "IV.15": 0.09,
+     "IV.16": 0,
+     "IV.17": 0,
+     "IV.18": 0,
+     "IV.19": 0,
+     "IV.20": 0,
+     "VII.1": 0,
+     "VII.2": 0,
+     "VII.3": 0,
+     "VII.4": 0.01,
+     "VII.5": 0,
+     "VII.6": 0,
+     "VII.7": 0,
+     "VII.8": 0,
+     "VII.9": 0,
+     "VII.10": 0,
+     "VII.11": 0,
+     "VII.12": 0,
+     "VII.13": 0,
+     "VII.14": 0,
+     "VII.15": 0,
+     "VII.16": 0,
+     "VII.17": 0,
+     "VII.18": 0,
+     "VII.19": 0,
+     "VII.20": 0,
+     "VII.21": 0,
+     "VII.22": 0,
+     "VII.23": 0,
+     "VII.24": 0,
+     "VII.25": 0,
+     "VII.26": 0,
+     "VII.27": 0,
+     "VII.28": 0,
+     "VII.29": 0.01,
+     "VII.30": 0.01,
+     "VII.31": 0.03,
+     "VII.32": 0,
+     "VII.33": 0,
+     "VII.34": 0,
+     "VII.35": 0,
+     "VII.36": 0,
+     "VII.37": 0,
+     "IX.1": 0,
+     "IX.2": 0,
+     "IX.3": 0,
+     "IX.4": 0.33,
+     "IX.5": 0.01,
+     "IX.6": 0.01,
+     "IX.7": 0,
+     "IX.8": 0,
+     "IX.9": 0,
+     "IX.10": 0,
+     "IX.11": 0,
+     "IX.12": 0,
+     "IX.13": 0,
+     "IX.14": 0.060000000000000005,
+     "IX.15": 0,
+     "IX.16": 0,
+     "IX.17": 0,
+     "IX.18": 0,
+     "IX.19": 0,
+     "IX.20": 0,
+     "IX.21": 0,
+     "IX.22": 0,
+     "IX.23": 0,
+     "IX.24": 0,
+     "IX.25": 0,
+     "IX.26": 0,
+     "IX.27": 0,
+     "IX.28": 0,
+     "IX.29": 0,
+     "IX.30": 0,
+     "IX.31": 0,
+     "IX.32": 0,
+     "IX.33": 0,
+     "IX.34": 0,
+     "IX.35": 0,
+     "IX.36": 0,
+     "IX.37": 0,
+     "IX.38": 0,
+     "IX.39": 0,
+     "IX.40": 0,
+     "IX.41": 0,
+     "IX.42": 0,
+     "IX.43": 0,
+     "IX.44": 0,
+     "IX.45": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 4803
+  }
+ },
+ "1fc3118598813d84bc5e2092b53f84451cdae493dcf336bf67aff4d2eeca1417": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verse": {
+    "type": "choice",
+    "choice": "III.6",
+    "confidence": 0.2,
+    "probabilities": {
+     "III.1": 0.02,
+     "III.2": 0.08,
+     "III.3": 0,
+     "III.4": 0,
+     "III.5": 0,
+     "III.6": 0.21000000000000002,
+     "III.7": 0.09999999999999999,
+     "III.8": 0,
+     "III.9": 0,
+     "III.10": 0,
+     "III.11": 0,
+     "III.12": 0,
+     "III.13": 0,
+     "III.14": 0,
+     "III.15": 0,
+     "III.16": 0,
+     "III.17": 0.01,
+     "III.18": 0.01,
+     "IV.1": 0.01,
+     "IV.2": 0,
+     "IV.3": 0,
+     "IV.4": 0.01,
+     "IV.5": 0,
+     "IV.6": 0,
+     "IV.7": 0.01,
+     "IV.8": 0.01,
+     "IV.9": 0.02,
+     "IV.10": 0,
+     "IV.11": 0.11,
+     "IV.12": 0,
+     "IV.13": 0.02,
+     "IV.14": 0.01,
+     "IV.15": 0.12,
+     "IV.16": 0,
+     "IV.17": 0,
+     "IV.18": 0,
+     "IV.19": 0.02,
+     "IV.20": 0.01,
+     "V.1": 0,
+     "V.2": 0,
+     "V.3": 0,
+     "V.4": 0,
+     "V.5": 0,
+     "V.6": 0,
+     "V.7": 0,
+     "V.8": 0,
+     "V.9": 0,
+     "V.10": 0,
+     "V.11": 0,
+     "V.12": 0.02,
+     "V.13": 0.06999999999999999,
+     "V.14": 0.09,
+     "V.15": 0,
+     "V.16": 0,
+     "V.17": 0,
+     "V.18": 0,
+     "V.19": 0,
+     "V.20": 0.01,
+     "V.21": 0.01,
+     "V.22": 0,
+     "V.23": 0.01
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 3305
+  }
+ },
+ "908c5d3b2b6004ed91819f1f8b463847ea117b6168c657d8f57428dc88d54184": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verse": {
+    "type": "choice",
+    "choice": "III.18",
+    "confidence": 0.52,
+    "probabilities": {
+     "III.1": 0,
+     "III.2": 0,
+     "III.3": 0,
+     "III.4": 0,
+     "III.5": 0,
+     "III.6": 0,
+     "III.7": 0,
+     "III.8": 0,
+     "III.9": 0,
+     "III.10": 0,
+     "III.11": 0,
+     "III.12": 0,
+     "III.13": 0,
+     "III.14": 0,
+     "III.15": 0,
+     "III.16": 0,
+     "III.17": 0.05,
+     "III.18": 0.53,
+     "X.1": 0,
+     "X.2": 0,
+     "X.3": 0,
+     "X.4": 0,
+     "X.5": 0,
+     "X.6": 0,
+     "X.7": 0,
+     "X.8": 0,
+     "X.9": 0,
+     "X.10": 0,
+     "X.11": 0,
+     "X.12": 0,
+     "X.13": 0,
+     "X.14": 0,
+     "X.15": 0,
+     "X.16": 0,
+     "X.17": 0,
+     "X.18": 0,
+     "X.19": 0,
+     "X.20": 0,
+     "X.21": 0.01,
+     "X.22": 0.02,
+     "X.23": 0,
+     "X.24": 0,
+     "X.25": 0,
+     "X.26": 0,
+     "X.27": 0.03,
+     "X.28": 0.01,
+     "X.29": 0,
+     "X.30": 0,
+     "X.31": 0.34
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 3035
+  }
+ },
+ "dbb3aa5f8db7fc3581c5a554310dcd73f6feabe7c8d152c2a1c0a5c1c7926644": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verse": {
+    "type": "choice",
+    "choice": "XI.48",
+    "confidence": 0.33,
+    "probabilities": {
+     "XI.1": 0,
+     "XI.2": 0,
+     "XI.3": 0,
+     "XI.4": 0,
+     "XI.5": 0,
+     "XI.6": 0.02,
+     "XI.7": 0,
+     "XI.8": 0,
+     "XI.9": 0,
+     "XI.10": 0,
+     "XI.11": 0,
+     "XI.12": 0.28,
+     "XI.13": 0,
+     "XI.14": 0,
+     "XI.15": 0,
+     "XI.16": 0,
+     "XI.17": 0,
+     "XI.18": 0,
+     "XI.19": 0,
+     "XI.20": 0,
+     "XI.21": 0,
+     "XI.22": 0,
+     "XI.23": 0,
+     "XI.24": 0,
+     "XI.25": 0,
+     "XI.26": 0,
+     "XI.27": 0,
+     "XI.28": 0,
+     "XI.29": 0,
+     "XI.30": 0.12,
+     "XI.31": 0,
+     "XI.32": 0,
+     "XI.33": 0,
+     "XI.34": 0,
+     "XI.35": 0,
+     "XI.36": 0,
+     "XI.37": 0,
+     "XI.38": 0,
+     "XI.39": 0,
+     "XI.40": 0,
+     "XI.41": 0,
+     "XI.42": 0,
+     "XI.43": 0,
+     "XI.44": 0,
+     "XI.45": 0,
+     "XI.46": 0,
+     "XI.47": 0,
+     "XI.48": 0.34,
+     "XI.49": 0,
+     "XI.50": 0,
+     "XI.51": 0,
+     "XI.52": 0.01,
+     "XI.53": 0,
+     "XI.54": 0.15000000000000002,
+     "XI.55": 0.01,
+     "XI.56": 0,
+     "XI.57": 0,
+     "XI.58": 0,
+     "XI.59": 0,
+     "XI.60": 0,
+     "XI.61": 0,
+     "XI.62": 0,
+     "XI.63": 0,
+     "XI.64": 0,
+     "XI.65": 0,
+     "XI.66": 0.01,
+     "XI.67": 0,
+     "XI.68": 0,
+     "VIII.1": 0,
+     "VIII.2": 0.01,
+     "VIII.3": 0,
+     "VIII.4": 0,
+     "VIII.5": 0,
+     "VIII.6": 0,
+     "VIII.7": 0,
+     "VIII.8": 0,
+     "VIII.9": 0,
+     "VIII.10": 0,
+     "VIII.11": 0,
+     "VIII.12": 0,
+     "VIII.13": 0,
+     "VIII.14": 0,
+     "VII.1": 0,
+     "VII.2": 0,
+     "VII.3": 0,
+     "VII.4": 0,
+     "VII.5": 0,
+     "VII.6": 0,
+     "VII.7": 0,
+     "VII.8": 0,
+     "VII.9": 0,
+     "VII.10": 0,
+     "VII.11": 0,
+     "VII.12": 0.04,
+     "VII.13": 0,
+     "VII.14": 0,
+     "VII.15": 0,
+     "VII.16": 0,
+     "VII.17": 0,
+     "VII.18": 0,
+     "VII.19": 0,
+     "VII.20": 0,
+     "VII.21": 0,
+     "VII.22": 0,
+     "VII.23": 0,
+     "VII.24": 0,
+     "VII.25": 0,
+     "VII.26": 0,
+     "VII.27": 0,
+     "VII.28": 0,
+     "VII.29": 0,
+     "VII.30": 0,
+     "VII.31": 0,
+     "VII.32": 0,
+     "VII.33": 0,
+     "VII.34": 0,
+     "VII.35": 0,
+     "VII.36": 0,
+     "VII.37": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 5835
+  }
+ },
+ "dc0f5e9f374f447eff7ae5695088b449714e0476ac9c7dcbeb6ad1dd276fd7c4": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "said",
+    "confidence": 0.98,
+    "probabilities": {
+     "never": 0,
+     "close": 0.01,
+     "said": 0.99
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15369
+  }
+ },
+ "96593033ffe85cb3609b652686c5f258ce3bc24725086e3fc671844c40da5c2b": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "close",
+    "confidence": 0.94,
+    "probabilities": {
+     "never": 0.01,
+     "close": 0.96,
+     "said": 0.03
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15368
+  }
+ },
+ "1b1ef2a6f58a5bfd7f898899e647ce151f0ed3b1f74f0419c34fd89689096ec8": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "said",
+    "confidence": 0.66,
+    "probabilities": {
+     "never": 0.02,
+     "close": 0.21,
+     "said": 0.77
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15370
+  }
+ },
+ "063c2ec1fbd15556507f6ef48eab46e649d53c534e2c4040d4ee8027bca4ce43": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "never",
+    "confidence": 0.61,
+    "probabilities": {
+     "never": 0.74,
+     "close": 0.26,
+     "said": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15369
+  }
+ },
+ "c7203eb1a81790d3447cb7de0942b132c05ee1853a7b3b06348f78ef26598cfd": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "never",
+    "confidence": 0.82,
+    "probabilities": {
+     "never": 0.88,
+     "close": 0.12,
+     "said": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15370
+  }
+ },
+ "c109731ccef5945699aea8c3643074a0ef2869ce52e7ed8013f3fd5230962faf": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "never",
+    "confidence": 1,
+    "probabilities": {
+     "never": 1,
+     "close": 0,
+     "said": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15369
+  }
+ },
+ "f0da6ab0cdb6d153d8a894f3458e2397381bc0fe697dba47ac109a93055f2342": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "close",
+    "confidence": 0.92,
+    "probabilities": {
+     "never": 0.01,
+     "close": 0.95,
+     "said": 0.04
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15384
+  }
+ },
+ "160ea4dc33db14c2ebcfa37086d7f9d1cd8d691c0fd4c2ed4ff5e9fe847ae855": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "never",
+    "confidence": 0.7,
+    "probabilities": {
+     "never": 0.8,
+     "close": 0.2,
+     "said": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15372
+  }
+ },
+ "0c8c3ace781361f9ce39f113abcdc9621ba1521985503d99fed3d2db4f782b65": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "close",
+    "confidence": 0.92,
+    "probabilities": {
+     "never": 0.01,
+     "close": 0.95,
+     "said": 0.04
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15375
+  }
+ },
+ "3573c73829d2df889266e7064bbefe8af74555e96f0b6697aaabfed4b6347242": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "said",
+    "confidence": 0.85,
+    "probabilities": {
+     "never": 0.01,
+     "close": 0.09,
+     "said": 0.9
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15372
+  }
+ },
+ "f51ab7f6033309d47b0ce9ea72c25aee94511a9db06fd1284ab6f634b04b54cb": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "close",
+    "confidence": 0.74,
+    "probabilities": {
+     "never": 0.16,
+     "close": 0.83,
+     "said": 0.01
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15367
+  }
+ },
+ "c96b367debb8fde1100c8e35c2357fbe0ee7f1026ba640034935c06c8aecceb8": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "close",
+    "confidence": 0.69,
+    "probabilities": {
+     "never": 0.01,
+     "close": 0.79,
+     "said": 0.2
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15368
+  }
+ },
+ "4d422b6f9f7f5809005168d5105d7c33007c505f7badf4c70cbbc3d621009a0a": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "said",
+    "confidence": 0.92,
+    "probabilities": {
+     "never": 0.01,
+     "close": 0.04,
+     "said": 0.95
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15387
+  }
+ },
+ "4a837fa7d3a81c48c1aff19b8ce11dc0ab454e4d6f9c4e53fa71ae1080e7731f": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "said",
+    "confidence": 0.51,
+    "probabilities": {
+     "never": 0.01,
+     "close": 0.32,
+     "said": 0.67
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15376
+  }
+ },
+ "069472c40dd4fb4ba01d81c216b0debe49969de7e71c5105bb56a32d4b428516": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "close",
+    "confidence": 0.88,
+    "probabilities": {
+     "never": 0.01,
+     "close": 0.92,
+     "said": 0.07
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15369
+  }
+ },
+ "5cf516fa06e47120324485a6dbf7692b66b9f185a85f7fe21d181ae961aa448c": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "said",
+    "confidence": 0.83,
+    "probabilities": {
+     "never": 0.02,
+     "close": 0.09,
+     "said": 0.89
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15370
+  }
+ },
+ "54e577f1370ada9e75fa0922ee38c6dcea450475ed71491cdfd7ab58359010f6": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "never",
+    "confidence": 0.67,
+    "probabilities": {
+     "never": 0.78,
+     "close": 0.22,
+     "said": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15367
+  }
+ },
+ "f86636c22b4a3a44090df725fce58e632d3576442ea479f68da92bb3f294aa8e": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "said",
+    "confidence": 0.98,
+    "probabilities": {
+     "never": 0,
+     "close": 0.01,
+     "said": 0.99
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15382
+  }
+ },
+ "dde47f9b91d034b3fc803167ae08fc0290c3976363c2414d65885df4dbed1b29": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "never",
+    "confidence": 0.88,
+    "probabilities": {
+     "never": 0.92,
+     "close": 0.08,
+     "said": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15379
+  }
+ },
+ "0a32a3d01aceaf216074182725d2ccd3fc13f784d55af599bb4cb27ecd769597": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "never",
+    "confidence": 0.98,
+    "probabilities": {
+     "never": 0.99,
+     "close": 0.01,
+     "said": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15370
+  }
+ },
+ "f75704ae66eff0bb6a471aef8984e7c135f906fe0a6faaac8332042d6271b658": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "never",
+    "confidence": 0.72,
+    "probabilities": {
+     "never": 0.81,
+     "close": 0.19,
+     "said": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15370
+  }
+ },
+ "4fc25a4c0df4fef16a238882f12c87ef5246c98253e8f65a8d69dd7529acf0ac": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "said",
+    "confidence": 0.98,
+    "probabilities": {
+     "said": 0.99,
+     "close": 0.01,
+     "never": 0
+    }
+   },
+   "chapter": {
+    "type": "choice",
+    "choice": "I",
+    "confidence": 0.89,
+    "probabilities": {
+     "I": 0.9,
+     "II": 0,
+     "III": 0.07,
+     "IV": 0,
+     "V": 0.01,
+     "VI": 0.01,
+     "VII": 0.01,
+     "VIII": 0,
+     "IX": 0,
+     "X": 0,
+     "XI": 0,
+     "XII": 0,
+     "XIII": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15622
+  }
+ },
+ "155618094bdf732b0d95ee406a0803696a5c5e89899f1c4ab2f9d5098175a899": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "close",
+    "confidence": 0.69,
+    "probabilities": {
+     "said": 0.2,
+     "close": 0.79,
+     "never": 0.01
+    }
+   },
+   "chapter": {
+    "type": "choice",
+    "choice": "III",
+    "confidence": 1,
+    "probabilities": {
+     "I": 0,
+     "II": 0,
+     "III": 1,
+     "IV": 0,
+     "V": 0,
+     "VI": 0,
+     "VII": 0,
+     "VIII": 0,
+     "IX": 0,
+     "X": 0,
+     "XI": 0,
+     "XII": 0,
+     "XIII": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15622
+  }
+ },
+ "25297bff27f6d5d3f87c702fc55548981ddb96c9bb49ad658215be0e13a1a451": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "said",
+    "confidence": 0.94,
+    "probabilities": {
+     "said": 0.96,
+     "close": 0.04,
+     "never": 0
+    }
+   },
+   "chapter": {
+    "type": "choice",
+    "choice": "VII",
+    "confidence": 0.87,
+    "probabilities": {
+     "I": 0,
+     "II": 0,
+     "III": 0.01,
+     "IV": 0,
+     "V": 0,
+     "VI": 0,
+     "VII": 0.88,
+     "VIII": 0.01,
+     "IX": 0,
+     "X": 0,
+     "XI": 0.1,
+     "XII": 0,
+     "XIII": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15628
+  }
+ },
+ "48efb3f83dcc9dd72e0990916638f1764f182c4b1fb1dc895fa0b56cfd94c44a": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "said",
+    "confidence": 0.53,
+    "probabilities": {
+     "said": 0.69,
+     "close": 0.3,
+     "never": 0.01
+    }
+   },
+   "chapter": {
+    "type": "choice",
+    "choice": "I",
+    "confidence": 0.79,
+    "probabilities": {
+     "I": 0.81,
+     "II": 0,
+     "III": 0.01,
+     "IV": 0,
+     "V": 0,
+     "VI": 0.12,
+     "VII": 0.01,
+     "VIII": 0,
+     "IX": 0,
+     "X": 0,
+     "XI": 0.05,
+     "XII": 0,
+     "XIII": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15636
+  }
+ },
+ "6603efe55efbc7f9cd5761028e075aae53f21ba179c4f5044d64f5cb97129f8e": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "said",
+    "confidence": 0.3,
+    "probabilities": {
+     "said": 0.53,
+     "close": 0.47,
+     "never": 0
+    }
+   },
+   "chapter": {
+    "type": "choice",
+    "choice": "III",
+    "confidence": 0.99,
+    "probabilities": {
+     "I": 0,
+     "II": 0,
+     "III": 0.99,
+     "IV": 0,
+     "V": 0,
+     "VI": 0,
+     "VII": 0,
+     "VIII": 0,
+     "IX": 0,
+     "X": 0.01,
+     "XI": 0,
+     "XII": 0,
+     "XIII": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15620
+  }
+ },
+ "ba8ae5ff00c73a90f8170acde15d344a28f7df912657a2124777b343cf2e610d": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "close",
+    "confidence": 0.94,
+    "probabilities": {
+     "said": 0.04,
+     "close": 0.96,
+     "never": 0
+    }
+   },
+   "chapter": {
+    "type": "choice",
+    "choice": "III",
+    "confidence": 1,
+    "probabilities": {
+     "I": 0,
+     "II": 0,
+     "III": 1,
+     "IV": 0,
+     "V": 0,
+     "VI": 0,
+     "VII": 0,
+     "VIII": 0,
+     "IX": 0,
+     "X": 0,
+     "XI": 0,
+     "XII": 0,
+     "XIII": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15634
+  }
+ },
+ "4bd63c85ca25b2d1989bbcf4953f52b65a1357c03c65c55c19d0a47572173b0a": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "close",
+    "confidence": 0.91,
+    "probabilities": {
+     "said": 0.05,
+     "close": 0.94,
+     "never": 0.01
+    }
+   },
+   "chapter": {
+    "type": "choice",
+    "choice": "X",
+    "confidence": 0.99,
+    "probabilities": {
+     "I": 0,
+     "II": 0,
+     "III": 0,
+     "IV": 0,
+     "V": 0,
+     "VI": 0,
+     "VII": 0,
+     "VIII": 0,
+     "IX": 0.01,
+     "X": 0.99,
+     "XI": 0,
+     "XII": 0,
+     "XIII": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15652
+  }
+ },
+ "e0629a5680def6dc2b3880e55b9fdd13561a1a81c9c2f9f8e9dd695a134dd5a1": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "never",
+    "confidence": 0.97,
+    "probabilities": {
+     "said": 0,
+     "close": 0.02,
+     "never": 0.98
+    }
+   },
+   "chapter": {
+    "type": "choice",
+    "choice": "III",
+    "confidence": 0.35,
+    "probabilities": {
+     "I": 0.02,
+     "II": 0.04,
+     "III": 0.4,
+     "IV": 0.18,
+     "V": 0.19,
+     "VI": 0.03,
+     "VII": 0.08,
+     "VIII": 0,
+     "IX": 0,
+     "X": 0.01,
+     "XI": 0.04,
+     "XII": 0.01,
+     "XIII": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15624
+  }
+ },
+ "b598fa39d7096d4405cab7ce287442cf017d3433b5bd86d42ef5a4953a1abe32": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "never",
+    "confidence": 1,
+    "probabilities": {
+     "said": 0,
+     "close": 0,
+     "never": 1
+    }
+   },
+   "chapter": {
+    "type": "choice",
+    "choice": "I",
+    "confidence": 0.17,
+    "probabilities": {
+     "I": 0.22999999999999998,
+     "II": 0.02,
+     "III": 0.13,
+     "IV": 0.04,
+     "V": 0.12,
+     "VI": 0.08,
+     "VII": 0.04,
+     "VIII": 0.12,
+     "IX": 0.01,
+     "X": 0.02,
+     "XI": 0.14,
+     "XII": 0.03,
+     "XIII": 0.02
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15622
+  }
+ },
+ "7ba00ad053a10af4bcc77fbbbda83abab6a422db5ea0c799df4acea818bc9bc4": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "said",
+    "confidence": 0.82,
+    "probabilities": {
+     "said": 0.88,
+     "close": 0.11,
+     "never": 0.01
+    }
+   },
+   "chapter": {
+    "type": "choice",
+    "choice": "XI",
+    "confidence": 0.89,
+    "probabilities": {
+     "I": 0,
+     "II": 0.06,
+     "III": 0,
+     "IV": 0,
+     "V": 0.02,
+     "VI": 0,
+     "VII": 0.02,
+     "VIII": 0,
+     "IX": 0,
+     "X": 0,
+     "XI": 0.9,
+     "XII": 0,
+     "XIII": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15624
+  }
+ },
+ "ca56c8821233026435a5b697a5fc6cf79101197783a4a40b8e970c4e5233c673": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "said",
+    "confidence": 0.98,
+    "probabilities": {
+     "said": 0.99,
+     "close": 0.01,
+     "never": 0
+    }
+   },
+   "chapter": {
+    "type": "choice",
+    "choice": "III",
+    "confidence": 0.9,
+    "probabilities": {
+     "I": 0,
+     "II": 0,
+     "III": 0.91,
+     "IV": 0,
+     "V": 0,
+     "VI": 0.01,
+     "VII": 0,
+     "VIII": 0,
+     "IX": 0,
+     "X": 0.08,
+     "XI": 0,
+     "XII": 0,
+     "XIII": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15648
+  }
+ },
+ "772004eb514d9178a1390074128c621c36d49b48c05342d26415678382a0728e": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "said",
+    "confidence": 0.92,
+    "probabilities": {
+     "said": 0.95,
+     "close": 0.04,
+     "never": 0.01
+    }
+   },
+   "chapter": {
+    "type": "choice",
+    "choice": "VII",
+    "confidence": 0.85,
+    "probabilities": {
+     "I": 0.02,
+     "II": 0,
+     "III": 0.03,
+     "IV": 0,
+     "V": 0.03,
+     "VI": 0.02,
+     "VII": 0.86,
+     "VIII": 0,
+     "IX": 0,
+     "X": 0,
+     "XI": 0.03,
+     "XII": 0,
+     "XIII": 0.01
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15658
+  }
+ },
+ "c97aa706ea0315d2d1ae3af4260167de94cf00adebde68e6b34c196d08591903": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "never",
+    "confidence": 0.72,
+    "probabilities": {
+     "said": 0,
+     "close": 0.19,
+     "never": 0.81
+    }
+   },
+   "chapter": {
+    "type": "choice",
+    "choice": "XIII",
+    "confidence": 0.92,
+    "probabilities": {
+     "I": 0.01,
+     "II": 0,
+     "III": 0.02,
+     "IV": 0,
+     "V": 0,
+     "VI": 0.01,
+     "VII": 0,
+     "VIII": 0,
+     "IX": 0,
+     "X": 0,
+     "XI": 0.02,
+     "XII": 0,
+     "XIII": 0.93
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15624
+  }
+ },
+ "e3a4d6111fd8bb95e81440ae69fb7e630e85d6f37e129493ec62a240f9009b87": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "never",
+    "confidence": 0.45,
+    "probabilities": {
+     "said": 0.01,
+     "close": 0.36,
+     "never": 0.63
+    }
+   },
+   "chapter": {
+    "type": "choice",
+    "choice": "XI",
+    "confidence": 0.34,
+    "probabilities": {
+     "I": 0,
+     "II": 0.07,
+     "III": 0.01,
+     "IV": 0,
+     "V": 0.28,
+     "VI": 0.02,
+     "VII": 0.21,
+     "VIII": 0,
+     "IX": 0.01,
+     "X": 0,
+     "XI": 0.39,
+     "XII": 0.01,
+     "XIII": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15618
+  }
+ },
+ "5b37a5d2f0d1c1437683aa26610f697b1e6ee00228f697881f1a6c73d6314e34": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "close",
+    "confidence": 0.91,
+    "probabilities": {
+     "said": 0.05,
+     "close": 0.94,
+     "never": 0.01
+    }
+   },
+   "chapter": {
+    "type": "choice",
+    "choice": "XI",
+    "confidence": 0.97,
+    "probabilities": {
+     "I": 0,
+     "II": 0.01,
+     "III": 0,
+     "IV": 0,
+     "V": 0.01,
+     "VI": 0,
+     "VII": 0.01,
+     "VIII": 0,
+     "IX": 0,
+     "X": 0,
+     "XI": 0.97,
+     "XII": 0,
+     "XIII": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15620
+  }
+ },
+ "a9e2d48928396a59aef8573b6830cf0cef9a7b0f7426ebd3f662f9bb6d8b014b": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "said",
+    "confidence": 0.64,
+    "probabilities": {
+     "said": 0.76,
+     "close": 0.23,
+     "never": 0.01
+    }
+   },
+   "chapter": {
+    "type": "choice",
+    "choice": "I",
+    "confidence": 0.96,
+    "probabilities": {
+     "I": 0.96,
+     "II": 0,
+     "III": 0.03,
+     "IV": 0,
+     "V": 0,
+     "VI": 0,
+     "VII": 0.01,
+     "VIII": 0,
+     "IX": 0,
+     "X": 0,
+     "XI": 0,
+     "XII": 0,
+     "XIII": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15624
+  }
+ },
+ "b6821517b228b268fbb2d53cea3d13479a5dca3856236a5678f213079929140e": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "close",
+    "confidence": 0.7,
+    "probabilities": {
+     "said": 0.01,
+     "close": 0.8,
+     "never": 0.19
+    }
+   },
+   "chapter": {
+    "type": "choice",
+    "choice": "VI",
+    "confidence": 0.99,
+    "probabilities": {
+     "I": 0,
+     "II": 0,
+     "III": 0,
+     "IV": 0,
+     "V": 0,
+     "VI": 0.99,
+     "VII": 0,
+     "VIII": 0.01,
+     "IX": 0,
+     "X": 0,
+     "XI": 0,
+     "XII": 0,
+     "XIII": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15618
+  }
+ },
+ "e95fdfbadd5b0fb720b909c8532d95f5947da7e9d2dbfee7c44859d17f957ea5": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "never",
+    "confidence": 0.8,
+    "probabilities": {
+     "said": 0,
+     "close": 0.13,
+     "never": 0.87
+    }
+   },
+   "chapter": {
+    "type": "choice",
+    "choice": "VII",
+    "confidence": 0.14,
+    "probabilities": {
+     "I": 0.07,
+     "II": 0,
+     "III": 0.16,
+     "IV": 0.17,
+     "V": 0.02,
+     "VI": 0.19,
+     "VII": 0.21,
+     "VIII": 0.07,
+     "IX": 0.02,
+     "X": 0.01,
+     "XI": 0.04,
+     "XII": 0.04,
+     "XIII": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15628
+  }
+ },
+ "96b961f0650d7cc9a5b7a2b35e3517148c186dd9bf40d2691b8c5fcb9ec301f7": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "never",
+    "confidence": 0.52,
+    "probabilities": {
+     "said": 0,
+     "close": 0.32,
+     "never": 0.68
+    }
+   },
+   "chapter": {
+    "type": "choice",
+    "choice": "IV",
+    "confidence": 0.75,
+    "probabilities": {
+     "I": 0,
+     "II": 0,
+     "III": 0.09,
+     "IV": 0.77,
+     "V": 0.01,
+     "VI": 0.13,
+     "VII": 0,
+     "VIII": 0,
+     "IX": 0,
+     "X": 0,
+     "XI": 0,
+     "XII": 0,
+     "XIII": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15622
+  }
+ },
+ "1e3d18100c23e9644113e28cf7e7ca583aebea5aa4c874f541c316a3b92bf168": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "never",
+    "confidence": 0.85,
+    "probabilities": {
+     "said": 0,
+     "close": 0.1,
+     "never": 0.9
+    }
+   },
+   "chapter": {
+    "type": "choice",
+    "choice": "IV",
+    "confidence": 0.64,
+    "probabilities": {
+     "I": 0.01,
+     "II": 0.01,
+     "III": 0.03,
+     "IV": 0.67,
+     "V": 0,
+     "VI": 0.06,
+     "VII": 0.08,
+     "VIII": 0.01,
+     "IX": 0.08,
+     "X": 0.01,
+     "XI": 0.01,
+     "XII": 0.03,
+     "XIII": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15642
+  }
+ },
+ "49c9585ddce5f3c3c6538218fb9e76aad2ce4b33e7c316bcfcffec4953097318": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "never",
+    "confidence": 0.73,
+    "probabilities": {
+     "said": 0,
+     "close": 0.18,
+     "never": 0.8200000000000001
+    }
+   },
+   "chapter": {
+    "type": "choice",
+    "choice": "XI",
+    "confidence": 0.26,
+    "probabilities": {
+     "I": 0.01,
+     "II": 0,
+     "III": 0.08,
+     "IV": 0,
+     "V": 0,
+     "VI": 0.02,
+     "VII": 0.23,
+     "VIII": 0.26,
+     "IX": 0,
+     "X": 0.06,
+     "XI": 0.32,
+     "XII": 0,
+     "XIII": 0.02
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15624
+  }
+ },
+ "65358350e739e9ae8a7701ca8afd0b0210cee5881f2c035d835d6ebddfa64580": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verse": {
+    "type": "choice",
+    "choice": "III.2",
+    "confidence": 0.93,
+    "probabilities": {
+     "III.1": 0,
+     "III.2": 0.93,
+     "III.3": 0,
+     "III.4": 0,
+     "III.5": 0,
+     "III.6": 0.07,
+     "III.7": 0,
+     "III.8": 0,
+     "III.9": 0,
+     "III.10": 0,
+     "III.11": 0,
+     "III.12": 0,
+     "III.13": 0,
+     "III.14": 0,
+     "III.15": 0,
+     "III.16": 0,
+     "III.17": 0,
+     "III.18": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 1383
+  }
+ },
+ "1567328bff82c82aa9fee6b8d84750b9b70f547d7c16321b7dbb3ef5e17bfae4": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verse": {
+    "type": "choice",
+    "choice": "III.7",
+    "confidence": 0.15,
+    "probabilities": {
+     "III.1": 0.01,
+     "III.2": 0.09,
+     "III.3": 0,
+     "III.4": 0,
+     "III.5": 0,
+     "III.6": 0.16,
+     "III.7": 0.16,
+     "III.8": 0,
+     "III.9": 0,
+     "III.10": 0,
+     "III.11": 0.01,
+     "III.12": 0,
+     "III.13": 0,
+     "III.14": 0,
+     "III.15": 0,
+     "III.16": 0,
+     "III.17": 0.01,
+     "III.18": 0.02,
+     "V.1": 0,
+     "V.2": 0,
+     "V.3": 0,
+     "V.4": 0,
+     "V.5": 0,
+     "V.6": 0,
+     "V.7": 0,
+     "V.8": 0.01,
+     "V.9": 0,
+     "V.10": 0,
+     "V.11": 0,
+     "V.12": 0.01,
+     "V.13": 0.03,
+     "V.14": 0.03,
+     "V.15": 0.01,
+     "V.16": 0,
+     "V.17": 0,
+     "V.18": 0,
+     "V.19": 0,
+     "V.20": 0,
+     "V.21": 0,
+     "V.22": 0,
+     "V.23": 0,
+     "IV.1": 0.01,
+     "IV.2": 0,
+     "IV.3": 0.01,
+     "IV.4": 0.01,
+     "IV.5": 0,
+     "IV.6": 0,
+     "IV.7": 0,
+     "IV.8": 0,
+     "IV.9": 0.08,
+     "IV.10": 0,
+     "IV.11": 0.16,
+     "IV.12": 0,
+     "IV.13": 0.03,
+     "IV.14": 0.05,
+     "IV.15": 0.060000000000000005,
+     "IV.16": 0,
+     "IV.17": 0,
+     "IV.18": 0,
+     "IV.19": 0.01,
+     "IV.20": 0.02
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 3305
+  }
+ },
+ "56c34cf552cfcbe28df480612386229befad70ed70b16239556b067151d3618a": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verse": {
+    "type": "choice",
+    "choice": "X.25",
+    "confidence": 1,
+    "probabilities": {
+     "X.1": 0,
+     "X.2": 0,
+     "X.3": 0,
+     "X.4": 0,
+     "X.5": 0,
+     "X.6": 0,
+     "X.7": 0,
+     "X.8": 0,
+     "X.9": 0,
+     "X.10": 0,
+     "X.11": 0,
+     "X.12": 0,
+     "X.13": 0,
+     "X.14": 0,
+     "X.15": 0,
+     "X.16": 0,
+     "X.17": 0,
+     "X.18": 0,
+     "X.19": 0,
+     "X.20": 0,
+     "X.21": 0,
+     "X.22": 0,
+     "X.23": 0,
+     "X.24": 0,
+     "X.25": 1,
+     "X.26": 0,
+     "X.27": 0,
+     "X.28": 0,
+     "X.29": 0,
+     "X.30": 0,
+     "X.31": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 1965
+  }
+ },
+ "2efe1f11e342f23f35f31becad78ff5757a6b695174a40c4f97c2985b5b719e0": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verse": {
+    "type": "choice",
+    "choice": "I.24",
+    "confidence": 0.96,
+    "probabilities": {
+     "I.1": 0,
+     "I.2": 0,
+     "I.3": 0,
+     "I.4": 0,
+     "I.5-6": 0,
+     "I.7": 0,
+     "I.8": 0,
+     "I.9": 0,
+     "I.10": 0,
+     "I.11": 0,
+     "I.12": 0,
+     "I.13": 0,
+     "I.14": 0,
+     "I.15": 0,
+     "I.16": 0,
+     "I.17": 0,
+     "I.18": 0,
+     "I.19": 0,
+     "I.20": 0,
+     "I.21": 0,
+     "I.22": 0,
+     "I.23": 0,
+     "I.24": 0.96,
+     "I.25": 0,
+     "I.26": 0,
+     "VI.1": 0,
+     "VI.2": 0,
+     "VI.3": 0,
+     "VI.4": 0,
+     "VI.5": 0.04,
+     "VI.6": 0,
+     "VI.7": 0,
+     "VI.8": 0,
+     "VI.9": 0,
+     "VI.10": 0,
+     "VI.11": 0,
+     "VI.12": 0,
+     "VI.13": 0,
+     "VI.14": 0,
+     "VI.15": 0,
+     "VI.16": 0,
+     "VI.17": 0,
+     "VI.18": 0,
+     "VI.19": 0,
+     "VI.20": 0,
+     "VI.21": 0,
+     "VI.22": 0,
+     "VI.23": 0,
+     "VI.24": 0,
+     "VI.25": 0,
+     "VI.26": 0,
+     "VI.27": 0,
+     "VI.28": 0,
+     "VI.29": 0,
+     "VI.30": 0,
+     "VI.31": 0,
+     "VI.32": 0,
+     "VI.33": 0,
+     "VI.34": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 3094
+  }
+ },
+ "4ddd2adeeb156eb60e2fbf8e7890434dfe9508a96d26fc24a141944b1fd84eec": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verse": {
+    "type": "choice",
+    "choice": "III.18",
+    "confidence": 1,
+    "probabilities": {
+     "III.1": 0,
+     "III.2": 0,
+     "III.3": 0,
+     "III.4": 0,
+     "III.5": 0,
+     "III.6": 0,
+     "III.7": 0,
+     "III.8": 0,
+     "III.9": 0,
+     "III.10": 0,
+     "III.11": 0,
+     "III.12": 0,
+     "III.13": 0,
+     "III.14": 0,
+     "III.15": 0,
+     "III.16": 0,
+     "III.17": 0,
+     "III.18": 1
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 1377
+  }
+ },
+ "e65eb07c525a9b434a788ed859fa001dbce9ebbb84089924df2d769398e2e371": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verse": {
+    "type": "choice",
+    "choice": "III.18",
+    "confidence": 0.89,
+    "probabilities": {
+     "III.1": 0,
+     "III.2": 0,
+     "III.3": 0,
+     "III.4": 0,
+     "III.5": 0,
+     "III.6": 0,
+     "III.7": 0,
+     "III.8": 0,
+     "III.9": 0.01,
+     "III.10": 0,
+     "III.11": 0,
+     "III.12": 0,
+     "III.13": 0,
+     "III.14": 0,
+     "III.15": 0,
+     "III.16": 0,
+     "III.17": 0.09,
+     "III.18": 0.9
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 1390
+  }
+ },
+ "788a2356f7a3936c210ae1ea9e822922c396722d6df9850b9a080c190d7cfae3": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verse": {
+    "type": "choice",
+    "choice": "I.8",
+    "confidence": 0.13,
+    "probabilities": {
+     "I.1": 0,
+     "I.2": 0.09999999999999999,
+     "I.3": 0.01,
+     "I.4": 0,
+     "I.5-6": 0,
+     "I.7": 0.01,
+     "I.8": 0.14,
+     "I.9": 0,
+     "I.10": 0,
+     "I.11": 0,
+     "I.12": 0.01,
+     "I.13": 0.04,
+     "I.14": 0,
+     "I.15": 0,
+     "I.16": 0.02,
+     "I.17": 0.14,
+     "I.18": 0.06999999999999999,
+     "I.19": 0.02,
+     "I.20": 0.01,
+     "I.21": 0,
+     "I.22": 0,
+     "I.23": 0,
+     "I.24": 0,
+     "I.25": 0,
+     "I.26": 0.04,
+     "XI.1": 0.03,
+     "XI.2": 0,
+     "XI.3": 0,
+     "XI.4": 0,
+     "XI.5": 0,
+     "XI.6": 0,
+     "XI.7": 0,
+     "XI.8": 0.01,
+     "XI.9": 0,
+     "XI.10": 0.01,
+     "XI.11": 0,
+     "XI.12": 0,
+     "XI.13": 0,
+     "XI.14": 0,
+     "XI.15": 0,
+     "XI.16": 0,
+     "XI.17": 0.04,
+     "XI.18": 0,
+     "XI.19": 0,
+     "XI.20": 0,
+     "XI.21": 0,
+     "XI.22": 0,
+     "XI.23": 0,
+     "XI.24": 0,
+     "XI.25": 0.01,
+     "XI.26": 0,
+     "XI.27": 0.03,
+     "XI.28": 0.01,
+     "XI.29": 0.01,
+     "XI.30": 0.01,
+     "XI.31": 0,
+     "XI.32": 0,
+     "XI.33": 0,
+     "XI.34": 0,
+     "XI.35": 0,
+     "XI.36": 0.01,
+     "XI.37": 0,
+     "XI.38": 0.01,
+     "XI.39": 0.01,
+     "XI.40": 0,
+     "XI.41": 0,
+     "XI.42": 0,
+     "XI.43": 0.01,
+     "XI.44": 0,
+     "XI.45": 0,
+     "XI.46": 0,
+     "XI.47": 0,
+     "XI.48": 0,
+     "XI.49": 0,
+     "XI.50": 0,
+     "XI.51": 0.01,
+     "XI.52": 0,
+     "XI.53": 0,
+     "XI.54": 0,
+     "XI.55": 0,
+     "XI.56": 0,
+     "XI.57": 0.05,
+     "XI.58": 0.01,
+     "XI.59": 0,
+     "XI.60": 0.01,
+     "XI.61": 0,
+     "XI.62": 0,
+     "XI.63": 0,
+     "XI.64": 0,
+     "XI.65": 0.01,
+     "XI.66": 0,
+     "XI.67": 0,
+     "XI.68": 0.03,
+     "III.1": 0,
+     "III.2": 0,
+     "III.3": 0,
+     "III.4": 0,
+     "III.5": 0,
+     "III.6": 0,
+     "III.7": 0,
+     "III.8": 0,
+     "III.9": 0,
+     "III.10": 0,
+     "III.11": 0,
+     "III.12": 0,
+     "III.13": 0,
+     "III.14": 0,
+     "III.15": 0,
+     "III.16": 0,
+     "III.17": 0.03,
+     "III.18": 0.04
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 5714
+  }
+ },
+ "005a379598da1139cd765af9be4a4bfe6922122d813d5426ad6ecfee2c660ab4": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verse": {
+    "type": "choice",
+    "choice": "VII.36",
+    "confidence": 0.98,
+    "probabilities": {
+     "VII.1": 0,
+     "VII.2": 0,
+     "VII.3": 0,
+     "VII.4": 0,
+     "VII.5": 0,
+     "VII.6": 0,
+     "VII.7": 0,
+     "VII.8": 0,
+     "VII.9": 0,
+     "VII.10": 0,
+     "VII.11": 0,
+     "VII.12": 0,
+     "VII.13": 0,
+     "VII.14": 0,
+     "VII.15": 0,
+     "VII.16": 0,
+     "VII.17": 0,
+     "VII.18": 0,
+     "VII.19": 0,
+     "VII.20": 0,
+     "VII.21": 0,
+     "VII.22": 0,
+     "VII.23": 0,
+     "VII.24": 0,
+     "VII.25": 0,
+     "VII.26": 0,
+     "VII.27": 0,
+     "VII.28": 0,
+     "VII.29": 0,
+     "VII.30": 0,
+     "VII.31": 0,
+     "VII.32": 0,
+     "VII.33": 0,
+     "VII.34": 0,
+     "VII.35": 0,
+     "VII.36": 0.98,
+     "VII.37": 0,
+     "XI.1": 0,
+     "XI.2": 0,
+     "XI.3": 0,
+     "XI.4": 0,
+     "XI.5": 0,
+     "XI.6": 0,
+     "XI.7": 0,
+     "XI.8": 0,
+     "XI.9": 0,
+     "XI.10": 0,
+     "XI.11": 0,
+     "XI.12": 0,
+     "XI.13": 0,
+     "XI.14": 0,
+     "XI.15": 0,
+     "XI.16": 0,
+     "XI.17": 0,
+     "XI.18": 0,
+     "XI.19": 0,
+     "XI.20": 0,
+     "XI.21": 0,
+     "XI.22": 0,
+     "XI.23": 0,
+     "XI.24": 0,
+     "XI.25": 0,
+     "XI.26": 0,
+     "XI.27": 0,
+     "XI.28": 0,
+     "XI.29": 0,
+     "XI.30": 0,
+     "XI.31": 0,
+     "XI.32": 0,
+     "XI.33": 0,
+     "XI.34": 0,
+     "XI.35": 0,
+     "XI.36": 0,
+     "XI.37": 0,
+     "XI.38": 0,
+     "XI.39": 0,
+     "XI.40": 0,
+     "XI.41": 0,
+     "XI.42": 0,
+     "XI.43": 0,
+     "XI.44": 0,
+     "XI.45": 0,
+     "XI.46": 0,
+     "XI.47": 0,
+     "XI.48": 0,
+     "XI.49": 0,
+     "XI.50": 0.02,
+     "XI.51": 0,
+     "XI.52": 0,
+     "XI.53": 0,
+     "XI.54": 0,
+     "XI.55": 0,
+     "XI.56": 0,
+     "XI.57": 0,
+     "XI.58": 0,
+     "XI.59": 0,
+     "XI.60": 0,
+     "XI.61": 0,
+     "XI.62": 0,
+     "XI.63": 0,
+     "XI.64": 0,
+     "XI.65": 0,
+     "XI.66": 0,
+     "XI.67": 0,
+     "XI.68": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 5130
+  }
+ },
+ "012507064fa6ad041201b0cfe3c8b8534c1d337790e82dd7f352a2cae265e6e6": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verse": {
+    "type": "choice",
+    "choice": "I.18",
+    "confidence": 0.79,
+    "probabilities": {
+     "I.1": 0,
+     "I.2": 0,
+     "I.3": 0,
+     "I.4": 0,
+     "I.5-6": 0,
+     "I.7": 0,
+     "I.8": 0,
+     "I.9": 0,
+     "I.10": 0,
+     "I.11": 0,
+     "I.12": 0,
+     "I.13": 0,
+     "I.14": 0,
+     "I.15": 0,
+     "I.16": 0,
+     "I.17": 0,
+     "I.18": 0.79,
+     "I.19": 0.18000000000000002,
+     "I.20": 0.03,
+     "I.21": 0,
+     "I.22": 0,
+     "I.23": 0,
+     "I.24": 0,
+     "I.25": 0,
+     "I.26": 0,
+     "III.1": 0,
+     "III.2": 0,
+     "III.3": 0,
+     "III.4": 0,
+     "III.5": 0,
+     "III.6": 0,
+     "III.7": 0,
+     "III.8": 0,
+     "III.9": 0,
+     "III.10": 0,
+     "III.11": 0,
+     "III.12": 0,
+     "III.13": 0,
+     "III.14": 0,
+     "III.15": 0,
+     "III.16": 0,
+     "III.17": 0,
+     "III.18": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 2492
+  }
+ },
+ "ec9210f5ba84264444b3626a0c1cef0db2cbe362b57a2ea034bdba8c782c9394": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verse": {
+    "type": "choice",
+    "choice": "XI.19",
+    "confidence": 0.92,
+    "probabilities": {
+     "XI.1": 0,
+     "XI.2": 0,
+     "XI.3": 0,
+     "XI.4": 0,
+     "XI.5": 0,
+     "XI.6": 0,
+     "XI.7": 0,
+     "XI.8": 0,
+     "XI.9": 0,
+     "XI.10": 0,
+     "XI.11": 0,
+     "XI.12": 0,
+     "XI.13": 0,
+     "XI.14": 0,
+     "XI.15": 0,
+     "XI.16": 0,
+     "XI.17": 0,
+     "XI.18": 0,
+     "XI.19": 0.92,
+     "XI.20": 0,
+     "XI.21": 0,
+     "XI.22": 0,
+     "XI.23": 0,
+     "XI.24": 0,
+     "XI.25": 0,
+     "XI.26": 0,
+     "XI.27": 0,
+     "XI.28": 0,
+     "XI.29": 0,
+     "XI.30": 0,
+     "XI.31": 0,
+     "XI.32": 0,
+     "XI.33": 0,
+     "XI.34": 0,
+     "XI.35": 0,
+     "XI.36": 0,
+     "XI.37": 0,
+     "XI.38": 0,
+     "XI.39": 0,
+     "XI.40": 0,
+     "XI.41": 0,
+     "XI.42": 0,
+     "XI.43": 0,
+     "XI.44": 0,
+     "XI.45": 0,
+     "XI.46": 0,
+     "XI.47": 0,
+     "XI.48": 0,
+     "XI.49": 0,
+     "XI.50": 0,
+     "XI.51": 0,
+     "XI.52": 0,
+     "XI.53": 0,
+     "XI.54": 0,
+     "XI.55": 0,
+     "XI.56": 0,
+     "XI.57": 0,
+     "XI.58": 0,
+     "XI.59": 0,
+     "XI.60": 0,
+     "XI.61": 0,
+     "XI.62": 0,
+     "XI.63": 0,
+     "XI.64": 0,
+     "XI.65": 0.01,
+     "XI.66": 0,
+     "XI.67": 0,
+     "XI.68": 0.060000000000000005
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 3528
+  }
+ },
+ "d7d9d60fef6ba39956f8825f8f900c31e763241f6d475e9752167fd75251fc57": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verse": {
+    "type": "choice",
+    "choice": "I.18",
+    "confidence": 0.97,
+    "probabilities": {
+     "I.1": 0,
+     "I.2": 0,
+     "I.3": 0,
+     "I.4": 0,
+     "I.5-6": 0,
+     "I.7": 0,
+     "I.8": 0,
+     "I.9": 0,
+     "I.10": 0,
+     "I.11": 0,
+     "I.12": 0,
+     "I.13": 0,
+     "I.14": 0,
+     "I.15": 0,
+     "I.16": 0,
+     "I.17": 0,
+     "I.18": 0.97,
+     "I.19": 0.03,
+     "I.20": 0,
+     "I.21": 0,
+     "I.22": 0,
+     "I.23": 0,
+     "I.24": 0,
+     "I.25": 0,
+     "I.26": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 1421
+  }
+ },
+ "d90c18391c93e92da1a707403417c4efdc4f9b8869ef317c8930faf180448972": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verse": {
+    "type": "choice",
+    "choice": "I.18",
+    "confidence": 0.9,
+    "probabilities": {
+     "I.1": 0,
+     "I.2": 0,
+     "I.3": 0,
+     "I.4": 0,
+     "I.5-6": 0,
+     "I.7": 0,
+     "I.8": 0,
+     "I.9": 0,
+     "I.10": 0,
+     "I.11": 0,
+     "I.12": 0,
+     "I.13": 0,
+     "I.14": 0,
+     "I.15": 0,
+     "I.16": 0,
+     "I.17": 0,
+     "I.18": 0.9,
+     "I.19": 0.09,
+     "I.20": 0.01,
+     "I.21": 0,
+     "I.22": 0,
+     "I.23": 0,
+     "I.24": 0,
+     "I.25": 0,
+     "I.26": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 1420
+  }
+ },
+ "5bc67e4c084863709920f27ee54fc3fbec61142b3e4cd6d6444f2d5793e244f6": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verse": {
+    "type": "choice",
+    "choice": "VII.19",
+    "confidence": 0.89,
+    "probabilities": {
+     "VII.1": 0,
+     "VII.2": 0,
+     "VII.3": 0,
+     "VII.4": 0,
+     "VII.5": 0,
+     "VII.6": 0,
+     "VII.7": 0,
+     "VII.8": 0,
+     "VII.9": 0,
+     "VII.10": 0,
+     "VII.11": 0,
+     "VII.12": 0,
+     "VII.13": 0,
+     "VII.14": 0,
+     "VII.15": 0.02,
+     "VII.16": 0,
+     "VII.17": 0.02,
+     "VII.18": 0.02,
+     "VII.19": 0.89,
+     "VII.20": 0,
+     "VII.21": 0,
+     "VII.22": 0,
+     "VII.23": 0,
+     "VII.24": 0,
+     "VII.25": 0,
+     "VII.26": 0,
+     "VII.27": 0,
+     "VII.28": 0,
+     "VII.29": 0,
+     "VII.30": 0,
+     "VII.31": 0,
+     "VII.32": 0,
+     "VII.33": 0,
+     "VII.34": 0,
+     "VII.35": 0,
+     "VII.36": 0,
+     "VII.37": 0,
+     "III.1": 0,
+     "III.2": 0,
+     "III.3": 0,
+     "III.4": 0,
+     "III.5": 0,
+     "III.6": 0,
+     "III.7": 0,
+     "III.8": 0,
+     "III.9": 0,
+     "III.10": 0,
+     "III.11": 0,
+     "III.12": 0,
+     "III.13": 0,
+     "III.14": 0,
+     "III.15": 0,
+     "III.16": 0,
+     "III.17": 0,
+     "III.18": 0,
+     "V.1": 0,
+     "V.2": 0,
+     "V.3": 0,
+     "V.4": 0,
+     "V.5": 0,
+     "V.6": 0,
+     "V.7": 0,
+     "V.8": 0,
+     "V.9": 0,
+     "V.10": 0,
+     "V.11": 0,
+     "V.12": 0,
+     "V.13": 0.01,
+     "V.14": 0.01,
+     "V.15": 0,
+     "V.16": 0,
+     "V.17": 0.02,
+     "V.18": 0,
+     "V.19": 0,
+     "V.20": 0,
+     "V.21": 0,
+     "V.22": 0,
+     "V.23": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 4083
+  }
+ },
+ "2d91af89448c20f206a850929f6393fdf847f99f9157217661cfc269f60fdbec": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verse": {
+    "type": "choice",
+    "choice": "XI.19",
+    "confidence": 0.26,
+    "probabilities": {
+     "XI.1": 0,
+     "XI.2": 0,
+     "XI.3": 0,
+     "XI.4": 0,
+     "XI.5": 0,
+     "XI.6": 0,
+     "XI.7": 0,
+     "XI.8": 0,
+     "XI.9": 0.01,
+     "XI.10": 0.02,
+     "XI.11": 0,
+     "XI.12": 0,
+     "XI.13": 0,
+     "XI.14": 0,
+     "XI.15": 0,
+     "XI.16": 0,
+     "XI.17": 0,
+     "XI.18": 0,
+     "XI.19": 0.27,
+     "XI.20": 0,
+     "XI.21": 0,
+     "XI.22": 0,
+     "XI.23": 0,
+     "XI.24": 0,
+     "XI.25": 0,
+     "XI.26": 0,
+     "XI.27": 0,
+     "XI.28": 0,
+     "XI.29": 0,
+     "XI.30": 0,
+     "XI.31": 0,
+     "XI.32": 0,
+     "XI.33": 0,
+     "XI.34": 0,
+     "XI.35": 0,
+     "XI.36": 0,
+     "XI.37": 0,
+     "XI.38": 0,
+     "XI.39": 0,
+     "XI.40": 0,
+     "XI.41": 0,
+     "XI.42": 0,
+     "XI.43": 0,
+     "XI.44": 0,
+     "XI.45": 0,
+     "XI.46": 0,
+     "XI.47": 0,
+     "XI.48": 0,
+     "XI.49": 0,
+     "XI.50": 0,
+     "XI.51": 0,
+     "XI.52": 0,
+     "XI.53": 0,
+     "XI.54": 0,
+     "XI.55": 0,
+     "XI.56": 0,
+     "XI.57": 0,
+     "XI.58": 0,
+     "XI.59": 0,
+     "XI.60": 0,
+     "XI.61": 0,
+     "XI.62": 0,
+     "XI.63": 0,
+     "XI.64": 0,
+     "XI.65": 0.05,
+     "XI.66": 0,
+     "XI.67": 0,
+     "XI.68": 0.16,
+     "V.1": 0,
+     "V.2": 0,
+     "V.3": 0,
+     "V.4": 0,
+     "V.5": 0,
+     "V.6": 0,
+     "V.7": 0,
+     "V.8": 0,
+     "V.9": 0,
+     "V.10": 0,
+     "V.11": 0,
+     "V.12": 0.08,
+     "V.13": 0,
+     "V.14": 0.05,
+     "V.15": 0.02,
+     "V.16": 0,
+     "V.17": 0,
+     "V.18": 0,
+     "V.19": 0,
+     "V.20": 0,
+     "V.21": 0,
+     "V.22": 0,
+     "V.23": 0,
+     "VII.1": 0,
+     "VII.2": 0,
+     "VII.3": 0,
+     "VII.4": 0,
+     "VII.5": 0,
+     "VII.6": 0,
+     "VII.7": 0.02,
+     "VII.8": 0,
+     "VII.9": 0,
+     "VII.10": 0,
+     "VII.11": 0,
+     "VII.12": 0,
+     "VII.13": 0,
+     "VII.14": 0,
+     "VII.15": 0,
+     "VII.16": 0,
+     "VII.17": 0.12,
+     "VII.18": 0.02,
+     "VII.19": 0.18000000000000002,
+     "VII.20": 0,
+     "VII.21": 0,
+     "VII.22": 0,
+     "VII.23": 0,
+     "VII.24": 0,
+     "VII.25": 0,
+     "VII.26": 0,
+     "VII.27": 0,
+     "VII.28": 0,
+     "VII.29": 0,
+     "VII.30": 0,
+     "VII.31": 0,
+     "VII.32": 0,
+     "VII.33": 0,
+     "VII.34": 0,
+     "VII.35": 0,
+     "VII.36": 0,
+     "VII.37": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 6213
+  }
+ },
+ "a79ccf5dd5667c0e7c3eda24efa2c696f9f41487e5f81fca52bb2ca627120f70": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verse": {
+    "type": "choice",
+    "choice": "VI.29",
+    "confidence": 0.79,
+    "probabilities": {
+     "VI.1": 0,
+     "VI.2": 0,
+     "VI.3": 0,
+     "VI.4": 0,
+     "VI.5": 0,
+     "VI.6": 0,
+     "VI.7": 0,
+     "VI.8": 0,
+     "VI.9": 0,
+     "VI.10": 0,
+     "VI.11": 0,
+     "VI.12": 0,
+     "VI.13": 0,
+     "VI.14": 0,
+     "VI.15": 0,
+     "VI.16": 0,
+     "VI.17": 0,
+     "VI.18": 0,
+     "VI.19": 0,
+     "VI.20": 0,
+     "VI.21": 0,
+     "VI.22": 0,
+     "VI.23": 0,
+     "VI.24": 0,
+     "VI.25": 0,
+     "VI.26": 0,
+     "VI.27": 0,
+     "VI.28": 0.02,
+     "VI.29": 0.8,
+     "VI.30": 0.01,
+     "VI.31": 0.03,
+     "VI.32": 0.02,
+     "VI.33": 0.12,
+     "VI.34": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 1970
+  }
+ },
+ "8d0dcb9c9e94228c261c435d1bcf3552eb445cd9856d4c6bde24edd54f30179a": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verse": {
+    "type": "choice",
+    "choice": "XI.19",
+    "confidence": 1,
+    "probabilities": {
+     "XI.1": 0,
+     "XI.2": 0,
+     "XI.3": 0,
+     "XI.4": 0,
+     "XI.5": 0,
+     "XI.6": 0,
+     "XI.7": 0,
+     "XI.8": 0,
+     "XI.9": 0,
+     "XI.10": 0,
+     "XI.11": 0,
+     "XI.12": 0,
+     "XI.13": 0,
+     "XI.14": 0,
+     "XI.15": 0,
+     "XI.16": 0,
+     "XI.17": 0,
+     "XI.18": 0,
+     "XI.19": 1,
+     "XI.20": 0,
+     "XI.21": 0,
+     "XI.22": 0,
+     "XI.23": 0,
+     "XI.24": 0,
+     "XI.25": 0,
+     "XI.26": 0,
+     "XI.27": 0,
+     "XI.28": 0,
+     "XI.29": 0,
+     "XI.30": 0,
+     "XI.31": 0,
+     "XI.32": 0,
+     "XI.33": 0,
+     "XI.34": 0,
+     "XI.35": 0,
+     "XI.36": 0,
+     "XI.37": 0,
+     "XI.38": 0,
+     "XI.39": 0,
+     "XI.40": 0,
+     "XI.41": 0,
+     "XI.42": 0,
+     "XI.43": 0,
+     "XI.44": 0,
+     "XI.45": 0,
+     "XI.46": 0,
+     "XI.47": 0,
+     "XI.48": 0,
+     "XI.49": 0,
+     "XI.50": 0,
+     "XI.51": 0,
+     "XI.52": 0,
+     "XI.53": 0,
+     "XI.54": 0,
+     "XI.55": 0,
+     "XI.56": 0,
+     "XI.57": 0,
+     "XI.58": 0,
+     "XI.59": 0,
+     "XI.60": 0,
+     "XI.61": 0,
+     "XI.62": 0,
+     "XI.63": 0,
+     "XI.64": 0,
+     "XI.65": 0,
+     "XI.66": 0,
+     "XI.67": 0,
+     "XI.68": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 3526
+  }
+ },
+ "d94528bcf4c34c7fd0ca7b0c628ca368e6d6a745d326a1cef1d728ca0a9f9bbf": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verse": {
+    "type": "choice",
+    "choice": "III.18",
+    "confidence": 0.99,
+    "probabilities": {
+     "III.1": 0,
+     "III.2": 0,
+     "III.3": 0,
+     "III.4": 0,
+     "III.5": 0,
+     "III.6": 0,
+     "III.7": 0,
+     "III.8": 0,
+     "III.9": 0,
+     "III.10": 0,
+     "III.11": 0,
+     "III.12": 0,
+     "III.13": 0,
+     "III.14": 0,
+     "III.15": 0,
+     "III.16": 0,
+     "III.17": 0.01,
+     "III.18": 0.99
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 1376
+  }
+ },
+ "3003a465e059a192cf57059461655d73d62616bbd83d9dd4009d7d2e07d9139c": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verse": {
+    "type": "choice",
+    "choice": "IX.4",
+    "confidence": 0.34,
+    "probabilities": {
+     "IV.1": 0.35000000000000003,
+     "IV.2": 0.060000000000000005,
+     "IV.3": 0,
+     "IV.4": 0,
+     "IV.5": 0,
+     "IV.6": 0,
+     "IV.7": 0,
+     "IV.8": 0,
+     "IV.9": 0,
+     "IV.10": 0,
+     "IV.11": 0,
+     "IV.12": 0,
+     "IV.13": 0.01,
+     "IV.14": 0.03,
+     "IV.15": 0.06999999999999999,
+     "IV.16": 0,
+     "IV.17": 0,
+     "IV.18": 0,
+     "IV.19": 0,
+     "IV.20": 0,
+     "VII.1": 0,
+     "VII.2": 0,
+     "VII.3": 0,
+     "VII.4": 0.02,
+     "VII.5": 0,
+     "VII.6": 0,
+     "VII.7": 0,
+     "VII.8": 0,
+     "VII.9": 0,
+     "VII.10": 0,
+     "VII.11": 0,
+     "VII.12": 0,
+     "VII.13": 0,
+     "VII.14": 0,
+     "VII.15": 0,
+     "VII.16": 0,
+     "VII.17": 0,
+     "VII.18": 0,
+     "VII.19": 0,
+     "VII.20": 0,
+     "VII.21": 0,
+     "VII.22": 0,
+     "VII.23": 0,
+     "VII.24": 0,
+     "VII.25": 0,
+     "VII.26": 0,
+     "VII.27": 0,
+     "VII.28": 0,
+     "VII.29": 0,
+     "VII.30": 0,
+     "VII.31": 0.02,
+     "VII.32": 0,
+     "VII.33": 0,
+     "VII.34": 0,
+     "VII.35": 0,
+     "VII.36": 0,
+     "VII.37": 0,
+     "IX.1": 0,
+     "IX.2": 0,
+     "IX.3": 0,
+     "IX.4": 0.35000000000000003,
+     "IX.5": 0.02,
+     "IX.6": 0.02,
+     "IX.7": 0,
+     "IX.8": 0,
+     "IX.9": 0,
+     "IX.10": 0,
+     "IX.11": 0,
+     "IX.12": 0,
+     "IX.13": 0,
+     "IX.14": 0.04,
+     "IX.15": 0,
+     "IX.16": 0,
+     "IX.17": 0,
+     "IX.18": 0,
+     "IX.19": 0,
+     "IX.20": 0,
+     "IX.21": 0,
+     "IX.22": 0,
+     "IX.23": 0,
+     "IX.24": 0,
+     "IX.25": 0,
+     "IX.26": 0,
+     "IX.27": 0,
+     "IX.28": 0,
+     "IX.29": 0,
+     "IX.30": 0,
+     "IX.31": 0,
+     "IX.32": 0,
+     "IX.33": 0,
+     "IX.34": 0,
+     "IX.35": 0,
+     "IX.36": 0,
+     "IX.37": 0,
+     "IX.38": 0,
+     "IX.39": 0,
+     "IX.40": 0,
+     "IX.41": 0,
+     "IX.42": 0,
+     "IX.43": 0,
+     "IX.44": 0,
+     "IX.45": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 4803
+  }
+ },
+ "f4697f9803f3d64ad393f1e7fa1531fe98eafe930bdd4b5b71bdcf008d79de8e": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verse": {
+    "type": "choice",
+    "choice": "XIII.21",
+    "confidence": 0.66,
+    "probabilities": {
+     "XIII.1": 0,
+     "XIII.2": 0,
+     "XIII.3": 0,
+     "XIII.4": 0,
+     "XIII.5": 0,
+     "XIII.6": 0,
+     "XIII.7": 0.01,
+     "XIII.8": 0,
+     "XIII.9": 0,
+     "XIII.10": 0.02,
+     "XIII.11": 0.2,
+     "XIII.12": 0.01,
+     "XIII.13": 0,
+     "XIII.14": 0.06,
+     "XIII.15": 0,
+     "XIII.16": 0,
+     "XIII.17": 0,
+     "XIII.18": 0,
+     "XIII.19": 0,
+     "XIII.20": 0.01,
+     "XIII.21": 0.67,
+     "XIII.22": 0.01,
+     "XIII.23": 0,
+     "XIII.24": 0,
+     "XIII.25": 0,
+     "XIII.26": 0,
+     "XIII.27": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 1607
+  }
+ },
+ "110bcf07f54f90670ba93ff96d0c67fa3a00f4f5e2981a35d58530138586e27f": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verse": {
+    "type": "choice",
+    "choice": "VII.30",
+    "confidence": 0.51,
+    "probabilities": {
+     "VII.1": 0,
+     "VII.2": 0,
+     "VII.3": 0,
+     "VII.4": 0,
+     "VII.5": 0,
+     "VII.6": 0,
+     "VII.7": 0,
+     "VII.8": 0,
+     "VII.9": 0,
+     "VII.10": 0,
+     "VII.11": 0,
+     "VII.12": 0,
+     "VII.13": 0,
+     "VII.14": 0,
+     "VII.15": 0,
+     "VII.16": 0,
+     "VII.17": 0,
+     "VII.18": 0,
+     "VII.19": 0,
+     "VII.20": 0,
+     "VII.21": 0.01,
+     "VII.22": 0,
+     "VII.23": 0,
+     "VII.24": 0,
+     "VII.25": 0,
+     "VII.26": 0,
+     "VII.27": 0,
+     "VII.28": 0,
+     "VII.29": 0.05,
+     "VII.30": 0.52,
+     "VII.31": 0.01,
+     "VII.32": 0.06999999999999999,
+     "VII.33": 0,
+     "VII.34": 0.03,
+     "VII.35": 0.03,
+     "VII.36": 0.03,
+     "VII.37": 0,
+     "VI.1": 0,
+     "VI.2": 0,
+     "VI.3": 0,
+     "VI.4": 0.02,
+     "VI.5": 0,
+     "VI.6": 0,
+     "VI.7": 0,
+     "VI.8": 0,
+     "VI.9": 0,
+     "VI.10": 0,
+     "VI.11": 0,
+     "VI.12": 0,
+     "VI.13": 0,
+     "VI.14": 0,
+     "VI.15": 0,
+     "VI.16": 0,
+     "VI.17": 0,
+     "VI.18": 0,
+     "VI.19": 0,
+     "VI.20": 0,
+     "VI.21": 0,
+     "VI.22": 0,
+     "VI.23": 0.01,
+     "VI.24": 0,
+     "VI.25": 0,
+     "VI.26": 0,
+     "VI.27": 0,
+     "VI.28": 0,
+     "VI.29": 0,
+     "VI.30": 0.05,
+     "VI.31": 0,
+     "VI.32": 0,
+     "VI.33": 0,
+     "VI.34": 0.01,
+     "IV.1": 0.04,
+     "IV.2": 0.01,
+     "IV.3": 0,
+     "IV.4": 0,
+     "IV.5": 0,
+     "IV.6": 0,
+     "IV.7": 0,
+     "IV.8": 0,
+     "IV.9": 0,
+     "IV.10": 0,
+     "IV.11": 0.01,
+     "IV.12": 0,
+     "IV.13": 0.04,
+     "IV.14": 0.01,
+     "IV.15": 0.04,
+     "IV.16": 0,
+     "IV.17": 0,
+     "IV.18": 0,
+     "IV.19": 0,
+     "IV.20": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 4414
+  }
+ },
+ "b04757fffa1cd3630a078f1574153c95675d1fbf116a2b1101497cea186fc17d": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verse": {
+    "type": "choice",
+    "choice": "VI.11",
+    "confidence": 0.12,
+    "probabilities": {
+     "IV.1": 0.11,
+     "IV.2": 0.02,
+     "IV.3": 0,
+     "IV.4": 0,
+     "IV.5": 0.13,
+     "IV.6": 0.09999999999999999,
+     "IV.7": 0.06,
+     "IV.8": 0,
+     "IV.9": 0,
+     "IV.10": 0,
+     "IV.11": 0.01,
+     "IV.12": 0,
+     "IV.13": 0.01,
+     "IV.14": 0.09,
+     "IV.15": 0.03,
+     "IV.16": 0,
+     "IV.17": 0,
+     "IV.18": 0,
+     "IV.19": 0.01,
+     "IV.20": 0,
+     "VI.1": 0.01,
+     "VI.2": 0.04,
+     "VI.3": 0.02,
+     "VI.4": 0,
+     "VI.5": 0.01,
+     "VI.6": 0.01,
+     "VI.7": 0.02,
+     "VI.8": 0.03,
+     "VI.9": 0,
+     "VI.10": 0.03,
+     "VI.11": 0.14,
+     "VI.12": 0,
+     "VI.13": 0.01,
+     "VI.14": 0,
+     "VI.15": 0,
+     "VI.16": 0,
+     "VI.17": 0,
+     "VI.18": 0.01,
+     "VI.19": 0,
+     "VI.20": 0,
+     "VI.21": 0,
+     "VI.22": 0,
+     "VI.23": 0,
+     "VI.24": 0,
+     "VI.25": 0,
+     "VI.26": 0,
+     "VI.27": 0,
+     "VI.28": 0,
+     "VI.29": 0,
+     "VI.30": 0.09999999999999999,
+     "VI.31": 0,
+     "VI.32": 0,
+     "VI.33": 0,
+     "VI.34": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 2811
+  }
+ },
+ "9e13ce2c7596795170ab3904938b66e7428ac4d88ec463b3eecba7382755faeb": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verse": {
+    "type": "choice",
+    "choice": "XI.12",
+    "confidence": 0.38,
+    "probabilities": {
+     "XI.1": 0,
+     "XI.2": 0,
+     "XI.3": 0,
+     "XI.4": 0,
+     "XI.5": 0,
+     "XI.6": 0.02,
+     "XI.7": 0,
+     "XI.8": 0,
+     "XI.9": 0,
+     "XI.10": 0,
+     "XI.11": 0,
+     "XI.12": 0.39,
+     "XI.13": 0,
+     "XI.14": 0,
+     "XI.15": 0,
+     "XI.16": 0,
+     "XI.17": 0,
+     "XI.18": 0,
+     "XI.19": 0,
+     "XI.20": 0,
+     "XI.21": 0,
+     "XI.22": 0,
+     "XI.23": 0,
+     "XI.24": 0,
+     "XI.25": 0,
+     "XI.26": 0,
+     "XI.27": 0,
+     "XI.28": 0,
+     "XI.29": 0,
+     "XI.30": 0.14,
+     "XI.31": 0,
+     "XI.32": 0,
+     "XI.33": 0,
+     "XI.34": 0,
+     "XI.35": 0,
+     "XI.36": 0,
+     "XI.37": 0,
+     "XI.38": 0,
+     "XI.39": 0,
+     "XI.40": 0,
+     "XI.41": 0,
+     "XI.42": 0,
+     "XI.43": 0,
+     "XI.44": 0,
+     "XI.45": 0,
+     "XI.46": 0,
+     "XI.47": 0,
+     "XI.48": 0.2,
+     "XI.49": 0,
+     "XI.50": 0,
+     "XI.51": 0,
+     "XI.52": 0.01,
+     "XI.53": 0,
+     "XI.54": 0.16,
+     "XI.55": 0.01,
+     "XI.56": 0,
+     "XI.57": 0,
+     "XI.58": 0,
+     "XI.59": 0,
+     "XI.60": 0,
+     "XI.61": 0,
+     "XI.62": 0,
+     "XI.63": 0,
+     "XI.64": 0,
+     "XI.65": 0,
+     "XI.66": 0.02,
+     "XI.67": 0,
+     "XI.68": 0,
+     "VIII.1": 0,
+     "VIII.2": 0,
+     "VIII.3": 0,
+     "VIII.4": 0,
+     "VIII.5": 0,
+     "VIII.6": 0,
+     "VIII.7": 0,
+     "VIII.8": 0,
+     "VIII.9": 0,
+     "VIII.10": 0,
+     "VIII.11": 0,
+     "VIII.12": 0,
+     "VIII.13": 0,
+     "VIII.14": 0,
+     "VII.1": 0,
+     "VII.2": 0,
+     "VII.3": 0,
+     "VII.4": 0,
+     "VII.5": 0,
+     "VII.6": 0,
+     "VII.7": 0,
+     "VII.8": 0,
+     "VII.9": 0,
+     "VII.10": 0,
+     "VII.11": 0,
+     "VII.12": 0.04,
+     "VII.13": 0,
+     "VII.14": 0,
+     "VII.15": 0,
+     "VII.16": 0,
+     "VII.17": 0,
+     "VII.18": 0,
+     "VII.19": 0,
+     "VII.20": 0,
+     "VII.21": 0,
+     "VII.22": 0,
+     "VII.23": 0,
+     "VII.24": 0,
+     "VII.25": 0,
+     "VII.26": 0,
+     "VII.27": 0,
+     "VII.28": 0,
+     "VII.29": 0,
+     "VII.30": 0,
+     "VII.31": 0,
+     "VII.32": 0,
+     "VII.33": 0,
+     "VII.34": 0,
+     "VII.35": 0,
+     "VII.36": 0,
+     "VII.37": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 5835
+  }
+ },
+ "bf8c437b3d6a1fb1f0c891ce96fc0cde4286230ed8db32c6bb61968b8109d68f": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "never",
+    "confidence": 0.77,
+    "probabilities": {
+     "said": 0,
+     "close": 0.15,
+     "never": 0.85
+    }
+   },
+   "chapter": {
+    "type": "choice",
+    "choice": "IV",
+    "confidence": 0.29,
+    "probabilities": {
+     "I": 0.03,
+     "II": 0,
+     "III": 0.02,
+     "IV": 0.34,
+     "V": 0.12,
+     "VI": 0.17,
+     "VII": 0.05,
+     "VIII": 0.14,
+     "IX": 0,
+     "X": 0.01,
+     "XI": 0.11,
+     "XII": 0.01,
+     "XIII": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15626
+  }
+ },
+ "af0899ecae0de1bebc5028b9907d489478b7dcf15419a36712f4d7af7043e78d": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verse": {
+    "type": "choice",
+    "choice": "IV.14",
+    "confidence": 0.35,
+    "probabilities": {
+     "IV.1": 0.03,
+     "IV.2": 0.14,
+     "IV.3": 0,
+     "IV.4": 0,
+     "IV.5": 0,
+     "IV.6": 0,
+     "IV.7": 0,
+     "IV.8": 0,
+     "IV.9": 0,
+     "IV.10": 0,
+     "IV.11": 0.01,
+     "IV.12": 0,
+     "IV.13": 0.01,
+     "IV.14": 0.36,
+     "IV.15": 0.01,
+     "IV.16": 0,
+     "IV.17": 0,
+     "IV.18": 0,
+     "IV.19": 0,
+     "IV.20": 0,
+     "VI.1": 0.01,
+     "VI.2": 0.02,
+     "VI.3": 0.04,
+     "VI.4": 0.01,
+     "VI.5": 0.02,
+     "VI.6": 0,
+     "VI.7": 0,
+     "VI.8": 0,
+     "VI.9": 0,
+     "VI.10": 0.01,
+     "VI.11": 0.01,
+     "VI.12": 0,
+     "VI.13": 0,
+     "VI.14": 0.01,
+     "VI.15": 0,
+     "VI.16": 0,
+     "VI.17": 0,
+     "VI.18": 0.01,
+     "VI.19": 0,
+     "VI.20": 0,
+     "VI.21": 0,
+     "VI.22": 0,
+     "VI.23": 0.01,
+     "VI.24": 0,
+     "VI.25": 0,
+     "VI.26": 0,
+     "VI.27": 0,
+     "VI.28": 0.01,
+     "VI.29": 0,
+     "VI.30": 0,
+     "VI.31": 0,
+     "VI.32": 0.01,
+     "VI.33": 0.01,
+     "VI.34": 0,
+     "VIII.1": 0,
+     "VIII.2": 0.01,
+     "VIII.3": 0,
+     "VIII.4": 0.01,
+     "VIII.5": 0,
+     "VIII.6": 0,
+     "VIII.7": 0.01,
+     "VIII.8": 0.02,
+     "VIII.9": 0.16,
+     "VIII.10": 0.04,
+     "VIII.11": 0.01,
+     "VIII.12": 0,
+     "VIII.13": 0,
+     "VIII.14": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 3520
+  }
+ },
+ "c16d5f26e3a62370548085afc7a70a020c50ff33c29cff624b1bbb18af949727": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "never",
+    "confidence": 0.83,
+    "probabilities": {
+     "said": 0,
+     "close": 0.11,
+     "never": 0.89
+    }
+   },
+   "chapter": {
+    "type": "choice",
+    "choice": "XIII",
+    "confidence": 0.85,
+    "probabilities": {
+     "I": 0,
+     "II": 0,
+     "III": 0.01,
+     "IV": 0,
+     "V": 0,
+     "VI": 0.01,
+     "VII": 0.03,
+     "VIII": 0.01,
+     "IX": 0,
+     "X": 0,
+     "XI": 0.08,
+     "XII": 0,
+     "XIII": 0.86
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15624
+  }
+ },
+ "733754143063f4e4c174161c44762aecf62254ca65c52536407f0c7403f1f585": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verse": {
+    "type": "choice",
+    "choice": "XIII.11",
+    "confidence": 0.28,
+    "probabilities": {
+     "XIII.1": 0,
+     "XIII.2": 0,
+     "XIII.3": 0,
+     "XIII.4": 0,
+     "XIII.5": 0,
+     "XIII.6": 0,
+     "XIII.7": 0.02,
+     "XIII.8": 0,
+     "XIII.9": 0,
+     "XIII.10": 0,
+     "XIII.11": 0.29000000000000004,
+     "XIII.12": 0.02,
+     "XIII.13": 0,
+     "XIII.14": 0.09,
+     "XIII.15": 0,
+     "XIII.16": 0,
+     "XIII.17": 0,
+     "XIII.18": 0,
+     "XIII.19": 0,
+     "XIII.20": 0,
+     "XIII.21": 0.19,
+     "XIII.22": 0.02,
+     "XIII.23": 0.02,
+     "XIII.24": 0,
+     "XIII.25": 0,
+     "XIII.26": 0,
+     "XIII.27": 0,
+     "XI.1": 0,
+     "XI.2": 0,
+     "XI.3": 0,
+     "XI.4": 0,
+     "XI.5": 0,
+     "XI.6": 0.01,
+     "XI.7": 0,
+     "XI.8": 0,
+     "XI.9": 0,
+     "XI.10": 0,
+     "XI.11": 0,
+     "XI.12": 0.13,
+     "XI.13": 0,
+     "XI.14": 0,
+     "XI.15": 0,
+     "XI.16": 0,
+     "XI.17": 0,
+     "XI.18": 0.01,
+     "XI.19": 0,
+     "XI.20": 0,
+     "XI.21": 0,
+     "XI.22": 0,
+     "XI.23": 0,
+     "XI.24": 0,
+     "XI.25": 0,
+     "XI.26": 0,
+     "XI.27": 0,
+     "XI.28": 0,
+     "XI.29": 0,
+     "XI.30": 0.01,
+     "XI.31": 0,
+     "XI.32": 0,
+     "XI.33": 0,
+     "XI.34": 0,
+     "XI.35": 0,
+     "XI.36": 0,
+     "XI.37": 0,
+     "XI.38": 0,
+     "XI.39": 0,
+     "XI.40": 0,
+     "XI.41": 0,
+     "XI.42": 0,
+     "XI.43": 0,
+     "XI.44": 0,
+     "XI.45": 0,
+     "XI.46": 0,
+     "XI.47": 0,
+     "XI.48": 0.09999999999999999,
+     "XI.49": 0,
+     "XI.50": 0,
+     "XI.51": 0,
+     "XI.52": 0.01,
+     "XI.53": 0,
+     "XI.54": 0.01,
+     "XI.55": 0.03,
+     "XI.56": 0,
+     "XI.57": 0,
+     "XI.58": 0,
+     "XI.59": 0,
+     "XI.60": 0.01,
+     "XI.61": 0,
+     "XI.62": 0.01,
+     "XI.63": 0,
+     "XI.64": 0,
+     "XI.65": 0,
+     "XI.66": 0.01,
+     "XI.67": 0,
+     "XI.68": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 4829
+  }
+ },
+ "220d91f14cbd177ba58adaf7ebc1011ee0fe7855a5d15440e030752b53bf04b0": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "said",
+    "confidence": 0.73,
+    "probabilities": {
+     "never": 0.02,
+     "close": 0.16,
+     "said": 0.82
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15370,
+   "output_tokens": 39
+  }
+ },
+ "286c86ee58fd79a3fc17b14af1cfab10fcf8a15ed505bedf5ce1d8af298e26c8": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "said",
+    "confidence": 0.95,
+    "probabilities": {
+     "never": 0.01,
+     "close": 0.02,
+     "said": 0.97
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15387,
+   "output_tokens": 39
+  }
+ },
+ "8ac6d53e0077f1cc67e945d16d2b8f768bbeb0cdbc5e1ee6dd4cd362a8be0e7c": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "said",
+    "confidence": 0.8,
+    "probabilities": {
+     "never": 0.02,
+     "close": 0.11,
+     "said": 0.87
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15370,
+   "output_tokens": 39
+  }
+ },
+ "c9cc2d5912ffc6e72ed52375093a2633b1df506ddeb060c9e9caa68d6154e81d": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "said",
+    "confidence": 1,
+    "probabilities": {
+     "never": 0,
+     "close": 0,
+     "said": 1
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15369,
+   "output_tokens": 39
+  }
+ },
+ "45979e12aa9917a2853fe0141f9809d4cbb6c9d59fae705f7828a1de9231e1d4": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "said",
+    "confidence": 0.97,
+    "probabilities": {
+     "never": 0.01,
+     "close": 0.01,
+     "said": 0.98
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15382,
+   "output_tokens": 39
+  }
+ },
+ "287f4a8db3d05e0147210be0a9d4d6cbc0e4fcb90caad673ceb50540136ce2d9": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "close",
+    "confidence": 0.85,
+    "probabilities": {
+     "never": 0.01,
+     "close": 0.9,
+     "said": 0.09
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15369,
+   "output_tokens": 39
+  }
+ },
+ "b65f47bbcb774df4370e6fbf35da7fa27387938cee5c04cbbc1d7e4601b90051": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "said",
+    "confidence": 0.89,
+    "probabilities": {
+     "never": 0.01,
+     "close": 0.06,
+     "said": 0.9299999999999999
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15372,
+   "output_tokens": 39
+  }
+ },
+ "b38c251701e81df8e6640db1a2427db37d0a64384b2c5438bc0d89df6ac27910": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "never",
+    "confidence": 0.91,
+    "probabilities": {
+     "never": 0.94,
+     "close": 0.06,
+     "said": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15379,
+   "output_tokens": 39
+  }
+ },
+ "6042cb4182b2e4a0762869668b0a1cdf6217f9f42c7abddbf206531651dae0f3": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "never",
+    "confidence": 0.69,
+    "probabilities": {
+     "never": 0.79,
+     "close": 0.21,
+     "said": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15372,
+   "output_tokens": 39
+  }
+ },
+ "b03fff8ffd066e04b39b0f0789dd49d8843c3f173ec941a730bbc42ceb76ed5f": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "never",
+    "confidence": 1,
+    "probabilities": {
+     "never": 1,
+     "close": 0,
+     "said": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15369,
+   "output_tokens": 39
+  }
+ },
+ "1f28bbab34e17f5bbf880139f0c0876a12eaf0660fa4629ab949ab647bd258c0": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "close",
+    "confidence": 0.91,
+    "probabilities": {
+     "never": 0.01,
+     "close": 0.94,
+     "said": 0.05
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15368,
+   "output_tokens": 39
+  }
+ },
+ "61f74e7624005f26454199e76e2b5e0d1fe2729173e9e514aad6fd4cd95635b1": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "close",
+    "confidence": 0.69,
+    "probabilities": {
+     "never": 0.01,
+     "close": 0.79,
+     "said": 0.2
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15368,
+   "output_tokens": 39
+  }
+ },
+ "a908740ccffa525ec5b55f232586c7686c341e6b1cdabb2030aca2303569469f": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "said",
+    "confidence": 0.61,
+    "probabilities": {
+     "never": 0.01,
+     "close": 0.25,
+     "said": 0.74
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15376,
+   "output_tokens": 39
+  }
+ },
+ "a7154557c3f8089a8480efcc564ee20df61e311cab343f5ad4d4ba680a4b8a2a": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "close",
+    "confidence": 0.94,
+    "probabilities": {
+     "never": 0.01,
+     "close": 0.96,
+     "said": 0.03
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15375,
+   "output_tokens": 39
+  }
+ },
+ "a82fd2138957e8bbcbb8617e8776255a605f0d17ea6f24a296031b9373841eed": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "close",
+    "confidence": 0.72,
+    "probabilities": {
+     "never": 0.18,
+     "close": 0.81,
+     "said": 0.01
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15367,
+   "output_tokens": 39
+  }
+ },
+ "88669bea3bd9a2b50bfb0345b7fd8cf588d5c9fb4affe9c7464e8316aea89ea7": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "never",
+    "confidence": 0.98,
+    "probabilities": {
+     "never": 0.99,
+     "close": 0.01,
+     "said": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15370,
+   "output_tokens": 39
+  }
+ },
+ "e830c906a3a2b954d0d9e59e90e7bfb226437377335430b5a19835a85ca4b839": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "never",
+    "confidence": 0.8,
+    "probabilities": {
+     "never": 0.87,
+     "close": 0.13,
+     "said": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15370,
+   "output_tokens": 39
+  }
+ },
+ "980f347ddc5e701d9697f4cf49fd291a498c9fb0e3a95b693f489173f0115d55": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "close",
+    "confidence": 0.94,
+    "probabilities": {
+     "never": 0.01,
+     "close": 0.96,
+     "said": 0.03
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15384,
+   "output_tokens": 39
+  }
+ },
+ "739e32e292c0f37f91129f188a84f96804302e826987d453a92ec8ee3bb1910b": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "never",
+    "confidence": 0.76,
+    "probabilities": {
+     "never": 0.84,
+     "close": 0.16,
+     "said": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15370,
+   "output_tokens": 39
+  }
+ },
+ "4976dd6daf72a6c18bcffba149e18f9f1dc18462db60cadf1ef1554bd7ce0ef6": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "never",
+    "confidence": 0.67,
+    "probabilities": {
+     "never": 0.78,
+     "close": 0.22,
+     "said": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15369,
+   "output_tokens": 39
+  }
+ },
+ "6ea86f718647cfd89c3f6e3aaeb556a961257dd062bb7afc47d58f72485bed9e": {
+  "model": "jev-1.14.0",
+  "answers": {
+   "verdict": {
+    "type": "choice",
+    "choice": "never",
+    "confidence": 0.66,
+    "probabilities": {
+     "never": 0.77,
+     "close": 0.23,
+     "said": 0
+    }
+   }
+  },
+  "usage": {
+   "input_tokens": 15367,
+   "output_tokens": 39
+  }
+ }
+}

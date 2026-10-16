@@ -1,0 +1,21 @@
+{
+  "name": "jev-sun-tzu",
+  "private": true,
+  "type": "module",
+  "description": "Did Sun Tzu say that? Jev judges a phrase against The Art of War (Giles, 1910).",
+  "scripts": {
+    "start": "tsx src/server.ts",
+    "test": "tsx --test test/*.test.ts",
+    "eval": "tsx scripts/eval.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@typesafe-ai/sdk": "^0.7.0",
+    "esbuild": "^0.28.2",
+    "tsx": "^4.23.15"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "typescript": "^7.0.2"
+  }
+}
