@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Did Sun Tzu Say That? · Jev edition</title>
+  <meta name="description" content="Paste a phrase. Jev reads The Art of War (Giles, 1910) and judges if Sun Tzu said it.">
+  <meta name="theme-color" content="#efe3c4">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect x='4' y='4' width='56' height='56' rx='6' fill='%23b8261b'/%3E%3Ctext x='32' y='46' font-size='38' text-anchor='middle' fill='%23f6ecd4' font-family='serif'%3E孫%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=IM+Fell+English+SC&family=Ma+Shan+Zheng&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="scroll">
+    <div class="roller" aria-hidden="true"></div>
+    <div class="paper">
+      <div class="vertical-title" aria-hidden="true">孫子兵法</div>
+
+      <div class="left">
+        <header class="masthead">
+          <img class="portrait" src="assets/sun-tzu.jpg" width="400" height="520"
+               alt="Traditional Chinese painting of Sun Tzu in long robes">
+          <div>
+            <h1>Did Sun Tzu<br>Say That?</h1>
+            <p class="subtitle">Judged by <b>Jev</b>, who read all of<br><cite>The Art of War</cite>, tr. Lionel Giles, 1910</p>
+          </div>
+        </header>
+
+        <form id="ask" autocomplete="off">
+          <label for="phrase" class="sr-only">A phrase to check</label>
+          <textarea id="phrase" rows="2" maxlength="500" required placeholder="Paste a “Sun Tzu” quote…"></textarea>
+          <div class="ask-row">
+            <button type="submit" id="go">Consult the scroll</button>
+            <button type="button" id="random" class="linkish">or try a famous one</button>
+          </div>
+        </form>
+      </div>
+
+      <section id="result" class="result" aria-live="polite">
+        <div class="placeholder" id="placeholder">
+          <div class="seal ghost" aria-hidden="true"><span>問</span><span>之</span></div>
+          <p>Paste a quote that “Sun Tzu said”.<br>Jev will read the whole scroll and judge it.</p>
+        </div>
+        <article id="card" class="card" hidden>
+          <div class="seal" id="seal" aria-hidden="true"><span></span><span></span></div>
+          <p class="verdict" id="verdict"></p>
+          <blockquote class="asked" id="asked"></blockquote>
+          <div class="odds" id="odds"></div>
+          <p class="lead" id="lead"></p>
+          <blockquote class="passage">
+            <p id="passage"></p>
+            <footer id="cite"></footer>
+          </blockquote>
+          <p class="meta" id="meta"></p>
+        </article>
+        <div class="actions" id="actions" hidden>
+          <button type="button" id="copy">Copy link</button>
+          <span id="copied" role="status"></span>
+        </div>
+      </section>
+    </div>
+    <div class="roller" aria-hidden="true"></div>
+  </main>
+
+  <footer class="credits">
+    A copy of <a href="https://guilherme01macedo.github.io/maybe-sun-tzu/">Guilherme Macedo's checker</a>,
+    with <a href="https://docs.typesafe.ai">Jev</a> as the judge in place of a string matcher.
+    Text: <cite>The Art of War</cite>, tr. Lionel Giles (1910), <a href="https://www.gutenberg.org/ebooks/132">Project Gutenberg</a>.
+    Portrait: <em>Sun Wu</em>, National Palace Museum, public domain.
+  </footer>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
